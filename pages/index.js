@@ -1,7 +1,7 @@
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import Disributors from "../components/Distributors";
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import Disributors from '../components/Distributors';
 
 export default function Home() {
   return (
@@ -32,7 +32,7 @@ export default function Home() {
           <div className="columns">
             <div className="column">
               <p>
-                Gutman is a well known brandname among lifting equipment users.
+                Gutman is a well known márkanév among lifting equipment users.
                 Gutman stands for safe, reliable products and best service. Any
                 lifting-related activity shall be covered by a product-, system-
                 or service solution of Gutman. Therefore you can find in our
