@@ -8,7 +8,7 @@ module.exports = {
     domains: ['images.ctfassets.net'],
   },
   i18n: {
-    locales: ['en', 'hu'],
-    defaultLocale: 'en',
+    locales: ['hu'],
+    defaultLocale: 'hu',
   },
 };

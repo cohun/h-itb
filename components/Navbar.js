@@ -11,14 +11,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar has-shadow is-dark is-fixed-top">
+    <nav className="navbar has-shadow is-fixed-top nav">
       <div className="navbar-brand">
         <Link href="/" className="navbar-item" passHref>
           <div className="ml-3 mt-2 mb-1">
             <Image
               width={100}
               height={40}
-              src="/GutmanLogo.jpg"
+              src="/H-ITBLogo.jpg"
               alt="site logo"
             />
           </div>
@@ -71,13 +71,13 @@ const Navbar = () => {
               <div
                 className={`${active ? 'has-text-black' : 'has-text-white'}`}
               >
-                Home
+                Kezdőlap
               </div>
             </Link>
           </div>
 
           <div className="navbar-item has-dropdown is-hoverable">
-            <p className="navbar-link">Categories</p>
+            <p className="navbar-link has-text-white">Termékkategóriák</p>
             <div className="navbar-dropdown">
               <div className="navbar-item has-text-weight-semibold">
                 <div
@@ -280,7 +280,7 @@ const Navbar = () => {
             </div>
           </div>
           <Link href="/" passHref>
-            <div className="navbar-item">Products</div>
+            <div className="navbar-item has-text-white">Termékek</div>
           </Link>
         </div>
       </div>

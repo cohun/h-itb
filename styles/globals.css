@@ -17,3 +17,6 @@ a {
 * {
   box-sizing: border-box;
 }
+.nav {
+  background-color: #0d0c52;
+}

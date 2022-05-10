@@ -26,7 +26,7 @@ const Search = ({ setActive }) => {
     <form className="field has-addons" onSubmit={handleSearch}>
       <div className="control has-icons-left">
         <input
-          className="input is-primary is-focused"
+          className="input is-info is-focused"
           type="text"
           placeholder="Search for Products"
           value={searchTerm}
@@ -40,11 +40,7 @@ const Search = ({ setActive }) => {
         </span>
       </div>
       <div className="control">
-        <button
-          className="button is-primary"
-          type="submit"
-          onClick={handleSearch}
-        >
+        <button className="button is-info" type="submit" onClick={handleSearch}>
           Search
         </button>
       </div>

@@ -7,8 +7,13 @@ export default function Home() {
   return (
     <div className="has-navbar-fixed-top">
       <Head>
-        <title>Gutman lifting products</title>
-        <meta name="description" content="Gutman lifting products" />
+        <title>Gutman emeléstechnikai termékek</title>
+
+        <meta
+          name="description"
+          content="Gutman emeléstechnikai termékek"
+          lang="hu"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="pt-6"></section>
