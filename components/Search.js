@@ -28,7 +28,7 @@ const Search = ({ setActive }) => {
         <input
           className="input is-info is-focused"
           type="text"
-          placeholder="Search for Products"
+          placeholder="Termék keresése"
           value={searchTerm}
           required
           onChange={(e) => setSearchTerm(e.target.value)}
@@ -41,7 +41,7 @@ const Search = ({ setActive }) => {
       </div>
       <div className="control">
         <button className="button is-info" type="submit" onClick={handleSearch}>
-          Search
+          Keresés
         </button>
       </div>
     </form>

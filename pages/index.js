@@ -25,7 +25,7 @@ export default function Home() {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="px-3 is-active">Home</div>
+                <div className="px-3 is-active">Kezdőlap</div>
               </Link>
             </li>
           </ul>
@@ -37,8 +37,8 @@ export default function Home() {
           <div className="columns">
             <div className="column">
               <p>
-                Gutman is a well known márkanév among lifting equipment users.
-                Gutman stands for safe, reliable products and best service. Any
+                A Gutman márkanév jól cseng emeléstechnikai körökben. Gutman
+                stands for safe, reliable products and best service. Any
                 lifting-related activity shall be covered by a product-, system-
                 or service solution of Gutman. Therefore you can find in our
                 product range an always improving and expanding assortment which
@@ -72,7 +72,7 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <h3 className="title has-text-centered is-size-3">
-            Product Categories
+            Termékkategóriák
           </h3>
           <br />
           <div className="columns is-multiline">
@@ -81,7 +81,7 @@ export default function Home() {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A. Lifting Equipment</p>
+                      <p className="card-header-title">A. Emelőgépek</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <figure className="image is-165x165">
@@ -111,7 +111,7 @@ export default function Home() {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        B. Operators Duty Service
+                        B. Emelőgép szakszolgálat
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -137,7 +137,7 @@ export default function Home() {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">C. Material Handling</p>
+                      <p className="card-header-title">C. Anyagmozgatás</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -165,9 +165,7 @@ export default function Home() {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">
-                        D. Miscellaneous products
-                      </p>
+                      <p className="card-header-title">D. Egyéb termékek</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
