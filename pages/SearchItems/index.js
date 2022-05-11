@@ -11,6 +11,7 @@ export async function getServerSideProps(context) {
   });
   const res = await client.getEntries({
     content_type: "search",
+    locale: "hu-HU",
   });
   const searchItems = res.items;
 
@@ -47,7 +48,7 @@ const SearchTerms = (props) => {
     <section className="section mt-6">
       <article className="panel is-primary">
         <p className="panel-heading">
-          <span>Search hits for: </span>
+          <span>Találatok: </span>
           <span className="has-text-warning is-size-5">...{term}...</span>
         </p>
 

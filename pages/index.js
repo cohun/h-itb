@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import Disributors from '../components/Distributors';
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import Disributors from "../components/Distributors";
 
 export default function Home() {
   return (
@@ -37,32 +37,30 @@ export default function Home() {
           <div className="columns">
             <div className="column">
               <p>
-                A Gutman márkanév jól cseng emeléstechnikai körökben. Gutman
-                stands for safe, reliable products and best service. Any
-                lifting-related activity shall be covered by a product-, system-
-                or service solution of Gutman. Therefore you can find in our
-                product range an always improving and expanding assortment which
-                has been carefully made up for your benefit.
+                H-ITB Kft számos nemzetközi márka mellett, a GUTMAN LIFTING
+                cégcsoport tagjaként forgalmazza a GUTMAN márkájú
+                emeléstechnikai eszközöket. Termékpalettánk az egyszerű horgok,
+                kézi emelők, teherfelvevő-, kötöző eszközöktől egészen a darukig
+                terjed. A Gutman márkanév jól cseng emeléstechnikai körökben.
               </p>
             </div>
             <div className="column">
               <p>
-                We supply only the very highest quality lifting equipment with a
-                strong and durable design - priding ourselves on providing an
-                exemplary customer service. A broad product range allow us to
-                facilitate almost any lifting requirement for our customers. Our
-                products and services are continually up-dated to meet the needs
-                of industry with a strong emphasis on quality and safety
+                H-ITB Kft. 1990-ben alakult, azóta folyamatosan a piacvezető
+                cégek között szerepel a magyarországi emeléstechnikai piac
+                területén. Cégünk Romániában, Szlovákiában Szerbiában és
+                Horvátországban rendelkezik leányvállalattal. Jelenleg
+                cégcsoportunkat a legnagyobb emeléstechnikai cégek között
+                tartják számon a régióban.
               </p>
             </div>
             <div className="column">
               <p>
-                For the marketed Gutman products through our dealer network and
-                representatives we are able to perform inspection and testing as
-                well. This service includes providing registers of lifting
-                equipment for our customers and completing the 6 or 12 monthly
-                inspections as required by law. Our clients can enjoy the
-                benefits of short delivery time due to our large stocks.
+                H-ITB Kft. területi képviselői a felhasználási herlyszíneken
+                állnak partnereink rendelkezésére. Az Emelőgép Biztonsági
+                Szabályzat előírásai szerint az üzemeltetői feladatok
+                legmagasabb szintű elintézését biztosítjuk minden ügyfelünk
+                részére az ingyenesen rendelkezésre bocsájtott ETAR rendszerrel.
               </p>
             </div>
           </div>
@@ -95,10 +93,12 @@ export default function Home() {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        The term lifting equipment contains all lifting
-                        accessories and appliances, any machine which is able to
-                        raise, lower or suspend a load. Examples are cranes,
-                        hoists, jacks, etc.
+                        Emelőgép az a szakaszos üzemű, gépi vagy kézi (emberi
+                        erő) meghajtású szerkezet vagy berendezés, ami
+                        közvetlenül vagy segédeszközzel terhet emelni vagy
+                        süllyeszteni képes. Ide soroljuk az oldható teherfelvevő
+                        eszközöket, amely nem a gép része, hanem a gép és a
+                        teher közé helyezik el.
                       </div>
                     </div>
                   </div>
@@ -124,8 +124,10 @@ export default function Home() {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        A service to help operators to comply with legislative
-                        requirements concerning the use of lifting equipment.
+                        Emelőgépekkel, továbbá teherfelvevő eszközökkel végzett
+                        tevékenységek során felmerülő üzemeltetői feladatok,
+                        kötelezettségek elvégzésében való közreműködés a H-ITB
+                        szakszolgálat által.
                       </div>
                     </div>
                   </div>
@@ -149,10 +151,10 @@ export default function Home() {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Mechanical equipment used for the movement, transport,
-                        positioning, storage of materials, goods and products
-                        throughout the process of manufacturing, distribution,
-                        consumption, and disposal.
+                        Az anyagmozgatás az összes mozgatással és tárolással
+                        kapcsolatos tevékenységet integrálja, amelyek üzemi
+                        környezetben a hatékony működés érdekében történik.
+                        (rakodás, továbbítás, tárolás)
                       </div>
                     </div>
                   </div>
@@ -177,9 +179,9 @@ export default function Home() {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Products which are connected to material transport but
-                        fall not under the same regulations as lifting
-                        equipment.
+                        Olyan eszközök, amelyek emelési, anyagmozgatási
+                        feladatokhoz kapcsolódnak, de nem esnek ugyanazon
+                        szabályozás, előírás hatálya alá.
                       </div>
                     </div>
                   </div>

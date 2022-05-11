@@ -12,6 +12,7 @@ export async function getServerSideProps(context) {
   });
   const res = await client.getEntries({
     content_type: "productTable",
+    locale: "hu-HU",
   });
 
   const resFiltered = res.items.filter(
@@ -39,7 +40,7 @@ function ShowItem(props) {
             <span className="icon is-medium">
               <i className="fab fa-github"></i>
             </span>
-            Back to search results
+            Vissza a találatokhoz
           </button>
         </div>
       </div>

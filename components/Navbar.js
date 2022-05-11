@@ -77,7 +77,7 @@ const Navbar = () => {
           </div>
 
           <div className="navbar-item has-dropdown is-hoverable">
-            <p className="navbar-link has-text-white">Termékkategóriák</p>
+            <p className="navbar-link has-text-warning">Termékkategóriák</p>
             <div className="navbar-dropdown">
               <div className="navbar-item has-text-weight-semibold">
                 <div
