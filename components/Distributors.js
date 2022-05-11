@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 const Disributors = () => {
   return (
@@ -12,13 +12,13 @@ const Disributors = () => {
               <Image
                 width={200}
                 height={80}
-                src="/GutmanLogo.jpg"
+                src="/H-ITBLogo.jpg"
                 alt="Gutman"
               />
             </div>
 
             <div className="column ">
-              <h1 className="title  is-size-3">Distributors</h1>
+              <h1 className="title  is-size-3">Területi képviselők:</h1>
             </div>
             <div className="column is-one-fifth"></div>
           </div>
@@ -26,47 +26,275 @@ const Disributors = () => {
           <br />
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="https://h-itb.hu">
-                <a>
-                  <div className="card">
-                    <div className="card-header">
-                      <div className="card-header-title is-flex-direction-row">
-                        <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
-                          Hungary
-                        </p>
+              <div className="card">
+                <div className="card-header">
+                  <div className="card-header-title is-flex-direction-row">
+                    <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
+                      Négyesy Gábor
+                    </p>
 
-                        <Image
-                          className="is-justify-content-flex-end"
-                          width={100}
-                          height={40}
-                          src="/H-ITBLogo.jpg"
-                          alt="H-ITB logo"
-                        />
-                      </div>
-                    </div>
-                    <div className="card-image has-text-centered pt-6">
-                      <Image
-                        width={165}
-                        height={165}
-                        src="/Hungary.jpg"
-                        alt="Hungary"
-                      />
-                    </div>
-                    <div className="card-content">
-                      <div className="content">
-                        <p className="mb-0 has-text-weight-semibold">
-                          H-ITB Kft.
-                        </p>
-                        <p className="mb-0">
-                          H-1119 Budapest, Kelenvölgyi htsr. 5
-                        </p>
-                        <p className="mb-0">Tel: +36 1 2056208</p>
-                        <p>Email: hitb@h-itb.hu</p>
-                      </div>
-                    </div>
+                    <Image
+                      className="is-justify-content-flex-end"
+                      width={60}
+                      height={60}
+                      src="/salesman.jpeg"
+                      alt="salesman"
+                    />
                   </div>
-                </a>
-              </Link>
+                </div>
+                <div className="card-image has-text-centered pt-6">
+                  <Image
+                    width={165}
+                    height={165}
+                    src="/Negyesy.jpg"
+                    alt="Hungary"
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <article>
+                      <p className="mb-0 has-text-weight-semibold">
+                        Budapest és környéke
+                      </p>
+                      <span className="has-text-info has-text-weight-semibold">
+                        Négyesy Gábor
+                      </span>
+                      <div className="notification p-2">
+                        <Link href="tel:+36 30 742 1121" passHref>
+                          Tel: +36 30 742 1121
+                        </Link>
+                        <br />
+                        <Link href="mailto:negyesy.g@h-itb.hu" passHref>
+                          email: negyesy.g@h-itb.hu
+                        </Link>
+                      </div>
+
+                      <div className="mt-2">
+                        <p className="mb-0 has-text-weight-semibold">
+                          H-ITB belső munkatárs
+                        </p>
+                        <span className="has-text-info has-text-weight-semibold">
+                          Ihász Viktória
+                        </span>
+                        <br />
+                        <div className="notification p-2">
+                          <Link href="tel:+36 30 569 9676" passHref>
+                            Tel: +36 30 569 9676
+                          </Link>
+                          <br />
+                          <Link href="mailto:ihasz.v@h-itb.hu" passHref>
+                            email: ihasz.v@h-itb.hu
+                          </Link>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <div className="card">
+                <div className="card-header">
+                  <div className="card-header-title is-flex-direction-row">
+                    <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
+                      Nagy Gergely
+                    </p>
+
+                    <Image
+                      className="is-justify-content-flex-end"
+                      width={60}
+                      height={60}
+                      src="/salesman.jpeg"
+                      alt="salesman"
+                    />
+                  </div>
+                </div>
+                <div className="card-image has-text-centered pt-6">
+                  <Image
+                    width={165}
+                    height={165}
+                    src="/Negyesy.jpg"
+                    alt="Hungary"
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <article>
+                      <p className="mb-0 has-text-weight-semibold">
+                        Budapest és környéke
+                      </p>
+                      <span className="has-text-info has-text-weight-semibold">
+                        Nagy Gergely
+                      </span>
+                      <div className="notification p-2">
+                        <Link href="tel:+36 30 467 8689" passHref>
+                          Tel: +36 30 467 8689
+                        </Link>
+                        <br />
+                        <Link href="mailto:nagy.g@h-itb.hu" passHref>
+                          email: nagy.g@h-itb.hu
+                        </Link>
+                      </div>
+
+                      <div className="mt-2">
+                        <p className="mb-0 has-text-weight-semibold">
+                          H-ITB belső munkatárs
+                        </p>
+                        <span className="has-text-info has-text-weight-semibold">
+                          Csergő Éva
+                        </span>
+                        <br />
+                        <div className="notification p-2">
+                          <Link href="tel:+36 30 278 0959" passHref>
+                            Tel: +36 30 278 0959
+                          </Link>
+                          <br />
+                          <Link href="mailto:csergo.e@h-itb.hu" passHref>
+                            email: csergo.e@h-itb.hu
+                          </Link>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <div className="card">
+                <div className="card-header">
+                  <div className="card-header-title is-flex-direction-row">
+                    <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
+                      Hegyi Gábor
+                    </p>
+
+                    <Image
+                      className="is-justify-content-flex-end"
+                      width={60}
+                      height={60}
+                      src="/salesman.jpeg"
+                      alt="salesman"
+                    />
+                  </div>
+                </div>
+                <div className="card-image has-text-centered pt-6">
+                  <Image
+                    width={165}
+                    height={165}
+                    src="/Hegyi.jpg"
+                    alt="Hungary"
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <article>
+                      <p className="mb-0 has-text-weight-semibold">
+                        Északnyugat-Magyarország
+                      </p>
+                      <span className="has-text-info has-text-weight-semibold">
+                        Hegyi Gábor
+                      </span>
+                      <div className="notification p-2">
+                        <Link href="tel:+36 30 742 1133" passHref>
+                          Tel: +36 30 742 1133
+                        </Link>
+                        <br />
+                        <Link href="mailto:hegyi.g@h-itb.hu" passHref>
+                          email: hegyi.g@h-itb.hu
+                        </Link>
+                      </div>
+
+                      <div className="mt-2">
+                        <p className="mb-0 has-text-weight-semibold">
+                          H-ITB belső munkatárs
+                        </p>
+                        <span className="has-text-info has-text-weight-semibold">
+                          Reinhardt Relinda
+                        </span>
+                        <br />
+                        <div className="notification p-2">
+                          <Link href="tel:+36 30 742 1127" passHref>
+                            Tel: +36 30 742 1127
+                          </Link>
+                          <br />
+                          <Link href="mailto:reinhardt.r@h-itb.hu" passHref>
+                            email: reinhardt.r@h-itb.hu
+                          </Link>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <div className="card">
+                <div className="card-header">
+                  <div className="card-header-title is-flex-direction-row">
+                    <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
+                      Molnár Ferenc
+                    </p>
+
+                    <Image
+                      className="is-justify-content-flex-end"
+                      width={60}
+                      height={60}
+                      src="/salesman.jpeg"
+                      alt="salesman"
+                    />
+                  </div>
+                </div>
+                <div className="card-image has-text-centered pt-6">
+                  <Image
+                    width={165}
+                    height={165}
+                    src="/Molnar.jpg"
+                    alt="Hungary"
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <article>
+                      <p className="mb-0 has-text-weight-semibold">
+                        Középnyugat-Magyarország
+                      </p>
+                      <span className="has-text-info has-text-weight-semibold">
+                        Molnár Ferenc
+                      </span>
+                      <div className="notification p-2">
+                        <Link href="tel:+36 30 415 0398" passHref>
+                          Tel: +36 30 415 0398
+                        </Link>
+                        <br />
+                        <Link href="mailto:molnar.f@h-itb.hu" passHref>
+                          email: molnar.f@h-itb.hu
+                        </Link>
+                      </div>
+
+                      <div className="mt-2">
+                        <p className="mb-0 has-text-weight-semibold">
+                          H-ITB belső munkatárs
+                        </p>
+                        <span className="has-text-info has-text-weight-semibold">
+                          Kövesiné Vértesi Katalin
+                        </span>
+                        <br />
+                        <div className="notification p-2">
+                          <Link href="tel:+36 30 742 1135" passHref>
+                            Tel: +36 30 742 1135
+                          </Link>
+                          <br />
+                          <Link href="mailto:vertesi.k@h-itb.hu" passHref>
+                            email: vertesi.k@h-itb.hu
+                          </Link>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
               <Link href="https://www.alfa-cluj.ro/">

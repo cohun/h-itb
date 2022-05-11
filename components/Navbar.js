@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import { useState } from 'react';
-import Search from './Search';
+import Link from "next/link";
+import Image from "next/image";
+import { useState } from "react";
+import Search from "./Search";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
 
         <a
           role="button"
-          className="navbar-burger"
+          className="navbar-burger has-text-white"
           aria-label="menu"
           aria-expanded="false"
           onClick={(e) => {
@@ -40,7 +40,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`navbar-menu ${active ? 'is-active' : ''}`}
+        className={`navbar-menu ${active ? "is-active" : ""}`}
         id="nav-links"
       >
         <div className="navbar-end container">
@@ -69,7 +69,7 @@ const Navbar = () => {
           >
             <Link href="/" className="navbar-item" passHref>
               <div
-                className={`${active ? 'has-text-black' : 'has-text-white'}`}
+                className={`${active ? "has-text-black" : "has-text-white"}`}
               >
                 Kezdőlap
               </div>
@@ -279,8 +279,8 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <Link href="/" passHref>
-            <div className="navbar-item has-text-white">Termékek</div>
+          <Link href="http://gutmanlifting.eu" passHref>
+            <div className="navbar-item has-text-white">English</div>
           </Link>
         </div>
       </div>
