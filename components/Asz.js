@@ -24,7 +24,7 @@ const Aszf = ({ isActive, setIsActive }) => {
             </p>
             <p>
               mint Adatkezelő az általa nyújtott szolgáltatásaihoz kapcsolódóan
-              a felhasználó természetes személyek („ügyfél“) valamennyi
+              a felhasználó természetes személyek (ügyfél) valamennyi
               adatkezelése során a jelen Adatvédelmi és Adatkezelési Szabályzat
               és Tájékoztató (AVAKASZT) alapján jár el. Az Ügyfél a szolgáltatás
               igénybevétele előtt a honlapunkról letölthetően, vagy kinyomtatott
@@ -161,7 +161,7 @@ const Aszf = ({ isActive, setIsActive }) => {
             <p>
               5.3. Az adatkezelő a megadott személyes adatokat az e pontokban
               írt céloktól eltérő célokra nem használhatja fel. Személyes adatok
-              harmadik személynek vagy hatóságok számára történő kiadása –
+              harmadik személynek vagy hatóságok számára történő kiadása
             </p>
             <p>
               5.4. hacsak törvény ettől eltérően nem rendelkezik kötelező erővel

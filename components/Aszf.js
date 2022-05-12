@@ -198,7 +198,7 @@ const Aszf = ({ isActive, setIsActive }) => {
           <div>
             <p>
               Minden információt és anyagot, melyek Megrendelő rendelkezésére
-              lettek adva ("bizalmas információk"), Megrendelő bizalmasan kezel.
+              lettek adva (bizalmas információk), Megrendelő bizalmasan kezel.
               Megrendelő nem fed fel bizalmas információt harmadik fél előtt,
               vagy nem használja azt újra a Megrendelőnek szállítottól eltérő,
               más Készülékkel kapcsolatosan Szállító előzetes írásbeli
