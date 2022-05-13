@@ -6,7 +6,7 @@ const LiftingEquipment = () => {
   return (
     <div>
       <Head>
-        <title>Gutman lifting equipment</title>
+        <title>Gutman Emelőgépekt</title>
         <meta name="description" content="Gutman lifting equipment" />
       </Head>
       <section className="pt-6"></section>
@@ -18,12 +18,12 @@ const LiftingEquipment = () => {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="px-3 is-active">Lifting Equipment</div>
+                <div className="px-3 is-active">Emelőgépek</div>
               </Link>
             </li>
           </ul>
@@ -31,9 +31,7 @@ const LiftingEquipment = () => {
       </section>
       <section className="section mb-6">
         <div className="container mb-6">
-          <h3 className="title has-text-centered is-size-3">
-            Lifting Equipment
-          </h3>
+          <h3 className="title has-text-centered is-size-3">Emelőgépek</h3>
           <br />
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">

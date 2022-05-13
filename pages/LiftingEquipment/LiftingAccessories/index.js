@@ -19,17 +19,17 @@ const LiftingEquipment = () => {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories" passHref>
-                <div className="is-active px-3">Lifting Accessories</div>
+                <div className="is-active px-3">Teherfelvevők</div>
               </Link>
             </li>
           </ul>
@@ -38,7 +38,7 @@ const LiftingEquipment = () => {
       <section className="section mb-6">
         <div className="container mb-6">
           <h3 className="title has-text-centered is-size-3">
-            Lifting Accessories
+            Teherfelvevő eszközök
           </h3>
           <br />
           <div className="columns is-multiline">

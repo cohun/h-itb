@@ -296,175 +296,345 @@ const Disributors = () => {
                 </div>
               </div>
             </div>
-            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="https://www.alfa-cluj.ro/">
-                <a>
-                  <div className="card">
-                    <div className="card-header">
-                      <div className="card-header-title is-flex-direction-row">
-                        <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
-                          Romania
-                        </p>
 
-                        <Image
-                          className="is-justify-content-flex-end"
-                          width={160}
-                          height={40}
-                          src="/alfa.jpg"
-                          alt="Alfa-Cluj logo"
-                        />
-                      </div>
-                    </div>
-                    <div className="card-image has-text-centered pt-6">
-                      <Image
-                        width={165}
-                        height={165}
-                        src="/Romania.jpg"
-                        alt="Lifing accessories"
-                      />
-                    </div>
-                    <div className="card-content">
-                      <div className="content">
-                        <p className="mb-0 has-text-weight-semibold">
-                          Alfa Cluj SRL
-                        </p>
-                        <p className="mb-0">
-                          Bd. Muncii, nr. 14, perim. 10 Cluj-Napoca
-                        </p>
-                        <p className="mb-0">Tel: +40 264 415 662</p>
-                        <p>Email: info@alfa-cluj.ro</p>
-                      </div>
-                    </div>
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <div className="card">
+                <div className="card-header">
+                  <div className="card-header-title is-flex-direction-row">
+                    <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
+                      Simon Jenő
+                    </p>
+
+                    <Image
+                      className="is-justify-content-flex-end"
+                      width={60}
+                      height={60}
+                      src="/salesman.jpeg"
+                      alt="salesman"
+                    />
                   </div>
-                </a>
-              </Link>
+                </div>
+                <div className="card-image has-text-centered pt-6">
+                  <Image
+                    width={165}
+                    height={165}
+                    src="/Simon.jpg"
+                    alt="Hungary"
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <article>
+                      <p className="mb-0 has-text-weight-semibold">
+                        Nyugat-Magyarország
+                      </p>
+                      <span className="has-text-info has-text-weight-semibold">
+                        Simon Jenő
+                      </span>
+                      <div className="notification p-2">
+                        <Link href="tel:+36 30 742 1125" passHref>
+                          Tel: +36 30 742 1125
+                        </Link>
+                        <br />
+                        <Link href="mailto:simon.j@h-itb.hu" passHref>
+                          email: simon.j@h-itb.hu
+                        </Link>
+                      </div>
+
+                      <div className="mt-2">
+                        <p className="mb-0 has-text-weight-semibold">
+                          H-ITB belső munkatárs
+                        </p>
+                        <span className="has-text-info has-text-weight-semibold">
+                          Reinhardt Relinda
+                        </span>
+                        <br />
+                        <div className="notification p-2">
+                          <Link href="tel:+36 30 742 1127" passHref>
+                            Tel: +36 30 742 1127
+                          </Link>
+                          <br />
+                          <Link href="mailto:reinhardt.r@h-itb.hu" passHref>
+                            email: reinhardt.r@h-itb.hu
+                          </Link>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="https://www.gutmanlifting.sk/">
-                <a>
-                  <div className="card">
-                    <div className="card-header">
-                      <div className="card-header-title is-flex-direction-row">
-                        <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
-                          Slovakia
-                        </p>
 
-                        <Image
-                          className="is-justify-content-flex-end"
-                          width={128}
-                          height={38}
-                          src="/Gutman_Dizalica.png"
-                          alt="Dizalica logo"
-                        />
-                      </div>
-                    </div>
-                    <div className="card-image has-text-centered pt-6">
-                      <Image
-                        width={165}
-                        height={165}
-                        src="/Slovakia.jpg"
-                        alt="Slovakia"
-                      />
-                    </div>
-                    <div className="card-content">
-                      <div className="content">
-                        <p className="mb-0 has-text-weight-semibold">
-                          Gutman Lifting, s.r.o.
-                        </p>
-                        <p className="mb-0">
-                          Bratislavská cesta 13 949 01 Nitra
-                        </p>
-                        <p className="mb-0">Tel: +421 949 00 53 53</p>
-                        <p>Email: shop@gutmanlifting.sk</p>
-                      </div>
-                    </div>
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <div className="card">
+                <div className="card-header">
+                  <div className="card-header-title is-flex-direction-row">
+                    <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
+                      Bálint Miklós
+                    </p>
+
+                    <Image
+                      className="is-justify-content-flex-end"
+                      width={60}
+                      height={60}
+                      src="/salesman.jpeg"
+                      alt="salesman"
+                    />
                   </div>
-                </a>
-              </Link>
+                </div>
+                <div className="card-image has-text-centered pt-6">
+                  <Image
+                    width={165}
+                    height={165}
+                    src="/Balint.jpg"
+                    alt="Hungary"
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <article>
+                      <p className="mb-0 has-text-weight-semibold">
+                        Dél-Dunántúl
+                      </p>
+                      <span className="has-text-info has-text-weight-semibold">
+                        Bálint Miklós
+                      </span>
+                      <div className="notification p-2">
+                        <Link href="tel:+36 30 742 1132" passHref>
+                          Tel: +36 30 742 1132
+                        </Link>
+                        <br />
+                        <Link href="mailto:balint.m@h-itb.hu" passHref>
+                          email: balint.m@h-itb.hu
+                        </Link>
+                      </div>
+
+                      <div className="mt-2">
+                        <p className="mb-0 has-text-weight-semibold">
+                          H-ITB belső munkatárs
+                        </p>
+                        <span className="has-text-info has-text-weight-semibold">
+                          Reinhardt Relinda
+                        </span>
+                        <br />
+                        <div className="notification p-2">
+                          <Link href="tel:+36 30 742 1127" passHref>
+                            Tel: +36 30 742 1127
+                          </Link>
+                          <br />
+                          <Link href="mailto:reinhardt.r@h-itb.hu" passHref>
+                            email: reinhardt.r@h-itb.hu
+                          </Link>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="https://gutmanlifting.rs/">
-                <a>
-                  <div className="card">
-                    <div className="card-header">
-                      <div className="card-header-title is-flex-direction-row">
-                        <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
-                          Serbia
-                        </p>
 
-                        <Image
-                          className="is-justify-content-flex-end"
-                          width={128}
-                          height={38}
-                          src="/Gutman_Dizalica.png"
-                          alt="Dizalica logo"
-                        />
-                      </div>
-                    </div>
-                    <div className="card-image has-text-centered pt-6">
-                      <Image
-                        width={165}
-                        height={165}
-                        src="/Serbia.jpg"
-                        alt="Lifing accessories"
-                      />
-                    </div>
-                    <div className="card-content">
-                      <div className="content">
-                        <p className="mb-0 has-text-weight-semibold">
-                          GUTMAN LIFTING DOO
-                        </p>
-                        <p className="mb-0">Miška Jovanovića 16-18, Beograd</p>
-                        <p className="mb-0">Tel: +381 11 39 80 315</p>
-                        <p>Email: gutmanlift@verat.net</p>
-                      </div>
-                    </div>
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <div className="card">
+                <div className="card-header">
+                  <div className="card-header-title is-flex-direction-row">
+                    <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
+                      Halász Miklós
+                    </p>
+
+                    <Image
+                      className="is-justify-content-flex-end"
+                      width={60}
+                      height={60}
+                      src="/salesman.jpeg"
+                      alt="salesman"
+                    />
                   </div>
-                </a>
-              </Link>
+                </div>
+                <div className="card-image has-text-centered pt-6">
+                  <Image
+                    width={165}
+                    height={165}
+                    src="/Halasz.jpg"
+                    alt="Hungary"
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <article>
+                      <p className="mb-0 has-text-weight-semibold">
+                        Dél-Alföld
+                      </p>
+                      <span className="has-text-info has-text-weight-semibold">
+                        Halász Miklós
+                      </span>
+                      <div className="notification p-2">
+                        <Link href="tel:+36 30 742 1136" passHref>
+                          Tel: +36 30 742 1136
+                        </Link>
+                        <br />
+                        <Link href="mailto:halasz.m@h-itb.hu" passHref>
+                          email: halasz.m@h-itb.hu
+                        </Link>
+                      </div>
+
+                      <div className="mt-2">
+                        <p className="mb-0 has-text-weight-semibold">
+                          H-ITB belső munkatárs
+                        </p>
+                        <span className="has-text-info has-text-weight-semibold">
+                          Kövesiné Vértesi Katalin
+                        </span>
+                        <br />
+                        <div className="notification p-2">
+                          <Link href="tel:+36 30 742 1135" passHref>
+                            Tel: +36 30 742 1135
+                          </Link>
+                          <br />
+                          <Link href="mailto:vertesi.k@h-itb.hu" passHref>
+                            email: vertesi.k@h-itb.hu
+                          </Link>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="https://dizalica.hr/">
-                <a>
-                  <div className="card">
-                    <div className="card-header">
-                      <div className="card-header-title is-flex-direction-row">
-                        <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
-                          Croatia
-                        </p>
 
-                        <Image
-                          className="is-justify-content-flex-end"
-                          width={128}
-                          height={38}
-                          src="/Gutman_Dizalica.png"
-                          alt="Dizalica logo"
-                        />
-                      </div>
-                    </div>
-                    <div className="card-image has-text-centered pt-6">
-                      <Image
-                        width={165}
-                        height={165}
-                        src="/Croatia.jpg"
-                        alt="Lifing accessories"
-                      />
-                    </div>
-                    <div className="card-content">
-                      <div className="content">
-                        <p className="mb-0 has-text-weight-semibold">
-                          DIZALICA d.o.o.
-                        </p>
-                        <p className="mb-0">
-                          Slavonska avenija 22E, 10000 Zagreb
-                        </p>
-                        <p className="mb-0">Tel: +385 1 553 0706</p>
-                        <p>Email: prodaja@dizalica.hr</p>
-                      </div>
-                    </div>
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <div className="card">
+                <div className="card-header">
+                  <div className="card-header-title is-flex-direction-row">
+                    <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
+                      Horváth István
+                    </p>
+
+                    <Image
+                      className="is-justify-content-flex-end"
+                      width={60}
+                      height={60}
+                      src="/salesman.jpeg"
+                      alt="salesman"
+                    />
                   </div>
-                </a>
-              </Link>
+                </div>
+                <div className="card-image has-text-centered pt-6">
+                  <Image
+                    width={165}
+                    height={165}
+                    src="/HorvathI.jpg"
+                    alt="Hungary"
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <article>
+                      <p className="mb-0 has-text-weight-semibold">
+                        Közép-Alföld
+                      </p>
+                      <span className="has-text-info has-text-weight-semibold">
+                        Horváth István
+                      </span>
+                      <div className="notification p-2">
+                        <Link href="tel:+36 30 742 1128" passHref>
+                          Tel: +36 30 742 1128
+                        </Link>
+                        <br />
+                        <Link href="mailto:horvath.i@h-itb.hu" passHref>
+                          email: horvath.i@h-itb.hu
+                        </Link>
+                      </div>
+
+                      <div className="mt-2">
+                        <p className="mb-0 has-text-weight-semibold">
+                          H-ITB belső munkatárs
+                        </p>
+                        <span className="has-text-info has-text-weight-semibold">
+                          Reinhardt Relinda
+                        </span>
+                        <br />
+                        <div className="notification p-2">
+                          <Link href="tel:+36 30 742 1127" passHref>
+                            Tel: +36 30 742 1127
+                          </Link>
+                          <br />
+                          <Link href="mailto:reinhardt.r@h-itb.hu" passHref>
+                            email: reinhardt.r@h-itb.hu
+                          </Link>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <div className="card">
+                <div className="card-header">
+                  <div className="card-header-title is-flex-direction-row">
+                    <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
+                      Szomolya Roland
+                    </p>
+
+                    <Image
+                      className="is-justify-content-flex-end"
+                      width={60}
+                      height={60}
+                      src="/salesman.jpeg"
+                      alt="salesman"
+                    />
+                  </div>
+                </div>
+                <div className="card-image has-text-centered pt-6">
+                  <Image
+                    width={165}
+                    height={165}
+                    src="/Szomolya.jpg"
+                    alt="Hungary"
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <article>
+                      <p className="mb-0 has-text-weight-semibold">
+                        Középnyugat-Magyarország
+                      </p>
+                      <span className="has-text-info has-text-weight-semibold">
+                        Szomolya Roland
+                      </span>
+                      <div className="notification p-2">
+                        <Link href="tel:+36 70 866 5092" passHref>
+                          Tel: +36 70 866 5092
+                        </Link>
+                        <br />
+                        <Link href="mailto:szomolya.r@h-itb.hu" passHref>
+                          email: szomolya.r@h-itb.hu
+                        </Link>
+                      </div>
+
+                      <div className="mt-2">
+                        <p className="mb-0 has-text-weight-semibold">
+                          H-ITB belső munkatárs
+                        </p>
+                        <span className="has-text-info has-text-weight-semibold">
+                          Kövesiné Vértesi Katalin
+                        </span>
+                        <br />
+                        <div className="notification p-2">
+                          <Link href="tel:+36 30 742 1135" passHref>
+                            Tel: +36 30 742 1135
+                          </Link>
+                          <br />
+                          <Link href="mailto:vertesi.k@h-itb.hu" passHref>
+                            email: vertesi.k@h-itb.hu
+                          </Link>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
