@@ -6,8 +6,8 @@ const LiftingEquipment = () => {
   return (
     <div>
       <Head>
-        <title>Gutman lifting accessories</title>
-        <meta name="description" content="Gutman lifting accessories" />
+        <title>Gutman teherfelvevő eszközök</title>
+        <meta name="description" content="Gutman teherfelvevő eszközök" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="pt-6"></section>
@@ -48,7 +48,7 @@ const LiftingEquipment = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.41. Textile slings and components
+                        A.41. Textilkötelek, hevederek
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -80,7 +80,7 @@ const LiftingEquipment = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.42. Chain, -slings, components
+                        A.42. Láncok és tartozékok
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -111,7 +111,7 @@ const LiftingEquipment = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.43. Steel wire rope, slings
+                        A.43. Acélsodrony kötelek
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -143,7 +143,7 @@ const LiftingEquipment = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.44. Clamps</p>
+                      <p className="card-header-title">A.44. Lemezmegfogók</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -173,7 +173,7 @@ const LiftingEquipment = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.45. Lifting Magnets</p>
+                      <p className="card-header-title">A.45. Emelőmágnesek</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -203,9 +203,7 @@ const LiftingEquipment = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">
-                        A.46. Lifting Beams , Spreaders
-                      </p>
+                      <p className="card-header-title">A.46. Emelőgerendák</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -234,7 +232,7 @@ const LiftingEquipment = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.47. Lifting Eyes, Connecting Links
+                        A.47. Emelőszemek, seklik
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">

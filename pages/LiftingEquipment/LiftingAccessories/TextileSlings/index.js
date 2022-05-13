@@ -6,8 +6,8 @@ const TextileSlings = () => {
   return (
     <div>
       <Head>
-        <title>Gutman textile slings</title>
-        <meta name="description" content="Gutman textile slings" />
+        <title>Gutman textil kötelek</title>
+        <meta name="description" content="Gutman textil kötelek" />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
@@ -18,17 +18,17 @@ const TextileSlings = () => {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories" passHref>
-                <div className="has-text-grey px-3">Lifting Accessories</div>
+                <div className="has-text-grey px-3">Teherfelvevők</div>
               </Link>
             </li>
             <li>
@@ -36,7 +36,7 @@ const TextileSlings = () => {
                 href="/LiftingEquipment/LiftingAccessories/TextileSlings"
                 passHref
               >
-                <div className="is-active px-3">Textile Slings</div>
+                <div className="is-active px-3">Textil kötelek</div>
               </Link>
             </li>
           </ul>
@@ -45,7 +45,7 @@ const TextileSlings = () => {
       <section className="section mb-6">
         <div className="container mb-6">
           <h3 className="title has-text-centered is-size-3">
-            Textile Slings and Components
+            Textil kötelek, hevederek
           </h3>
           <br />
           <div className="columns is-multiline">
@@ -54,7 +54,7 @@ const TextileSlings = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.411. Round slings</p>
+                      <p className="card-header-title">A.411. Körkötelek</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -81,9 +81,7 @@ const TextileSlings = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">
-                        A.412. Flat woven webbing sling
-                      </p>
+                      <p className="card-header-title">A.412. Emelőhevederek</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -110,7 +108,7 @@ const TextileSlings = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.413. Textile Bridle Slings
+                        A.413. Poliészter függesztékek
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -139,7 +137,9 @@ const TextileSlings = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.414. Fibre ropes</p>
+                      <p className="card-header-title">
+                        A.414. Sodrott és fonatolt kötelek
+                      </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image

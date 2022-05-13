@@ -6,8 +6,8 @@ const Chains = () => {
   return (
     <div>
       <Head>
-        <title>Gutman chains</title>
-        <meta name="description" content="Gutman chains" />
+        <title>Gutman Láncok</title>
+        <meta name="description" content="Gutman láncok" />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
@@ -51,7 +51,9 @@ const Chains = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.421. Chain slings</p>
+                      <p className="card-header-title">
+                        A.421. Láncfüggesztékek
+                      </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -63,9 +65,10 @@ const Chains = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Multi-leg chain slings manufactured with high quality
-                        components. All slings meet the requirements of EU
-                        standards and have CE marking.
+                        Láncfüggesztékek MSZ EN 1677 szerinti fémelemekből és
+                        MSZ EN 818-2 szerinti láncból állnak. Rövidítő horoggal
+                        szerelve az ág hossz külön állítható. Adattáblán, CE
+                        jelöléssel.
                       </div>
                     </div>
                   </div>
@@ -78,7 +81,7 @@ const Chains = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.422. Master Links & Connectors
+                        A.422. Gyűjtőkarikák, összekötők
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -91,8 +94,9 @@ const Chains = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Lifting chains according to EN 818-2 and different
-                        components according to EN 1677-1, CE-marked.
+                        MSZ EN 1677 szerinti fémelemek, melyek jellemzően MSZ EN
+                        818-4 szerinti függesztékek alkotóelemeiként kerülnek
+                        alkalmazásra. CE-jelöléssel.
                       </div>
                     </div>
                   </div>
@@ -104,7 +108,7 @@ const Chains = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.423. Lifting Hooks</p>
+                      <p className="card-header-title">A.423. Horgok</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -116,8 +120,9 @@ const Chains = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Lifting chains according to EN 818-2 and different
-                        components according to EN 1677-1, CE-marked.
+                        MSZ EN 1677 szerinti fémelemek, melyek jellemzően MSZ EN
+                        818-4 szerinti függesztékek alkotóelemeiként kerülnek
+                        alkalmazásra. CE-jelöléssel.
                       </div>
                     </div>
                   </div>
@@ -129,7 +134,7 @@ const Chains = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.424. Lifting Chains</p>
+                      <p className="card-header-title">A.424. Emelőláncok</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -141,8 +146,9 @@ const Chains = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Lifting chains according to EN 818-2 and different
-                        components according to EN 1677-1, CE-marked.
+                        MSZ EN 818-2 szerinti teherláncok emelési feladatokhoz.
+                        A lánc rugalmassága és nyúlási karakterisztikája alapján
+                        alkalmas függesztékek gyártásához.
                       </div>
                     </div>
                   </div>

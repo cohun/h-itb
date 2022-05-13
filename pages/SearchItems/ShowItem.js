@@ -33,7 +33,7 @@ function ShowItem(props) {
       <div className="box ">
         <div className="content has-text-centered">
           <button
-            className="button is-medium is-primary is-outlined"
+            className="button is-medium is-info is-outlined"
             type="button"
             onClick={() => router.back()}
           >

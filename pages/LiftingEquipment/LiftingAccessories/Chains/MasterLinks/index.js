@@ -30,8 +30,11 @@ function MasterLinks({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman Master Links & Connectors</title>
-        <meta name="description" content="Gutman Master Links & Connectors" />
+        <title>Gutman gyűjtőkarikák kapcsoló szemek</title>
+        <meta
+          name="description"
+          content="Gutman gyűjtőkarikák kapcsoló szemek"
+        />
       </Head>
 
       <section className="pt-6"></section>
@@ -43,22 +46,22 @@ function MasterLinks({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories" passHref>
-                <div className="has-text-grey px-3">Lifting Accessories</div>
+                <div className="has-text-grey px-3">Teherfelvevők</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories/Chains" passHref>
-                <div className="has-text-grey px-3">Chains</div>
+                <div className="has-text-grey px-3">Láncok</div>
               </Link>
             </li>
 
@@ -67,7 +70,9 @@ function MasterLinks({ type }) {
                 href="/LiftingEquipment/LiftingAccessories/Chains/MasterLinks"
                 passHref
               >
-                <div className="is-active px-3">MasterLinks & Connectors</div>
+                <div className="is-active px-3">
+                  Gyűjtőkarikák kapcsoló szemek
+                </div>
               </Link>
             </li>
           </ul>

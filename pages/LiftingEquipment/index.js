@@ -6,8 +6,8 @@ const LiftingEquipment = () => {
   return (
     <div>
       <Head>
-        <title>Gutman Emelőgépekt</title>
-        <meta name="description" content="Gutman lifting equipment" />
+        <title>Gutman Emelőgépek</title>
+        <meta name="description" content="Gutman Emelőgépek" />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
@@ -40,7 +40,7 @@ const LiftingEquipment = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.1. Crane and Trolley
+                        A.1. Daruk, futómacskák
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -53,10 +53,8 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        A crane is a type of machine, generally equipped with a
-                        hoist rope, wire ropes or chains, and sheaves, that can
-                        be used both to lift and lower materials and to move
-                        them horizontally.
+                        Olyan szakaszos működésű emelőgép, amely a teherfelvevő
+                        eszközével rögzített teher térbeli mozgatására alkalmas.
                       </div>
                     </div>
                   </div>
@@ -69,7 +67,7 @@ const LiftingEquipment = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.2. Powered Lifting Equipment
+                        A.2. Emelőberendezések
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -82,9 +80,9 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        A lifting equipment which can be worked through power.
-                        They are designed to reduce the manual handling effort
-                        and associated risk to the user to a minimum.
+                        Olyan gépi hajtású emelőgép, amelyek a terhet
+                        függölegesen, két véghelyzet között és egy meghatározott
+                        vonal mentén mozgatja.
                       </div>
                     </div>
                   </div>
@@ -96,9 +94,7 @@ const LiftingEquipment = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">
-                        A.3. Manual Lifting Equipment
-                      </p>
+                      <p className="card-header-title">A.3. Emelőszerkezetek</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -110,9 +106,8 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        A lifting equipment which is not worked through power
-                        but by an individual. (lifting, putting down, pushing,
-                        pulling, carrying or moving)
+                        Olyan szakaszosan és kézi erővel működtetett emelőgép,
+                        amely a teher térbeli mozgatására alkalmas.
                       </div>
                     </div>
                   </div>
@@ -126,7 +121,7 @@ const LiftingEquipment = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.4. Lifting Accessories
+                        A.4. Teherfelvevő eszközök
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -139,10 +134,10 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        The term lifting accessory, or accessory for lifting, is
-                        an item of equipment used to attach the load to the
-                        lifting appliance. Such equipment is also known as
-                        ‘rigging equipment’, ‘lifting gear’ or ‘lifting tackle’.
+                        Oldható teherfelvevő eszköz olyan alkatrész vagy
+                        részegység, amely nem a gép része, hanem a gép és a
+                        teher közé vagy a terhen helyezik el a teher
+                        csatlakoztatása céljából.
                       </div>
                     </div>
                   </div>

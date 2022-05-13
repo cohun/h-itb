@@ -598,7 +598,7 @@ const Disributors = () => {
                   <div className="content">
                     <article>
                       <p className="mb-0 has-text-weight-semibold">
-                        Középnyugat-Magyarország
+                        Északkelet-Magyarország
                       </p>
                       <span className="has-text-info has-text-weight-semibold">
                         Szomolya Roland
