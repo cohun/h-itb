@@ -1,13 +1,13 @@
-import Image from "next/image";
-import Link from "next/link";
-import Head from "next/head";
+import Image from 'next/image';
+import Link from 'next/link';
+import Head from 'next/head';
 
 const VacuumLifter = () => {
   return (
     <div>
       <Head>
-        <title>Gutman vacuum lifter</title>
-        <meta name="description" content="Gutman vacuum lifter" />
+        <title>Gutman vakuumos emelők</title>
+        <meta name="description" content="Gutman vakuumos emelők" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="pt-6"></section>
@@ -19,19 +19,17 @@ const VacuumLifter = () => {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/PoweredLiftingEquipment" passHref>
-                <div className="has-text-grey px-3">
-                  Powered Lifting Equipment
-                </div>
+                <div className="has-text-grey px-3">Emelőberendezések</div>
               </Link>
             </li>
             <li>
@@ -39,7 +37,7 @@ const VacuumLifter = () => {
                 href="/LiftingEquipment/PoweredLiftingEquipment/VacuumLifter"
                 passHref
               >
-                <div className="is-active px-3">Vacuum Lifter</div>
+                <div className="is-active px-3">Vákuumos emelők</div>
               </Link>
             </li>
           </ul>
@@ -47,7 +45,7 @@ const VacuumLifter = () => {
       </section>
       <section className="section mb-6">
         <div className="container mb-6">
-          <h3 className="title has-text-centered is-size-3">Vacuum Lifter</h3>
+          <h3 className="title has-text-centered is-size-3">Vákuumos emelők</h3>
           <br />
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">

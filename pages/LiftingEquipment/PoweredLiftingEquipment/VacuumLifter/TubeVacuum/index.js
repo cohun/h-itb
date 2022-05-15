@@ -10,6 +10,7 @@ export async function getStaticProps(context) {
   });
   const res = await client.getEntries({
     content_type: 'productTable',
+    locale: 'hu-HU',
   });
   console.log(res.items);
 

@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Image from "next/image";
-import { useState } from "react";
-import Search from "./Search";
+import Link from 'next/link';
+import Image from 'next/image';
+import { useState } from 'react';
+import Search from './Search';
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -40,7 +40,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`navbar-menu ${active ? "is-active" : ""}`}
+        className={`navbar-menu ${active ? 'is-active' : ''}`}
         id="nav-links"
       >
         <div className="navbar-end container">
@@ -69,7 +69,7 @@ const Navbar = () => {
           >
             <Link href="/" className="navbar-item" passHref>
               <div
-                className={`${active ? "has-text-black" : "has-text-white"}`}
+                className={`${active ? 'has-text-black' : 'has-text-white'}`}
               >
                 Kezdőlap
               </div>
@@ -88,7 +88,7 @@ const Navbar = () => {
                     }
                   }}
                 >
-                  <Link href="/LiftingEquipment">Lifting Equipment</Link>
+                  <Link href="/LiftingEquipment">Emelőgépek</Link>
                 </div>
               </div>
               <hr className="navbar-divider" />
@@ -102,7 +102,7 @@ const Navbar = () => {
                   }}
                 >
                   <Link href="/LiftingEquipment/CraneAndTrolley">
-                    Crane and Trolley
+                    Daruk, futómacskák
                   </Link>
                 </div>
               </div>
@@ -130,7 +130,7 @@ const Navbar = () => {
                   }}
                 >
                   <Link href="/LiftingEquipment/ManualLiftingEquipment">
-                    Manual Lifting Equipment
+                    Emelőszerkezetek
                   </Link>
                 </div>
               </div>
@@ -147,7 +147,7 @@ const Navbar = () => {
                     href="/LiftingEquipment/LiftingAccessories"
                     className="navbar-item ml-3"
                   >
-                    Lifting Accessories
+                    Teherfelvevő eszközök
                   </Link>
                 </div>
               </div>
@@ -161,7 +161,7 @@ const Navbar = () => {
                     }
                   }}
                 >
-                  <Link href="/OperatorsDuty">Operators Duty Service</Link>
+                  <Link href="/OperatorsDuty">Emelőgép szakszolgálat</Link>
                 </div>
               </div>
               <hr className="navbar-divider" />
@@ -199,7 +199,7 @@ const Navbar = () => {
                     }
                   }}
                 >
-                  <Link href="/MaterialHandling">Material Handling</Link>
+                  <Link href="/MaterialHandling">Anyagmozgatás</Link>
                 </div>
               </div>
               <hr className="navbar-divider" />
@@ -212,7 +212,7 @@ const Navbar = () => {
                     }
                   }}
                 >
-                  <Link href="/MaterialHandling/LiftTrucks">Lift Trucks</Link>
+                  <Link href="/MaterialHandling/LiftTrucks">Targoncák</Link>
                 </div>
               </div>
               <div className="navbar-item ml-3">
@@ -224,7 +224,7 @@ const Navbar = () => {
                     }
                   }}
                 >
-                  <Link href="/MaterialHandling/Attachments">Attachments</Link>
+                  <Link href="/MaterialHandling/Attachments">Adapterek</Link>
                 </div>
               </div>
               <hr className="navbar-divider" />
@@ -237,7 +237,7 @@ const Navbar = () => {
                     }
                   }}
                 >
-                  <Link href="/Miscellaneous">Miscellaneous Products</Link>
+                  <Link href="/Miscellaneous">Egyéb termékek</Link>
                 </div>
               </div>
               <hr className="navbar-divider" />
@@ -250,7 +250,7 @@ const Navbar = () => {
                     }
                   }}
                 >
-                  <Link href="/Miscellaneous/Lashing">Lashing Systems</Link>
+                  <Link href="/Miscellaneous/Lashing">Rakományrögzítők</Link>
                 </div>
               </div>
               <div className="navbar-item ml-3">
@@ -262,7 +262,7 @@ const Navbar = () => {
                     }
                   }}
                 >
-                  <Link href="/">Shop Equipment</Link>
+                  <Link href="/">Garázsipari emelők</Link>
                 </div>
               </div>
               <div className="navbar-item ml-3">
@@ -274,7 +274,7 @@ const Navbar = () => {
                     }
                   }}
                 >
-                  <Link href="/">Fall Protection</Link>
+                  <Link href="/">Leesés elleni védelem</Link>
                 </div>
               </div>
             </div>

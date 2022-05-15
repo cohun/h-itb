@@ -1,13 +1,13 @@
-import Image from "next/image";
-import Link from "next/link";
-import Head from "next/head";
+import Image from 'next/image';
+import Link from 'next/link';
+import Head from 'next/head';
 
 const PoweredLiftingEquipment = () => {
   return (
     <div>
       <Head>
-        <title>Gutman powered lifting equipment</title>
-        <meta name="description" content="Gutman powered lifting equipment" />
+        <title>Gutman emelőberendezések</title>
+        <meta name="description" content="Gutman emelőberendezések" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="pt-6"></section>
@@ -47,7 +47,9 @@ const PoweredLiftingEquipment = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.21. Electric hoists</p>
+                      <p className="card-header-title">
+                        A.21. Elektromos emelők
+                      </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -77,7 +79,7 @@ const PoweredLiftingEquipment = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.22. Lifting tables</p>
+                      <p className="card-header-title">A.22. Emelőasztalok</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -107,7 +109,7 @@ const PoweredLiftingEquipment = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.23. Vacuum lifter</p>
+                      <p className="card-header-title">A.23. Vákuumos emelők</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -138,7 +140,9 @@ const PoweredLiftingEquipment = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.24. Air hoists</p>
+                      <p className="card-header-title">
+                        A.24. Pneumatikus emelők
+                      </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image

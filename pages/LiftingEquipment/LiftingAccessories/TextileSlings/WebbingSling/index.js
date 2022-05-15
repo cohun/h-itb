@@ -10,8 +10,8 @@ export async function getStaticProps(context) {
   });
   const res = await client.getEntries({
     content_type: 'productTable',
+    locale: 'hu-HU',
   });
-  console.log(res.items);
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
@@ -42,17 +42,17 @@ function WebbingSling({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories" passHref>
-                <div className="has-text-grey px-3">Lifting Accessories</div>
+                <div className="has-text-grey px-3">Teherfelvevők</div>
               </Link>
             </li>
             <li>
@@ -60,7 +60,7 @@ function WebbingSling({ type }) {
                 href="/LiftingEquipment/LiftingAccessories/TextileSlings"
                 passHref
               >
-                <div className="has-text-grey px-3">Textile Slings</div>
+                <div className="has-text-grey px-3">Textil kötelek</div>
               </Link>
             </li>
             <li>
@@ -68,7 +68,7 @@ function WebbingSling({ type }) {
                 href="/LiftingEquipment/LiftingAccessories/TextileSlings/RoundSling"
                 passHref
               >
-                <div className="is-active px-3">Webbing Slings</div>
+                <div className="is-active px-3">Emelő hevederek</div>
               </Link>
             </li>
           </ul>
