@@ -29,8 +29,8 @@ function WebbingSling({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman webbing slings</title>
-        <meta name="description" content="Gutman polyester webbing slings" />
+        <title>Gutman heveder</title>
+        <meta name="description" content="Gutman poliészter heveder" />
       </Head>
 
       <section className="pt-6"></section>

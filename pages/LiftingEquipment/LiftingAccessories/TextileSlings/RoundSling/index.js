@@ -29,8 +29,8 @@ function RoundSling({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman roundsling</title>
-        <meta name="description" content="Gutman polyester roundsling" />
+        <title>Gutman körkötél</title>
+        <meta name="description" content="Gutman poliészter körkötél" />
       </Head>
 
       <section className="pt-6"></section>

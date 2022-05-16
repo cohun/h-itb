@@ -29,8 +29,8 @@ function BridleSling({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman bridle slings</title>
-        <meta name="description" content="Gutman bridle slings" />
+        <title>Gutman függeszték</title>
+        <meta name="description" content="Gutman függeszték" />
       </Head>
 
       <section className="pt-6"></section>

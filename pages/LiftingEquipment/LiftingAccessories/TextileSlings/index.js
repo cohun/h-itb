@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
-import Head from "next/head";
+import Image from 'next/image';
+import Link from 'next/link';
+import Head from 'next/head';
 
 const TextileSlings = () => {
   return (
@@ -61,7 +61,7 @@ const TextileSlings = () => {
                         width={165}
                         height={165}
                         src="/411.-Round-slings_T.jpg"
-                        alt="Lifing accessories"
+                        alt="körkötelek"
                       />
                     </div>
                     <div className="card-content">
@@ -88,7 +88,7 @@ const TextileSlings = () => {
                         width={165}
                         height={165}
                         src="/412.-Flat-woven-webbing-sling_T.jpg"
-                        alt="Lifing accessories"
+                        alt="hevederek"
                       />
                     </div>
                     <div className="card-content">
@@ -116,7 +116,7 @@ const TextileSlings = () => {
                         width={165}
                         height={165}
                         src="/413.-Textile-Bridle-Slings_T.jpg"
-                        alt="Lifing accessories"
+                        alt="függesztékek"
                       />
                     </div>
                     <div className="card-content">
@@ -146,7 +146,7 @@ const TextileSlings = () => {
                         width={165}
                         height={165}
                         src="/414.-Fibre-ropes_T.jpg"
-                        alt="Lifing accessories"
+                        alt="sodrott kötél"
                       />
                     </div>
                     <div className="card-content">
