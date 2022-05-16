@@ -8,7 +8,6 @@ const PoweredLiftingEquipment = () => {
       <Head>
         <title>Gutman emelőberendezések</title>
         <meta name="description" content="Gutman emelőberendezések" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">

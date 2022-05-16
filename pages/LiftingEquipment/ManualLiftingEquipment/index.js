@@ -1,9 +1,14 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
+import Head from 'next/head';
 
 const LiftingEquipment = () => {
   return (
     <div>
+      <Head>
+        <title>Gutman emelőszerkezetek</title>
+        <meta name="description" content="Gutman emelőszerkezetek" />
+      </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
         <nav
@@ -13,17 +18,17 @@ const LiftingEquipment = () => {
           <ul>
             <li>
               <Link href="/">
-                <a className="has-text-grey">Home</a>
+                <a className="has-text-grey">Kezdőlap</a>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment">
-                <a className="has-text-grey">Lifting Equipment</a>
+                <a className="has-text-grey">Emelőgépek</a>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/ManualLiftingEquipment">
-                <a className="has-text-grey">Manual Lifting Equipment</a>
+                <a className="has-text-grey">Emelőszerkezetek</a>
               </Link>
             </li>
           </ul>
@@ -32,7 +37,7 @@ const LiftingEquipment = () => {
       <section className="section mb-6">
         <div className="container mb-6">
           <h3 className="title has-text-centered is-size-3">
-            Manual Lifting Equipment
+            Emelőszerkezetek
           </h3>
           <br />
           <div className="columns is-multiline">
@@ -42,7 +47,7 @@ const LiftingEquipment = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.31. Chain hoists, trolleys
+                        A.31. Kézi láncos emelők, futómacskák
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -55,11 +60,11 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Hand operated chain hoists which require the use of a
-                        hand chain for both hoisting and lowering. They are
-                        ftted with an automatic brake which is capable of
-                        arresting and sustaining the load at any position.
-                        Available with separate or built in travelling trolleys.
+                        Kézi működtetésű láncos emelők, melyek a kezelő lánc
+                        által emelnek, vagy süllyesztenek. Automata fékkel
+                        vannak felszerelve, mely a terhet minden helyzetben
+                        biztonságosan megtartja. Külön vagy egybeépített
+                        futómacskával rendelhetőek.
                       </div>
                     </div>
                   </div>
@@ -71,7 +76,9 @@ const LiftingEquipment = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.32. Lever hoists</p>
+                      <p className="card-header-title">
+                        A.32. Karos láncos emelők
+                      </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -83,14 +90,11 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Chain lever hoists are in wide use throughout industry
-                        for both lifting and pulling applications. They provide
-                        a comparatively lightweight method of moving loads over
-                        a short distance and the lever operation allows them to
-                        be used in any operating position. Chain lever hoists
-                        have a ‘free wheel’ facility, which allows the operative
-                        to rapidly extend or take up slack chain under no load
-                        conditions.
+                        Karos láncos emelők széles körben használatosak emelési,
+                        vagy vonszolási feladatokra. Terhek rövidtávú
+                        mozgatására a legkülönfélébb kezelői pozicióból kiválóan
+                        alkalmas. A szabadonfutó kerék használatával a
+                        terheletlen lánc gyorsan a kívánt méretre állítható.
                       </div>
                     </div>
                   </div>
@@ -102,7 +106,9 @@ const LiftingEquipment = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.33. Racks & Jacks</p>
+                      <p className="card-header-title">
+                        A.33. Fogasléces emelők, olajemelők
+                      </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -114,12 +120,11 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Jacks are widely used in industry where loads need to be
-                        raised or lowered a limited distance. They are often
-                        used to afford access for other means of handling or
-                        lifting equipment and for levelling purposes. Their
-                        versatility of use and portability make them ideal for
-                        many maintenance functions.
+                        Ezek az emelőszerkezetek széleskörben használatosak,
+                        ahol terhek rövidtávú mozgatására van szükség. Gyakran
+                        további emelési feladatok előkészítéséhez alkalmazzák
+                        őket. Sokoldalúságuk és szállíthatóságuk miatt gyakran
+                        karbantartási műveleknél nélkülözhetetlenek.
                       </div>
                     </div>
                   </div>
@@ -132,7 +137,7 @@ const LiftingEquipment = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.34. Pulling hoists</p>
+                      <p className="card-header-title">A.34. Kötélvonszolók</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -144,14 +149,11 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Lifting and pulling machines, also known as jaw winches,
-                        are, by their very nature, versatile pieces of equipment
-                        and are widely used throughout industry. A hand operated
-                        lever activates a mechanism to provide a direct pull on
-                        an integral rope which is attached to the load. The pull
-                        is applied by means of two pairs of self-energising
-                        jaws, which exert a grip on the rope, the distance of
-                        travel being limited only by the length of the rope.
+                        Kötélvonszolók emelési és vonszolási feladatkra kiválóan
+                        alkalmasak. A kézi működtetésű kar segítségével fejt ki
+                        húzóerőt a belefűzött kötélre, amely csatlakozik a
+                        teherhez. Működési tartománya a kötél hosszának
+                        függvénye.
                       </div>
                     </div>
                   </div>
@@ -164,7 +166,7 @@ const LiftingEquipment = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.35. Lifting Pulleys & Winches
+                        A.35. Fordítócsigák, csörlők
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
