@@ -140,7 +140,7 @@ const Chains = () => {
                       <Image
                         width={165}
                         height={165}
-                        src="/G80Chain.jpg"
+                        src="/A.424. Chain.jpg"
                         alt="Lifing accessories"
                       />
                     </div>

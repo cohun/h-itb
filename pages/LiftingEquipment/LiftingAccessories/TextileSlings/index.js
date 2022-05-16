@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const TextileSlings = () => {
   return (
@@ -66,10 +66,9 @@ const TextileSlings = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Round slings are made from a continuous loop of
-                        polyester yarn covered by a double wall tubular
-                        polyester jacket. It is manufactured according to EN
-                        1492 Part 2
+                        MSZ EN 1492-2:2000+A1:2009 szerinti kör keresztmetszetű,
+                        mesterséges szálból készült végtelenített kötél
+                        általános célú emelési műveletekhez.
                       </div>
                     </div>
                   </div>
@@ -93,9 +92,9 @@ const TextileSlings = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Flat webbing sling is a standard device for lifting
-                        applications. It is made from high tensile polyester
-                        (PES) manufactured according to EN 1492 Part 1
+                        MSZ EN 1492-1:2000+A1:2009 szerinti lapos, szőtt,
+                        mesterséges szálból készült szövethevederek általános
+                        használatra
                       </div>
                     </div>
                   </div>
@@ -121,10 +120,12 @@ const TextileSlings = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Type IRG sling configurations consist of round sling
-                        legs, which are affixed on one end to a master link,
-                        with some type of attachment, usually a hook, affixed to
-                        the opposite end.
+                        MSZ EN 1492-2:2000+A1:2009 szerinti kör keresztmetszetű,
+                        mesterséges szálból készült végtelenített kötél,
+                        valamint MSZ EN 1677:2000+A1:2009 szabványsorozat
+                        függesztékek alkatrészei elemekből készített 1-, 2-, 3-,
+                        4-ágú PES függesztékek általános célú emelési
+                        műveletekhez.
                       </div>
                     </div>
                   </div>
@@ -151,13 +152,12 @@ const TextileSlings = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Fibre rope slings are the traditional form of textile
-                        sling whose origins are recorded in the earliest history
-                        of lifting equipment. Although their use has declined in
-                        recent years in favour of the newer forms of textile
-                        slings, i.e. ﬂat woven webbing slings and roundslings,
-                        they may still be found in general use throughout
-                        industry
+                        A hagyományos kender köteleken kívül különféle
+                        szintetikus alapanyagból készülnek sodrott vagy fonatolt
+                        kötelek. A sodrott kötelek pászmákból, a pászmák elemi
+                        szálakból épülnek fel. A fonatolt (vagy körszövött)
+                        kötelek szerkezetileg két részből épülnek fel: a
+                        teherviselő bél és a külső, szövött borítás.
                       </div>
                     </div>
                   </div>
