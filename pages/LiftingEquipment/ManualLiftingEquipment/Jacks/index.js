@@ -10,6 +10,7 @@ export async function getStaticProps(context) {
   });
   const res = await client.getEntries({
     content_type: "productTable",
+    locale: "hu-HU",
   });
   console.log(res.items);
 
@@ -29,8 +30,8 @@ function Jack({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman Jacks</title>
-        <meta name="description" content="Jacks" />
+        <title>Gutman fogasléces emelő</title>
+        <meta name="description" content="fogasléces emelő" />
       </Head>
 
       <section className="pt-6"></section>
@@ -42,19 +43,17 @@ function Jack({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/ManualLiftingEquipment" passHref>
-                <div className="has-text-grey px-3">
-                  Manual Lifting Equipment
-                </div>
+                <div className="has-text-grey px-3">Emelőszerkezetek</div>
               </Link>
             </li>
             <li>
@@ -62,7 +61,7 @@ function Jack({ type }) {
                 href="/LiftingEquipment/ManualLiftingEquipment/Jacks"
                 passHref
               >
-                <div className="is-active px-3">Jacks</div>
+                <div className="is-active px-3">Fogasléces emelő</div>
               </Link>
             </li>
           </ul>
