@@ -10,6 +10,7 @@ export async function getStaticProps(context) {
   });
   const res = await client.getEntries({
     content_type: "productTable",
+    locale: "hu-HU",
   });
   console.log(res.items);
 
@@ -29,8 +30,8 @@ function ChainHoist({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman chainhoists</title>
-        <meta name="description" content="Chainhoists" />
+        <title>Gutman kézi láncos emelő</title>
+        <meta name="description" content="kézi láncos emelő" />
       </Head>
 
       <section className="pt-6"></section>
@@ -42,19 +43,17 @@ function ChainHoist({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/ManualLiftingEquipment" passHref>
-                <div className="has-text-grey px-3">
-                  Manual Lifting Equipment
-                </div>
+                <div className="has-text-grey px-3">Emelőszerkezetek</div>
               </Link>
             </li>
             <li>
@@ -62,7 +61,7 @@ function ChainHoist({ type }) {
                 href="/LiftingEquipment/ManualLiftingEquipment/ChainHoist"
                 passHref
               >
-                <div className="is-active px-3">Chainhoists</div>
+                <div className="is-active px-3">Kézi láncos emelők</div>
               </Link>
             </li>
           </ul>
