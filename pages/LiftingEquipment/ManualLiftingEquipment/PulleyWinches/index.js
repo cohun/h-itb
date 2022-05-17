@@ -10,6 +10,7 @@ export async function getStaticProps(context) {
   });
   const res = await client.getEntries({
     content_type: "productTable",
+    locale: "hu-HU",
   });
   console.log(res.items);
 
@@ -29,8 +30,8 @@ function PulleyWinches({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman Pulleys & Winches</title>
-        <meta name="description" content="Pulleys & Winches" />
+        <title>Gutman fordítócsigák, csörlők</title>
+        <meta name="description" content="fordítócsigák, csörlők" />
       </Head>
 
       <section className="pt-6"></section>
@@ -42,19 +43,17 @@ function PulleyWinches({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/ManualLiftingEquipment" passHref>
-                <div className="has-text-grey px-3">
-                  Manual Lifting Equipment
-                </div>
+                <div className="has-text-grey px-3">Emelőszerkezetek</div>
               </Link>
             </li>
             <li>
@@ -62,7 +61,7 @@ function PulleyWinches({ type }) {
                 href="/LiftingEquipment/ManualLiftingEquipment/PulleyWinches"
                 passHref
               >
-                <div className="is-active px-3">Pulleys & Winches</div>
+                <div className="is-active px-3">Csörlők</div>
               </Link>
             </li>
           </ul>
