@@ -56,7 +56,7 @@ const LiftingEquipment = () => {
                         width={165}
                         height={165}
                         src="/41.-Textile-slings-and-their-components_T.jpg"
-                        alt="Lifing accessories"
+                        alt="textil kötél"
                       />
                     </div>
                     <div className="card-content">
@@ -88,7 +88,7 @@ const LiftingEquipment = () => {
                         width={165}
                         height={165}
                         src="/42.-Chain-slings-and-their-components_T.jpg"
-                        alt="Lifing accessories"
+                        alt="Láncok"
                       />
                     </div>
                     <div className="card-content">
