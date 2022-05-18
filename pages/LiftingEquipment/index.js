@@ -48,7 +48,7 @@ const LiftingEquipment = () => {
                         width={165}
                         height={165}
                         src="/A.1.-Crane-and-Trolley_T.jpg"
-                        alt="Crane and Trolley"
+                        alt="Daruk"
                       />
                     </div>
                     <div className="card-content">
@@ -75,7 +75,7 @@ const LiftingEquipment = () => {
                         width={165}
                         height={165}
                         src="/A.2.-Powered_Liftinf_Equipment_T.jpg"
-                        alt="Lifing accessories"
+                        alt="Emelőberendezés"
                       />
                     </div>
                     <div className="card-content">
@@ -101,7 +101,7 @@ const LiftingEquipment = () => {
                         width={165}
                         height={165}
                         src="/A.3.-Manual_Lifting_Equipment_T.jpg"
-                        alt="Lifing accessories"
+                        alt="Emelőszerkezet"
                       />
                     </div>
                     <div className="card-content">
@@ -129,7 +129,7 @@ const LiftingEquipment = () => {
                         width={165}
                         height={165}
                         src="/A.4.-Lifting-Accessories.jpg"
-                        alt="Lifing accessories"
+                        alt="Teherfelvevők"
                       />
                     </div>
                     <div className="card-content">
