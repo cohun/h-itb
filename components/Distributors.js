@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Disributors = () => {
   return (
@@ -59,11 +59,13 @@ const Disributors = () => {
                       <span className="has-text-info has-text-weight-semibold">
                         Négyesy Gábor
                       </span>
-                      <div className="notification p-2">
+                      <div className="notification pt-2 pb-0 px-3 mb-0">
                         <Link href="tel:+36 30 742 1121" passHref>
                           Tel: +36 30 742 1121
                         </Link>
-                        <br />
+                      </div>
+
+                      <div className="notification pt-1 pb-2 px-3">
                         <Link href="mailto:negyesy.g@h-itb.hu" passHref>
                           email: negyesy.g@h-itb.hu
                         </Link>
