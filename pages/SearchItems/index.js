@@ -48,7 +48,7 @@ const SearchTerms = (props) => {
     <section className="section mt-6">
       <article className="panel is-info">
         <p className="panel-heading">
-          <span>Találatok : </span>
+          <span>Találatok: </span>
           <span className="has-text-warning is-size-5">...{term}...</span>
         </p>
 
