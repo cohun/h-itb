@@ -1,13 +1,13 @@
-import Image from "next/image";
-import Link from "next/link";
-import Head from "next/head";
+import Image from 'next/image';
+import Link from 'next/link';
+import Head from 'next/head';
 
 const WireRopes = () => {
   return (
     <div>
       <Head>
-        <title>Gutman wireropes</title>
-        <meta name="description" content="Gutman wireropes" />
+        <title>Gutman drótkötél</title>
+        <meta name="description" content="Gutman drótkötél" />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
@@ -18,17 +18,17 @@ const WireRopes = () => {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories" passHref>
-                <div className="has-text-grey px-3">Lifting Accessories</div>
+                <div className="has-text-grey px-3">Teherfelvevők</div>
               </Link>
             </li>
             <li>
@@ -36,7 +36,7 @@ const WireRopes = () => {
                 href="/LiftingEquipment/LiftingAccessories/WireRopes"
                 passHref
               >
-                <div className="is-active px-3">Wire Ropes</div>
+                <div className="is-active px-3">Drótkötelek</div>
               </Link>
             </li>
           </ul>
@@ -45,7 +45,7 @@ const WireRopes = () => {
       <section className="section mb-6">
         <div className="container mb-6">
           <h3 className="title has-text-centered is-size-3">
-            Steel wire rope, slings
+            Acél sodronykötelek, függesztékek
           </h3>
           <br />
           <div className="columns is-multiline">
@@ -55,7 +55,7 @@ const WireRopes = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.431. Wire rope slings
+                        A.431. Sodronykötél függesztékek
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -63,7 +63,7 @@ const WireRopes = () => {
                         width={165}
                         height={165}
                         src="/431.-Wire-rope-slings.jpg"
-                        alt="Lifing accessories"
+                        alt="függeszték"
                       />
                     </div>
                     <div className="card-content">
@@ -85,7 +85,7 @@ const WireRopes = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.432. Steel wire ropes
+                        A.432. Acél Sodronykötelek
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -93,7 +93,7 @@ const WireRopes = () => {
                         width={165}
                         height={165}
                         src="/A.432.-SteelWireRope.jpg"
-                        alt="Lifing accessories"
+                        alt="drótkötél"
                       />
                     </div>
                     <div className="card-content">
