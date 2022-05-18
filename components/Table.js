@@ -191,7 +191,7 @@ const Table = ({ type }) => {
       <div className="tile is-ancestor my-4">
         <div className="tile is-4"></div>
         <div className="tile is-2">
-          <h4 className="title is-size-3">Termék:</h4>
+          <h4 className="title is-size-4 is-underlined">Termék:</h4>
         </div>
         <div className="tile">
           <div className="container">

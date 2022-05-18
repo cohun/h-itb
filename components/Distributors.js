@@ -13,7 +13,7 @@ const Disributors = () => {
                 width={200}
                 height={80}
                 src="/H-ITBLogo.jpg"
-                alt="Gutman"
+                alt="H-ITB logó"
               />
             </div>
 

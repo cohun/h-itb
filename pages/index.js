@@ -87,7 +87,7 @@ export default function Home() {
                           width={165}
                           height={165}
                           src="/A.-Lifting-Equipment_T.jpg"
-                          alt="Lifing accessories"
+                          alt="emelőgép"
                         />
                       </figure>
                     </div>
@@ -119,7 +119,7 @@ export default function Home() {
                         width={165}
                         height={165}
                         src="/B.-Operators-Duty-Service_T.jpg"
-                        alt="Lifing accessories"
+                        alt="vizsgálat"
                       />
                     </div>
                     <div className="card-content">
@@ -146,7 +146,7 @@ export default function Home() {
                         width={165}
                         height={165}
                         src="/C.-Material-Handling_T.jpg"
-                        alt="Lifing accessories"
+                        alt="anyagmozgatás"
                       />
                     </div>
                     <div className="card-content">
@@ -174,7 +174,7 @@ export default function Home() {
                         width={165}
                         height={165}
                         src="/D.-Miscellaneous_T.jpg"
-                        alt="Lifing accessories"
+                        alt="egyéb termék"
                       />
                     </div>
                     <div className="card-content">

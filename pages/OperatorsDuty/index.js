@@ -1,9 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 const OperatorsDuty = () => {
   return (
     <div>
+      <Head>
+        <title>Emelőgép vizsgálat</title>
+        <meta name="description" content="Emelőgép vizsgálat" />
+      </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
         <nav
@@ -13,13 +18,13 @@ const OperatorsDuty = () => {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
 
             <li>
               <Link href="/OperatorsDuty" passHref>
-                <div className="is-active px-3">Operators Duty Service</div>
+                <div className="is-active px-3">Emelőgép szakszolgálat</div>
               </Link>
             </li>
           </ul>
@@ -28,7 +33,7 @@ const OperatorsDuty = () => {
       <section className="section mb-6">
         <div className="container mb-6">
           <h3 className="title has-text-centered is-size-3">
-            Operators Duty Service
+            Emelőgép szakszolgálat
           </h3>
           <br />
           <div className="columns is-multiline">
@@ -58,10 +63,13 @@ const OperatorsDuty = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        ETAR app for Android is designed to deliver all the
-                        duties a lifting equipment operator has to fullfill.
-                        Identification with NFC chip, certificates for Operation
-                        Start, Thorough Examination, Maintenance and Service.
+                        ETAR applikáció Android rendszerű telefonokhoz
+                        készített, emelőgép üzemeltetők számára előírt feladatok
+                        ügyintézéséhez segítséget nyújtó szoftver. NFC chip-el
+                        azonosított eszközök nyilvántartása, üzembehelyezése,
+                        időszakos vizsgálata, karbantartása, javítása és az
+                        ezekhez a műveletekhez tartozó bizonyítványok
+                        elkészítése történik az ETAR segítségével.
                       </div>
                     </div>
                   </div>
@@ -95,15 +103,17 @@ const OperatorsDuty = () => {
                         width={85}
                         height={165}
                         src="/EtarEn.webp"
-                        alt="ETAR"
+                        alt="ETAR EN"
                       />
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        This app for Android keeps record of your lifting
-                        equipment and devices. Operation documentation and
-                        logbook entries are made easy according to
-                        authorizations, based on the ETAR app.
+                        Az ETAR EN az ETAR applikációhoz készített kiegészítés
+                        az emelőgép üzemviteli dokumentáció, valamint az
+                        emelőgép napló szakszerű vezetéséhez. Az applikáción
+                        keresztül az egyes emelőgépekhez különféle jogosultságú
+                        munkatársakat lehet kijelölni az elvégzendő feladatok
+                        dokumentálásához, bizonylatolásához.
                       </div>
                     </div>
                   </div>
@@ -111,6 +121,78 @@ const OperatorsDuty = () => {
               </Link>
             </div>
           </div>
+
+          <article className="message is-info">
+            <div className="message-header">
+              <p>Info</p>
+              <button className="delete" aria-label="delete"></button>
+            </div>
+            <div className="message-body">
+              Az <strong>Emelőgép Biztonsági Szabályzat</strong>, mely a
+              Munkavédelmi Törvény szélesebbkörű értelmezését adja, meghatározza
+              az üzemeltetés módját. <br />
+              Fentiek szerint az emelőgép üzemeltetője köteles:
+              <br />
+              <br />
+              <div className="columns is-mobile is-centered">
+                <div className="column is-10">
+                  <div className="list">
+                    <ul>
+                      <div className="list-item">
+                        <li>- az emelőgép üzembehelyezéséről</li>
+                      </div>
+
+                      <div className="list-item">
+                        <li>
+                          - a teherfüggesztő eszközök használatba vételéről
+                        </li>
+                      </div>
+
+                      <div className="list-item">
+                        <li>- rendeltetésszerű használatáról</li>
+                      </div>
+
+                      <div className="list-item">
+                        <li>- időszakos vizsgálatáról</li>
+                      </div>
+
+                      <div className="list-item">
+                        <li>- biztonságos állapotának megörzéséről</li>
+                      </div>
+
+                      <div className="list-item">
+                        <li>
+                          - a karbantartás szakszerű és rendszeres elvégzéséről
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              gondoskodni. <br />
+              <br />
+              További információért kérjük látogasson el a következő
+              weboldalakra! <br /> <br />
+              <article className="panel is-link">
+                <Link href="https://emelogepvizsgalat.hu">
+                  <a className="panel-block is-active">
+                    <span className="panel-icon">
+                      <i className="fas fa-book" aria-hidden="true"></i>
+                    </span>
+                    https://emelogepvizsgalat.hu
+                  </a>
+                </Link>
+                <Link href="https://emelogepvizsgalat.blogspot.com">
+                  <a className="panel-block">
+                    <span className="panel-icon">
+                      <i className="fas fa-book" aria-hidden="true"></i>
+                    </span>
+                    https://emelogepvizsgalat.blogspot.com
+                  </a>
+                </Link>
+              </article>
+            </div>
+          </article>
         </div>
       </section>
     </div>

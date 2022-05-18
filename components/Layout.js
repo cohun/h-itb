@@ -1,16 +1,16 @@
-import Footer from './Footer';
-import Navbar from './Navbar';
-import Head from 'next/head';
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+import Head from "next/head";
 
 const Layout = ({ children }) => {
   return (
     <div>
       <Head>
-        <title>Gutman Lifting Equipment</title>
+        <title>Gutman emelőgépek</title>
         <meta charSet="UTF-8" />
         <meta
           name="keywords"
-          content="lifting, lashing, material handling, crane, chain, polyester, wire rope"
+          content="emelés, rakományrögzítés, anyagmozgatás, daru, lánc, poliészter, heveder, drótkötél, emelőgép, lemezmegfogó, vákuumos emelő, emelődob"
         />
         <meta name="author" content="Attila Horvath" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
