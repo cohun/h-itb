@@ -92,7 +92,7 @@ export default function Home() {
                       </figure>
                     </div>
                     <div className="card-content">
-                      <div className="content">
+                      <div className="content has-text-justified is-size-7 has-text-weight-semibold">
                         Emelőgép az a szakaszos üzemű, gépi vagy kézi (emberi
                         erő) meghajtású szerkezet vagy berendezés, ami
                         közvetlenül vagy segédeszközzel terhet emelni vagy
@@ -123,7 +123,7 @@ export default function Home() {
                       />
                     </div>
                     <div className="card-content">
-                      <div className="content">
+                      <div className="content has-text-justified is-size-7 has-text-weight-semibold">
                         Emelőgépekkel, továbbá teherfelvevő eszközökkel végzett
                         tevékenységek során felmerülő üzemeltetői feladatok,
                         kötelezettségek elvégzésében való közreműködés a H-ITB
