@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const PoweredLiftingEquipment = () => {
   return (
@@ -60,13 +60,10 @@ const PoweredLiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Power operated hoists are widely used in industry, often
-                        as part of a larger lifting installation, e.g. with an
-                        overhead runway, jib crane or overhead travelling crane,
-                        or where a permanent lifting facility is required. They
-                        may also be used for fxed position lifting applications
-                        or where a temporary powered lifting facility is
-                        required
+                        Villamos hajtású, szakaszos működtetésű, a teherfelvevő
+                        eszközre függesztett teher emelésére és süllyesztésére
+                        alkalmas önálló emelőgép. Széles köreben elterjedt az
+                        iparban, gyakran egy nagyobb emelőgép részeként.
                       </div>
                     </div>
                   </div>
@@ -90,13 +87,11 @@ const PoweredLiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        A lift table is a device that employs a scissors
-                        mechanism to raise or lower goods. Typically lift tables
-                        are used to raise large, heavy loads through relatively
-                        small distances. They can work in hostile environments,
-                        be manufactured in stainless steel and have equipment
-                        like conveyors, turn-tables, barriers and gates easily
-                        added to their deckplates.
+                        Az emelő asztal a teher függőleges vonalú mozgását és
+                        közben vízszintes helyzetben tartását, csuklós-ollós
+                        mechanizmusokkal biztosító emelőberendezés. Rozsdamentes
+                        kivitelben is kapható, ill. klf. kiegészítőkkel lehet
+                        ellátni őket.
                       </div>
                     </div>
                   </div>
@@ -120,13 +115,12 @@ const PoweredLiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Vacuum lifters can be suitable for lifting loads which
-                        have a smooth, non-porous surface such as metal plates,
-                        glass, stone slabs, cardboard boxes, etc. If required,
-                        the vacuum lifter can have the facility to tilt a load,
-                        such as a steel or glass plate from horizontal to
-                        vertical or vice versa, and be capable of rotating the
-                        load.
+                        Vákuumos emelő olyan saját szívással rendelkező
+                        tartó/megfogó ill. emelő szerkezet, amely a vákuumot a
+                        terheléstől függően állítja elő. Általában síma nem
+                        légáteresztő terhek megfogására és tartására alkalmas.
+                        Szükség szerint billentő kiegészítő adapterrel is
+                        használható.
                       </div>
                     </div>
                   </div>
@@ -153,11 +147,11 @@ const PoweredLiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Pneumatic power operated hoists offer many advantages
-                        over electrically operated equipment and as a result are
-                        widely used in industries where air is provided for
-                        other purposes or where the safety aspects associated
-                        with air operated equipment are a major consideration.
+                        Sűrített levegővel működő emelőberendezés, mely a
+                        villamos emelődobokhoz képest számtalan előnnyel
+                        rendelkezik, ezért mindenütt, ahol kiépített sűrített
+                        levegő rendszer rendelkezésre áll, érdemes megfontolni
+                        használatukat.
                       </div>
                     </div>
                   </div>
