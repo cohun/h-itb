@@ -92,13 +92,13 @@ export default function Home() {
                       </figure>
                     </div>
                     <div className="card-content">
-                      <div className="content has-text-justified is-size-7 has-text-weight-semibold">
-                        Emelőgép az a szakaszos üzemű, gépi vagy kézi (emberi
-                        erő) meghajtású szerkezet vagy berendezés, ami
-                        közvetlenül vagy segédeszközzel terhet emelni vagy
-                        süllyeszteni képes. Ide soroljuk az oldható teherfelvevő
-                        eszközöket, amely nem a gép része, hanem a gép és a
-                        teher közé helyezik el.
+                      <div className="content">
+                        Emelőgép az a szakaszos üzemű, gépi vagy emberi erő
+                        meghajtású szerkezet vagy berendezés, ami közvetlenül
+                        vagy segédeszközzel terhet emelni vagy süllyeszteni
+                        képes. Ide soroljuk az oldható teherfelvevő eszközöket,
+                        amely nem a gép része, hanem a gép és a teher közé
+                        helyezik el.
                       </div>
                     </div>
                   </div>
@@ -123,11 +123,13 @@ export default function Home() {
                       />
                     </div>
                     <div className="card-content">
-                      <div className="content has-text-justified is-size-7 has-text-weight-semibold">
-                        Emelőgépekkel, továbbá teherfelvevő eszközökkel végzett
-                        tevékenységek során felmerülő üzemeltetői feladatok,
-                        kötelezettségek elvégzésében való közreműködés a H-ITB
-                        szakszolgálat által.
+                      <div className="content">
+                        <p className="">
+                          Emelőgépekkel, továbbá teherfelvevő eszközökkel
+                          végzett tevékenységek során felmerülő üzemeltetői
+                          feladatok, kötelezettségek elvégzésében való
+                          közreműködés a H-ITB szakszolgálat által.
+                        </p>
                       </div>
                     </div>
                   </div>
