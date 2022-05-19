@@ -1,13 +1,13 @@
-import Image from "next/image";
-import Link from "next/link";
-import Head from "next/head";
+import Image from 'next/image';
+import Link from 'next/link';
+import Head from 'next/head';
 
 const Lashing = () => {
   return (
     <div>
       <Head>
-        <title>Gutman lashing</title>
-        <meta name="description" content="Gutman lashing" />
+        <title>Gutman rakományrögzítő</title>
+        <meta name="description" content="Gutman rakományrögzítő" />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
@@ -18,17 +18,17 @@ const Lashing = () => {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/Miscellaneous" passHref>
-                <div className="has-text-grey px-3">Miscellaneous</div>
+                <div className="has-text-grey px-3">Egyéb termékek</div>
               </Link>
             </li>
             <li>
               <Link href="/Miscellaneous/Lashing" passHref>
-                <div className="is-active px-3">Lashing systems</div>
+                <div className="is-active px-3">Rakományrögzítők</div>
               </Link>
             </li>
           </ul>
@@ -36,7 +36,9 @@ const Lashing = () => {
       </section>
       <section className="section mb-6">
         <div className="container mb-6">
-          <h3 className="title has-text-centered is-size-3">Lashing Systems</h3>
+          <h3 className="title has-text-centered is-size-3">
+            Rakományrögzítők
+          </h3>
           <br />
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">

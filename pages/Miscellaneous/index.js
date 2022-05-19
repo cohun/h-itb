@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Miscellaneous = () => {
   return (
@@ -13,12 +13,12 @@ const Miscellaneous = () => {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/Miscellaneous" passHref>
-                <div className="px-3 is-active">Miscellaneous</div>
+                <div className="px-3 is-active">Egyéb termékek</div>
               </Link>
             </li>
           </ul>
@@ -26,9 +26,7 @@ const Miscellaneous = () => {
       </section>
       <section className="section mb-6">
         <div className="container mb-6">
-          <h3 className="title has-text-centered is-size-3">
-            Miscellaneous Products
-          </h3>
+          <h3 className="title has-text-centered is-size-3">Egyéb termékek</h3>
           <br />
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
@@ -36,14 +34,14 @@ const Miscellaneous = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">D.1. Lashing systems</p>
+                      <p className="card-header-title">D.1. Rakományrögzítés</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
                         width={165}
                         height={165}
                         src="/D.1.-Lashing-systems_T.jpg"
-                        alt="Lashing"
+                        alt="Rakományrögzítő"
                       />
                     </div>
                     <div className="card-content">
@@ -67,14 +65,16 @@ const Miscellaneous = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">D.2. Shop equipment</p>
+                      <p className="card-header-title">
+                        D.2. Garázsipari emelők
+                      </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
                         width={165}
                         height={165}
                         src="/D.2.-Shop-equipment_T.jpg"
-                        alt="Lifing accessories"
+                        alt="Garázsipari emelők"
                       />
                     </div>
                     <div className="card-content">
@@ -94,14 +94,16 @@ const Miscellaneous = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">D.3. Fall Protection</p>
+                      <p className="card-header-title">
+                        D.3. Leesés elleni védelem
+                      </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
                         width={165}
                         height={165}
                         src="/D.3.-Fall-Protection-.jpg"
-                        alt="Lifing accessories"
+                        alt="Testheveder"
                       />
                     </div>
                     <div className="card-content">

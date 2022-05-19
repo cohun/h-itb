@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
-import Head from "next/head";
+import Image from 'next/image';
+import Link from 'next/link';
+import Head from 'next/head';
 
 const MaterialHandling = () => {
   return (
@@ -18,12 +18,12 @@ const MaterialHandling = () => {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/MaterialHandling" passHref>
-                <div className="px-3 is-active">Material Handling</div>
+                <div className="px-3 is-active">Anyagmozgatás</div>
               </Link>
             </li>
           </ul>
@@ -31,9 +31,7 @@ const MaterialHandling = () => {
       </section>
       <section className="section mb-6">
         <div className="container mb-6">
-          <h3 className="title has-text-centered is-size-3">
-            Material Handling
-          </h3>
+          <h3 className="title has-text-centered is-size-3">Anyagmozgatás</h3>
           <br />
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
@@ -41,7 +39,7 @@ const MaterialHandling = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">C.1. Lift Trucks</p>
+                      <p className="card-header-title">C.1. Targoncák</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -53,8 +51,8 @@ const MaterialHandling = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Different small trucks used to lift and move materials
-                        over short distances.
+                        Különféle kézi targoncák, szállító kocsik anyagok
+                        emeléséhez, rövidtávú szállításához.
                       </div>
                     </div>
                   </div>
@@ -66,7 +64,7 @@ const MaterialHandling = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">C.2. Attachments</p>
+                      <p className="card-header-title">C.2. Adapterek</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -78,9 +76,8 @@ const MaterialHandling = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        A lifting equipment which can be worked through power.
-                        They are designed to reduce the manual handling effort
-                        and associated risk to the user to a minimum.
+                        Olyan kiegészítő eszközök, melyek emelőgéphez
+                        csatlakoztatva további funkcioanlitást adnak azoknak.
                       </div>
                     </div>
                   </div>
