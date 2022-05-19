@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 const Disributors = () => {
   return (
@@ -78,12 +78,14 @@ const Disributors = () => {
                         <span className="has-text-info has-text-weight-semibold">
                           Ihász Viktória
                         </span>
-                        <br />
-                        <div className="notification p-2">
+
+                        <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 569 9676" passHref>
                             Tel: +36 30 569 9676
                           </Link>
-                          <br />
+                        </div>
+
+                        <div className="notification pt-1 pb-2 px-3">
                           <Link href="mailto:ihasz.v@h-itb.hu" passHref>
                             email: ihasz.v@h-itb.hu
                           </Link>
@@ -129,11 +131,14 @@ const Disributors = () => {
                       <span className="has-text-info has-text-weight-semibold">
                         Nagy Gergely
                       </span>
-                      <div className="notification p-2">
+
+                      <div className="notification pt-2 pb-0 px-3 mb-0">
                         <Link href="tel:+36 30 467 8689" passHref>
                           Tel: +36 30 467 8689
                         </Link>
-                        <br />
+                      </div>
+
+                      <div className="notification pt-1 pb-2 px-3">
                         <Link href="mailto:nagy.g@h-itb.hu" passHref>
                           email: nagy.g@h-itb.hu
                         </Link>
@@ -146,12 +151,14 @@ const Disributors = () => {
                         <span className="has-text-info has-text-weight-semibold">
                           Csergő Éva
                         </span>
-                        <br />
-                        <div className="notification p-2">
+
+                        <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 278 0959" passHref>
                             Tel: +36 30 278 0959
                           </Link>
-                          <br />
+                        </div>
+
+                        <div className="notification pt-1 pb-2 px-3">
                           <Link href="mailto:csergo.e@h-itb.hu" passHref>
                             email: csergo.e@h-itb.hu
                           </Link>
@@ -197,11 +204,13 @@ const Disributors = () => {
                       <span className="has-text-info has-text-weight-semibold">
                         Hegyi Gábor
                       </span>
-                      <div className="notification p-2">
+                      <div className="notification pt-2 pb-0 px-3 mb-0">
                         <Link href="tel:+36 30 742 1133" passHref>
                           Tel: +36 30 742 1133
                         </Link>
-                        <br />
+                      </div>
+
+                      <div className="notification pt-1 pb-2 px-3">
                         <Link href="mailto:hegyi.g@h-itb.hu" passHref>
                           email: hegyi.g@h-itb.hu
                         </Link>
@@ -214,12 +223,13 @@ const Disributors = () => {
                         <span className="has-text-info has-text-weight-semibold">
                           Reinhardt Relinda
                         </span>
-                        <br />
-                        <div className="notification p-2">
+                        <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1127" passHref>
                             Tel: +36 30 742 1127
                           </Link>
-                          <br />
+                        </div>
+
+                        <div className="notification pt-1 pb-2 px-3">
                           <Link href="mailto:reinhardt.r@h-itb.hu" passHref>
                             email: reinhardt.r@h-itb.hu
                           </Link>
@@ -265,11 +275,14 @@ const Disributors = () => {
                       <span className="has-text-info has-text-weight-semibold">
                         Molnár Ferenc
                       </span>
-                      <div className="notification p-2">
+
+                      <div className="notification pt-2 pb-0 px-3 mb-0">
                         <Link href="tel:+36 30 415 0398" passHref>
                           Tel: +36 30 415 0398
                         </Link>
-                        <br />
+                      </div>
+
+                      <div className="notification pt-1 pb-2 px-3">
                         <Link href="mailto:molnar.f@h-itb.hu" passHref>
                           email: molnar.f@h-itb.hu
                         </Link>
@@ -282,12 +295,14 @@ const Disributors = () => {
                         <span className="has-text-info has-text-weight-semibold">
                           Kövesiné Vértesi Katalin
                         </span>
-                        <br />
-                        <div className="notification p-2">
+
+                        <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1135" passHref>
                             Tel: +36 30 742 1135
                           </Link>
-                          <br />
+                        </div>
+
+                        <div className="notification pt-1 pb-2 px-3">
                           <Link href="mailto:vertesi.k@h-itb.hu" passHref>
                             email: vertesi.k@h-itb.hu
                           </Link>
@@ -333,11 +348,14 @@ const Disributors = () => {
                       <span className="has-text-info has-text-weight-semibold">
                         Simon Jenő
                       </span>
-                      <div className="notification p-2">
+
+                      <div className="notification pt-2 pb-0 px-3 mb-0">
                         <Link href="tel:+36 30 742 1125" passHref>
                           Tel: +36 30 742 1125
                         </Link>
-                        <br />
+                      </div>
+
+                      <div className="notification pt-1 pb-2 px-3">
                         <Link href="mailto:simon.j@h-itb.hu" passHref>
                           email: simon.j@h-itb.hu
                         </Link>
@@ -350,12 +368,13 @@ const Disributors = () => {
                         <span className="has-text-info has-text-weight-semibold">
                           Reinhardt Relinda
                         </span>
-                        <br />
-                        <div className="notification p-2">
+                        <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1127" passHref>
                             Tel: +36 30 742 1127
                           </Link>
-                          <br />
+                        </div>
+
+                        <div className="notification pt-1 pb-2 px-3">
                           <Link href="mailto:reinhardt.r@h-itb.hu" passHref>
                             email: reinhardt.r@h-itb.hu
                           </Link>
@@ -401,11 +420,14 @@ const Disributors = () => {
                       <span className="has-text-info has-text-weight-semibold">
                         Bálint Miklós
                       </span>
-                      <div className="notification p-2">
+
+                      <div className="notification pt-2 pb-0 px-3 mb-0">
                         <Link href="tel:+36 30 742 1132" passHref>
                           Tel: +36 30 742 1132
                         </Link>
-                        <br />
+                      </div>
+
+                      <div className="notification pt-1 pb-2 px-3">
                         <Link href="mailto:balint.m@h-itb.hu" passHref>
                           email: balint.m@h-itb.hu
                         </Link>
@@ -418,12 +440,13 @@ const Disributors = () => {
                         <span className="has-text-info has-text-weight-semibold">
                           Reinhardt Relinda
                         </span>
-                        <br />
-                        <div className="notification p-2">
+                        <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1127" passHref>
                             Tel: +36 30 742 1127
                           </Link>
-                          <br />
+                        </div>
+
+                        <div className="notification pt-1 pb-2 px-3">
                           <Link href="mailto:reinhardt.r@h-itb.hu" passHref>
                             email: reinhardt.r@h-itb.hu
                           </Link>
@@ -469,11 +492,14 @@ const Disributors = () => {
                       <span className="has-text-info has-text-weight-semibold">
                         Halász Miklós
                       </span>
-                      <div className="notification p-2">
+
+                      <div className="notification pt-2 pb-0 px-3 mb-0">
                         <Link href="tel:+36 30 742 1136" passHref>
                           Tel: +36 30 742 1136
                         </Link>
-                        <br />
+                      </div>
+
+                      <div className="notification pt-1 pb-2 px-3">
                         <Link href="mailto:halasz.m@h-itb.hu" passHref>
                           email: halasz.m@h-itb.hu
                         </Link>
@@ -486,12 +512,13 @@ const Disributors = () => {
                         <span className="has-text-info has-text-weight-semibold">
                           Kövesiné Vértesi Katalin
                         </span>
-                        <br />
-                        <div className="notification p-2">
+                        <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1135" passHref>
                             Tel: +36 30 742 1135
                           </Link>
-                          <br />
+                        </div>
+
+                        <div className="notification pt-1 pb-2 px-3">
                           <Link href="mailto:vertesi.k@h-itb.hu" passHref>
                             email: vertesi.k@h-itb.hu
                           </Link>
@@ -537,11 +564,13 @@ const Disributors = () => {
                       <span className="has-text-info has-text-weight-semibold">
                         Horváth István
                       </span>
-                      <div className="notification p-2">
+                      <div className="notification pt-2 pb-0 px-3 mb-0">
                         <Link href="tel:+36 30 742 1128" passHref>
                           Tel: +36 30 742 1128
                         </Link>
-                        <br />
+                      </div>
+
+                      <div className="notification pt-1 pb-2 px-3">
                         <Link href="mailto:horvath.i@h-itb.hu" passHref>
                           email: horvath.i@h-itb.hu
                         </Link>
@@ -554,12 +583,13 @@ const Disributors = () => {
                         <span className="has-text-info has-text-weight-semibold">
                           Reinhardt Relinda
                         </span>
-                        <br />
-                        <div className="notification p-2">
+                        <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1127" passHref>
                             Tel: +36 30 742 1127
                           </Link>
-                          <br />
+                        </div>
+
+                        <div className="notification pt-1 pb-2 px-3">
                           <Link href="mailto:reinhardt.r@h-itb.hu" passHref>
                             email: reinhardt.r@h-itb.hu
                           </Link>
@@ -605,11 +635,13 @@ const Disributors = () => {
                       <span className="has-text-info has-text-weight-semibold">
                         Szomolya Roland
                       </span>
-                      <div className="notification p-2">
+                      <div className="notification pt-2 pb-0 px-3 mb-0">
                         <Link href="tel:+36 70 866 5092" passHref>
                           Tel: +36 70 866 5092
                         </Link>
-                        <br />
+                      </div>
+
+                      <div className="notification pt-1 pb-2 px-3">
                         <Link href="mailto:szomolya.r@h-itb.hu" passHref>
                           email: szomolya.r@h-itb.hu
                         </Link>
@@ -622,12 +654,13 @@ const Disributors = () => {
                         <span className="has-text-info has-text-weight-semibold">
                           Kövesiné Vértesi Katalin
                         </span>
-                        <br />
-                        <div className="notification p-2">
+                        <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1135" passHref>
                             Tel: +36 30 742 1135
                           </Link>
-                          <br />
+                        </div>
+
+                        <div className="notification pt-1 pb-2 px-3">
                           <Link href="mailto:vertesi.k@h-itb.hu" passHref>
                             email: vertesi.k@h-itb.hu
                           </Link>
