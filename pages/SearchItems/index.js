@@ -36,8 +36,8 @@ const SearchTerms = (props) => {
 
   props.searchItems.length >= 1 && term
     ? (resFiltered = props.searchItems.filter(
-        (item) => item.fields.search === term.toLowerCase()
-      ))
+      (item) => item.fields.search === term.toLowerCase()
+    ))
     : console.log("No");
 
   resFiltered.length >= 1
@@ -48,7 +48,7 @@ const SearchTerms = (props) => {
     <section className="section mt-6">
       <article className="panel is-info">
         <p className="panel-heading">
-          <span>Találatok: </span>
+          <span>Találatok : </span>
           <span className="has-text-warning is-size-5">...{term}...</span>
         </p>
 
