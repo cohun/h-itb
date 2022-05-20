@@ -55,7 +55,7 @@ const PoweredLiftingEquipment = () => {
                         width={165}
                         height={165}
                         src="/A.21.-Electric-hoists_T.jpg"
-                        alt="Lifing accessories"
+                        alt="láncos emelő"
                       />
                     </div>
                     <div className="card-content">
@@ -82,7 +82,7 @@ const PoweredLiftingEquipment = () => {
                         width={165}
                         height={165}
                         src="/A.22.-Lifting-tables_T.jpg"
-                        alt="Lifing accessories"
+                        alt="Emelőasztal"
                       />
                     </div>
                     <div className="card-content">
@@ -110,7 +110,7 @@ const PoweredLiftingEquipment = () => {
                         width={165}
                         height={165}
                         src="/A.23.-Vacuum-lifter_T.jpg"
-                        alt="Lifing accessories"
+                        alt="Vákuumos emelő"
                       />
                     </div>
                     <div className="card-content">
@@ -129,7 +129,7 @@ const PoweredLiftingEquipment = () => {
             </div>
 
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="/Miscellaneous">
+              <Link href="/LiftingEquipment/PoweredLiftingEquipment/">
                 <a>
                   <div className="card">
                     <div className="card-header">
@@ -142,7 +142,7 @@ const PoweredLiftingEquipment = () => {
                         width={165}
                         height={165}
                         src="/A.24.-Air-hoists_T.jpg"
-                        alt="Lifing accessories"
+                        alt="Pneumatikus emelő"
                       />
                     </div>
                     <div className="card-content">

@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Table from '../../../../components/Table';
-import Head from 'next/head';
-import { createClient } from 'contentful';
+import Link from "next/link";
+import Table from "../../../../components/Table";
+import Head from "next/head";
+import { createClient } from "contentful";
 
 export async function getStaticProps(context) {
   const client = createClient({
@@ -9,13 +9,13 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: 'productTable',
-    locale: 'hu-HU',
+    content_type: "productTable",
+    locale: "hu-HU",
   });
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === 'A.21.'
+    (item) => item.fields.productGroupId === "A.21."
   );
 
   return {
@@ -29,8 +29,8 @@ function ElectricHoist({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman lifting products</title>
-        <meta name="description" content="Translyft lift table" />
+        <title>Elektromos láncos emelő</title>
+        <meta name="description" content="Elektromos láncos emelő" />
       </Head>
 
       <section className="pt-6"></section>
@@ -42,19 +42,17 @@ function ElectricHoist({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/PoweredLiftingEquipment" passHref>
-                <div className="has-text-grey px-3">
-                  Powered Lifting Equipment
-                </div>
+                <div className="has-text-grey px-3">Emelőberendezések</div>
               </Link>
             </li>
             <li>
@@ -62,7 +60,7 @@ function ElectricHoist({ type }) {
                 href="/LiftingEquipment/PoweredLiftingEquipment/ElectricHoist"
                 passHref
               >
-                <div className="has-text-grey px-3">Electric Hoists</div>
+                <div className="has-text-grey px-3">Láncos emelők</div>
               </Link>
             </li>
           </ul>

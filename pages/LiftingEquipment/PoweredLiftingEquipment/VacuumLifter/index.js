@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const VacuumLifter = () => {
   return (
@@ -54,7 +54,7 @@ const VacuumLifter = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.231. Traversing Vacuum Lifting device
+                        A.231. Vákuumemelő adapter
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -67,15 +67,13 @@ const VacuumLifter = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        A vacuum lifter is a type of load-handling attachment.
-                        It is used primarily when moving goods with smooth and
-                        largely non-porous surfaces, such as panels made of
-                        sheet metal, Glass and chipboard. Vacuum lifters are
-                        attached to electric Cable hoists and Chain hoists. A
-                        vacuum pump generates underpressure between the
-                        load-handling attachment and the load, while a rubber
-                        Seal protects the vacuum from the surrounding
-                        atmospheric pressure.
+                        Ipari vákuumos emelő adapterek jellemzői: emelőgerendába
+                        integrált vákuumtartály, vázra erősített vákuum
+                        pumpa,szelep a szívás/eresztés működtetéséhez, biztosító
+                        kapcsoló, visszacsapó szelep, mely megakadályozza a
+                        teher eleresztését energiaellátási probléma esetén,
+                        EN13155 szabvány szerint, szívó párnák helyzete a teher
+                        méretének megfelelően állítható.
                       </div>
                     </div>
                   </div>
@@ -88,7 +86,7 @@ const VacuumLifter = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        A.232. Tube Vacuum Lifter
+                        A.232. Tömlős vákuum emelő
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -101,13 +99,14 @@ const VacuumLifter = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Vacuum tube lifters are a unique lifting aid designed
-                        for repetitive handling of materials or loads. These
-                        systems hold, lift, and lower the load all with a single
-                        operator control, and require minimal operator training.
-                        The use of interchangeable attachments allows for a
-                        variety of shaped and sized loads to be handled without
-                        the need for multiple systems.
+                        Tömlős vákuumos emelő használatakor nincs szükség külön
+                        emelőműre. Elsősorban rakatképzési vagy alapanyag
+                        adagolási munkáknál ajánljuk, olyan helyzetekben, ahol a
+                        fárasztó fizikai munkát kell kiváltani. Ezen
+                        emelőberendezések alkalmazásával, a teljesítmény
+                        fokozása mellett minimálisra csökkenthetők a rossz
+                        munkapozíció és a gyors munkatempó okozta foglalkozási
+                        megbetegedések.
                       </div>
                     </div>
                   </div>

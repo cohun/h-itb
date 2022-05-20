@@ -61,13 +61,16 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Textile slings for multi-purposes, made of Polyester are
-                        soft and easy to handle whilst offering rigidity across
-                        their width. These qualities make them ideal for
-                        handling loads which require some support when being
-                        lifted as the load is spread across the full width, thus
-                        avoiding point contact as is the case with chains or
-                        ropes.
+                        A poliészterből készült kötelek, hevederek számos
+                        előnyös tulajdonsággal rendelkeznek. Pl. könnyű, s
+                        ezáltal jó vele dolgozni, puha tapintású és flexibilis,
+                        kíméli az emelendő teher felületét, magas élettaramú,
+                        hőálló 100°C-ig, fagyálló -40°C-ig, nedvesség felvétele
+                        esetén nem veszit a terhelhetőségéből, messzemenően
+                        ellenálló ásványi savak és az UV sugárzás ellenében,
+                        kiváló szigetelő, mivel a poliészter anyag nem vezeti az
+                        elektromos áramot, minden terhelhetőségi fokozatnak egy
+                        színkód felel meg, ami maga a függeszték színe.
                       </div>
                     </div>
                   </div>
@@ -93,12 +96,16 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Chain slings represent a highly versatile, durable and
-                        safe means of connecting loads to lifting appliances.
-                        The majority of chain slings in service are grade 8 or
-                        grade 80 (or T). Although not yet standardised in many
-                        parts of the world, grade 10, or higher, chain slings
-                        are available and gaining in popularity.
+                        G 80, vagy 8-as minőségű lánc törési feszültségi értéke
+                        800 N/mm2, míg a G100 10-es minőség törési feszültségi
+                        értéke 1000 N/mm2. A precíz metalurgiai és hőkezelési
+                        technológiának köszönhetően a szakadási nyúlás minimum
+                        20%. Ennek a kimagasló szakadási nyúlásértéknek a
+                        biztonságos munkavégzés szempontjából rendkívül nagy a
+                        jelentôsége. A teheremelő láncokat gyakran extrém
+                        igénybevételek esetén alkalmazzák előszeretettel (magas
+                        hômérséklet, aszimmetrikus terhelés, élek, sarkok,
+                        rángatás...)
                       </div>
                     </div>
                   </div>
@@ -124,13 +131,16 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Wire rope slings give the user a versatile and safe
-                        means of connecting loads to lifting appliances,
-                        provided that they are used in the correct manner and
-                        dangerous lifting practices and service damage are
-                        avoided. In many cases the use of a wire rope sling in
-                        preference to, for example, a chain sling is a matter of
-                        the personal choice of the user.
+                        Az acélsodronykötelek horganyzott, PVC bevonatos,
+                        rozsdamentes és zsíros kivitelben készülnek az ipari
+                        felhasználás minden területére. A sodronykötél és a
+                        belőle készített teherfelvevő eszközök a legrégebben
+                        használt emelőgépek egyike. Egyszerűsége és a
+                        tömeggyártásból fakadó olcsósága hosszú időn keresztül a
+                        legelterjedtebb emelőeszközzé tette.
+                        Acélsodronykötélből, hagyományos kézi fülecseléssel
+                        (fuxolással), illetve kötélvégpréseléssel készülnek
+                        függesztékek.
                       </div>
                     </div>
                   </div>
