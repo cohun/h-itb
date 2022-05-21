@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
-import { createClient } from "contentful";
-import Image from "next/image";
-import Link from "next/link";
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
+import { createClient } from 'contentful';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export async function getServerSideProps(context) {
   const client = createClient({
@@ -10,8 +10,8 @@ export async function getServerSideProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: "search",
-    locale: "hu-HU",
+    content_type: 'search',
+    locale: 'hu-HU',
   });
   const searchItems = res.items;
 
@@ -25,7 +25,7 @@ export async function getServerSideProps(context) {
 const SearchTerms = (props) => {
   const router = useRouter(props);
 
-  const [term, setTerm] = useState("");
+  const [term, setTerm] = useState('');
 
   useEffect(() => {
     setTerm(router.query.name);
@@ -36,19 +36,19 @@ const SearchTerms = (props) => {
 
   props.searchItems.length >= 1 && term
     ? (resFiltered = props.searchItems.filter(
-      (item) => item.fields.search === term.toLowerCase()
-    ))
-    : console.log("No");
+        (item) => item.fields.search === term.toLowerCase()
+      ))
+    : console.log('No');
 
   resFiltered.length >= 1
     ? (refArray = resFiltered[0].fields.references)
-    : console.log("No");
+    : console.log('No');
 
-  return term !== "" ? (
+  return term !== '' ? (
     <section className="section mt-6">
       <article className="panel is-info">
         <p className="panel-heading">
-          <span>Találatok : </span>
+          <span>Találatok: </span>
           <span className="has-text-warning is-size-5">...{term}...</span>
         </p>
 
@@ -57,7 +57,7 @@ const SearchTerms = (props) => {
             return (
               <Link
                 href={{
-                  pathname: "/SearchItems/ShowItem",
+                  pathname: '/SearchItems/ShowItem',
                   query: { name: ref.fields.productGroupId },
                 }}
                 passHref
