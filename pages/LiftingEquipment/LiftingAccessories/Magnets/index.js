@@ -29,8 +29,8 @@ function Magnet({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman Magnets</title>
-        <meta name="description" content="Gutman Magnets" />
+        <title>Gutman mágnes</title>
+        <meta name="description" content="Gutman emelőmágnes" />
       </Head>
 
       <section className="pt-6"></section>
@@ -42,17 +42,17 @@ function Magnet({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories" passHref>
-                <div className="has-text-grey px-3">Lifting Accessories</div>
+                <div className="has-text-grey px-3">Teherfelvevők</div>
               </Link>
             </li>
             <li>
@@ -60,7 +60,7 @@ function Magnet({ type }) {
                 href="/LiftingEquipment/LiftingAccessories/Magnets"
                 passHref
               >
-                <div className="is-active px-3">Magnets</div>
+                <div className="is-active px-3">Mágnesek</div>
               </Link>
             </li>
           </ul>

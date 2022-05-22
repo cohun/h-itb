@@ -29,8 +29,8 @@ function WireRopeSling({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman bridle slings</title>
-        <meta name="description" content="Gutman bridle slings" />
+        <title>Gutman drótkötél függeszték</title>
+        <meta name="description" content="Gutman drótkötél függeszték" />
       </Head>
 
       <section className="pt-6"></section>
@@ -42,17 +42,17 @@ function WireRopeSling({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories" passHref>
-                <div className="has-text-grey px-3">Lifting Accessories</div>
+                <div className="has-text-grey px-3">Teherfelvevők</div>
               </Link>
             </li>
             <li>
@@ -60,7 +60,7 @@ function WireRopeSling({ type }) {
                 href="/LiftingEquipment/LiftingAccessories/WireRopes"
                 passHref
               >
-                <div className="has-text-grey px-3">Wire Ropes</div>
+                <div className="has-text-grey px-3">Sodronykötelek</div>
               </Link>
             </li>
             <li>
@@ -68,7 +68,7 @@ function WireRopeSling({ type }) {
                 href="/LiftingEquipment/LiftingAccessories/WireRopes/WireRopeSlings"
                 passHref
               >
-                <div className="is-active px-3">Wire Rope Slings</div>
+                <div className="is-active px-3">Függesztékek</div>
               </Link>
             </li>
           </ul>

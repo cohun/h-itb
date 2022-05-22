@@ -1,7 +1,7 @@
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import Disributors from "../components/Distributors";
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import Disributors from '../components/Distributors';
 
 export default function Home() {
   return (
@@ -11,9 +11,16 @@ export default function Home() {
 
         <meta
           name="description"
-          content="Gutman emeléstechnikai termékek"
+          content="H-ITB emeléstechnikai termékek forgalmazásával foglalkozik. Emelőgépek, daruk, emelőberendezések
+          emelőszerkezetek és klf. teherfelvevő eszközök szerepelnek kínálatunkban. Emelőgépek időszakos vizsgálatát az 
+          ETAR rendszerben végezzük. Az anyagmozgatás és a rakományrögzítés területén is aktívak vagyunk."
           lang="hu"
         />
+        <link
+          rel="author"
+          title="H-ITB Emeléstechnika"
+          href="http://www.h-itb.hu"
+        ></link>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="pt-6"></section>

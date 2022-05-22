@@ -29,8 +29,8 @@ function Beam({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman Beams</title>
-        <meta name="description" content="Gutman Beams" />
+        <title>Gutman emelőgerenda</title>
+        <meta name="description" content="Gutman emelőgerenda" />
       </Head>
 
       <section className="pt-6"></section>
@@ -42,22 +42,22 @@ function Beam({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories" passHref>
-                <div className="has-text-grey px-3">Lifting Accessories</div>
+                <div className="has-text-grey px-3">Teherfelvevők</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories/Beams" passHref>
-                <div className="is-active px-3">Beams</div>
+                <div className="is-active px-3">Emelőgerendák</div>
               </Link>
             </li>
           </ul>
