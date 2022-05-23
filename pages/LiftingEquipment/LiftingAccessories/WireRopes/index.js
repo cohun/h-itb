@@ -1,13 +1,13 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const WireRopes = () => {
   return (
     <div>
       <Head>
         <title>Gutman drótkötél</title>
-        <meta name="description" content="Gutman drótkötél" />
+        <meta name="description" content="Gutman sodronykötél függeszték" />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
@@ -68,11 +68,12 @@ const WireRopes = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Wire rope is often used in slings because of its
-                        strength, durability, abrasion resistance and ability to
-                        conform to the shape of the loads. The use of wire rope
-                        slings is one of the most important pieces of rigging
-                        hardware used in lifting and hoisting operations.
+                        Általános emelési célú acélsodronykötél függeszték az
+                        MSZ EN 13414 – 1 jelű szabvány szerint. Fülkialakítás
+                        préseléssel vagy fonással. A teher alakjához való
+                        illeszkedése, illetve dörzsölőhatás elleni állóképessége
+                        révén tartós, ugyanakkor költséghatékony megoldást kínál
+                        minden emeléshez.
                       </div>
                     </div>
                   </div>
@@ -98,13 +99,16 @@ const WireRopes = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Wire rope is several strands of metal wire twisted into
-                        a helix forming a composite rope, in a pattern known as
-                        laid rope. Steel wires for wire ropes are normally made
-                        of non-alloy carbon steel. Depending on where they are
-                        used, wire ropes have to fulfill different requirements.
-                        The main uses are: Running ropes, Stationary ropes, Wire
-                        rope slings.
+                        Az acélsodronykötél pászmái különböző acélminőségű és
+                        szilárdságú fémhuzalok összesodrásával készül. A
+                        sodronykötél több pászma - kenderkötélből vagy fémből
+                        készült - mag köré való fonásával jön létre. A magot és
+                        a pászmát is kenik. A különféle kombinációk lehetővé
+                        teszik, hogy minden alkalmazáshoz a szilárdság, a
+                        kopásállóság, a törésállóság, a hajlítási fáradtság és a
+                        korrózióállóság alapján a megfelelő kötél kerüljön
+                        alkalmazásra. Fő alkalmazási területek: futó kötél, álló
+                        kötél, függesztékek.
                       </div>
                     </div>
                   </div>
