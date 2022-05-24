@@ -165,13 +165,15 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Plate clamps are widely used, particularly in the steel
-                        fabrication industry, for handling a variety of work
-                        including individual pieces of plate, fabricated
-                        assemblies and bundles of plates. Clamps are subdivided
-                        into those used to lift the plate in the vertical
-                        position only and those which lift from the horizontal
-                        to the vertical or viceversa.
+                        Lemezmegfogók az MSZ EN 13155 szabvány és a 2006/42/EK
+                        gépirányelv előírásait betartva készülnek. Acél
+                        lemeztáblák, idomacélok megfogására, emelésére, bizonyos
+                        esetekben billentésére és szállítására használható,
+                        amelynek felületi keménysége nem haladja meg a 37 HRC
+                        értéket. Két fő típusuk a vizszintes, ill. függöleges
+                        helyzetű lemezek kezelését teszi lehetővé. Függőleges
+                        megfogókat lehet egyesével, míg a vizszintes megfogókat
+                        csak párosával használni.
                       </div>
                     </div>
                   </div>
@@ -195,13 +197,14 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Magnets will only work on a magnetic material which
-                        usually means a ferrous metal although some other
-                        materials such as cobalt or nickel are capable of being
-                        lifted magnetically. As there is no positive connection
-                        between the lifting device and the load, the ability of
-                        the magnetic lifter to safely lift a particular load
-                        needs to be carefully considered.
+                        Kézi működtetésű permanens emelőmágnesek az MSZ EN 13155
+                        szabványnak megfelelően készülnek. A kézi kar
+                        átváltásával lehet ki- ill. bekapcsolni őket. Csak
+                        mágnesezhető vas anyagok emelésére használhatóak és
+                        mivel nincs alakzáró kapcsolat a teher és az emelő
+                        között, nagyon fontos az emelés biztonságának
+                        garantálása. Sík és hengeres felületek megfogására
+                        egyaránt alkalmas az emelési táblázat szerint.
                       </div>
                     </div>
                   </div>
@@ -225,11 +228,13 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Lifting beams, spreaders and frames are usually designed
-                        either for a specifc purpose or as general purpose beams
-                        for a specifed range of lifts. They are attached to the
-                        load suspension point of a lifting machine or crane and
-                        can therefore be considered to be portable.
+                        Emelőgerendák az MSZ EN 13155 szabvány szerint általános
+                        használatra vagy specifikus feladatra készülnek. A teher
+                        megfogási pontjai ill. súlypontja szerint kialakítva
+                        jelentősen növeli az emelés biztonságát. Az állítható
+                        kivitelű emelőgerendák segítségével asszimetrikus terhek
+                        emelésekor fellépő billenést lehet minimálisra
+                        csökkenteni. Szabvány szerint ez max. 6 fok lehet.
                       </div>
                     </div>
                   </div>
@@ -255,11 +260,13 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Eyebolt and shackles for lifting purposes are one of the
-                        most widely used items of lifting gear. They are
-                        normally forged from various grades of steel, mostly
-                        from higher tensile steel which gives them a higher
-                        working load limit than those made in mild steel.
+                        Emeléstechnikai emelő- és kapcsolószemek fontos
+                        teherfelvevő eszközök melyek emelés, forgatás, billentés
+                        és mozgatási feladatoknál biztosítják a teher
+                        összeköttetését a megfelelő emelőgéppel. Mint
+                        teherfelvevő eszköz CE megfelelőségi jelöléssel kell
+                        ellátni őket és a szokásos biztonsági követelmények
+                        vonatkoznak rájuk.
                       </div>
                     </div>
                   </div>
