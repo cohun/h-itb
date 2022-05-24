@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Table from '../../../../components/Table';
-import Head from 'next/head';
-import { createClient } from 'contentful';
+import Link from "next/link";
+import Table from "../../../../components/Table";
+import Head from "next/head";
+import { createClient } from "contentful";
 
 export async function getStaticProps(context) {
   const client = createClient({
@@ -9,13 +9,13 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: 'productTable',
-    locale: 'hu-HU',
+    content_type: "productTable",
+    locale: "hu-HU",
   });
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === 'A.47.'
+    (item) => item.fields.productGroupId === "A.47."
   );
 
   return {
@@ -29,8 +29,8 @@ function LiftingEye({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman LiftingEyes</title>
-        <meta name="description" content="Gutman LiftingEyes" />
+        <title>Gutman Szemescsavar</title>
+        <meta name="description" content="Gutman szemescsavar" />
       </Head>
 
       <section className="pt-6"></section>
@@ -42,17 +42,17 @@ function LiftingEye({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories" passHref>
-                <div className="has-text-grey px-3">Lifting Accessories</div>
+                <div className="has-text-grey px-3">Teherfelvevők</div>
               </Link>
             </li>
             <li>
@@ -60,7 +60,7 @@ function LiftingEye({ type }) {
                 href="/LiftingEquipment/LiftingAccessories/LiftingEyes"
                 passHref
               >
-                <div className="is-active px-3">Lifting Eyes</div>
+                <div className="is-active px-3">Emelőszemek</div>
               </Link>
             </li>
           </ul>
