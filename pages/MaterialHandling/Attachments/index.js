@@ -19,17 +19,17 @@ const Attachments = () => {
           <ul>
             <li>
               <Link href="/">
-                <a className="has-text-grey">Home</a>
+                <a className="has-text-grey">Kezdőlap</a>
               </Link>
             </li>
             <li>
               <Link href="/MaterialHandling">
-                <a className="has-text-grey">Material Handling</a>
+                <a className="has-text-grey">Anyagmozgatás</a>
               </Link>
             </li>
             <li>
               <Link href="/MaterialHandling/Attachments">
-                <a className="px-3 is-active">Attachments</a>
+                <a className="px-3 is-active">Adapterek</a>
               </Link>
             </li>
           </ul>
@@ -37,17 +37,15 @@ const Attachments = () => {
       </section>
       <section className="section mb-6">
         <div className="container mb-6">
-          <h3 className="title has-text-centered is-size-3">Attachments</h3>
+          <h3 className="title has-text-centered is-size-3">Adapterek</h3>
           <br />
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="/MaterialHandling/Attachments/HandPalletTrucks">
+              <Link href="/MaterialHandling/Attachments/CraneAttachments">
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">
-                        C.21. Crane Attachments
-                      </p>
+                      <p className="card-header-title">C.21. Daru adapterek</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -59,13 +57,11 @@ const Attachments = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Hand pallet trucks are a versatile piece of kit and a
-                        must for any warehouse. Agile and easy-to-operate, these
-                        trucks are the perfect choice whenever you need to
-                        transport large volumes of goods or heavy loads quickly
-                        and efficiently over short distances. Narrow aisles,
-                        tight lorry loading areas, and steep ramps pose no
-                        problem for them.
+                        Daru adapterek daruhoz, vagy más emelőgéphez
+                        csatlakoztatott kiegészítő eszközök, melyek segítségével
+                        a daru olyan feladatokat is el tud látni, melyet
+                        egyébként inkább homlokvillás targoncával szoktak
+                        elvégezni.
                       </div>
                     </div>
                   </div>
@@ -73,12 +69,12 @@ const Attachments = () => {
               </Link>
             </div>
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="/MaterialHandling/Attachments/TableLifters">
+              <Link href="/MaterialHandling/Attachments/ForkliftAttachments">
                 <a>
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        C.22. Foklift Truck Attachments
+                        C.22. Targonca Adapterek
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -91,11 +87,11 @@ const Attachments = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        The device has a scissor lifting mechanism. This enables
-                        it to lift loads up to different heights without
-                        compromising on maximum load capacity. All Gutman
-                        lifting tables are raised with a foot pedal and can be
-                        proportionally lowered with a hand lever.
+                        Olyan mechanikus eszközök, melyek a homlokvillás
+                        targonca emelővillájához vannak csatlakoztatva, de nem
+                        igénylik a hidraulika körbe való bekötést. Velük
+                        egyszerű feladatokra a targonca sokoldalúan
+                        használhatóvá válik.
                       </div>
                     </div>
                   </div>
