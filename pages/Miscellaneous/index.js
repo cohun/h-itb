@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 const Miscellaneous = () => {
   return (
@@ -46,14 +46,14 @@ const Miscellaneous = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Load restraint equipment are used to tie down equipment
-                        stopping it from moving. Load restraint and cargo
-                        restraint products are not lifting equipment and cannot
-                        be used for lifting application under any circumstances.
-                        Items need restraining from movement when being
-                        transported between locations for example road and rail
-                        freight. If the cargo is not restrained it could easily
-                        cause an accident falling from the vehicle or train.
+                        A legjáratosabb megoldások a rakomány rögzítésére :
+                        lekötés (leszorításos rakományrögzítés), diagonális,
+                        ferde, vízszintes lekötés (kifeszítéses
+                        rakományrögzítés), rögzítés pl. fával, általában
+                        szegelve és ékelve (VDI-Irányelv 2700), rakomány
+                        rögzítése válaszfalak, szorítóhevederek, állványok,
+                        háló, ponyva, coilteknő stb. segítségével, vagy az
+                        eljárások kombinálásával.
                       </div>
                     </div>
                   </div>
@@ -79,10 +79,10 @@ const Miscellaneous = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        In this category Gutman offers many items that do not
-                        really fall into any other category but for a
-                        maintenance or repair facility these items of garage
-                        equipment are needed to lift or move things around.
+                        Olyan, általában kis műhelyekben (garázs) vagy
+                        karbantartási munkákhoz használatos eszközök, melyek nem
+                        tartoznak a klasszikus emelőszerkezetekhez, de klf.
+                        terhek mozgatására, emelésére valók.
                       </div>
                     </div>
                   </div>
@@ -108,9 +108,8 @@ const Miscellaneous = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        We offer a very comprehensive selection of fall arrest
-                        and height safety equipment for those needing to keep
-                        safe while working at height.
+                        Magasban végzett munkálatokhoz biztosított leesés elleni
+                        védelem: biztonsági hevederkészletek és tartozékok.
                       </div>
                     </div>
                   </div>

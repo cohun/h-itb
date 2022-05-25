@@ -10,8 +10,8 @@ export async function getStaticProps(context) {
   });
   const res = await client.getEntries({
     content_type: "productTable",
+    locale: "hu-HU",
   });
-  console.log(res.items);
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
@@ -29,8 +29,8 @@ function LashingStraps({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman Lashing straps</title>
-        <meta name="description" content="Gutman lashing straps" />
+        <title>Gutman rakományrögzítő</title>
+        <meta name="description" content="Gutman rakományrögzítő" />
       </Head>
 
       <section className="pt-6"></section>
@@ -42,22 +42,22 @@ function LashingStraps({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/Miscellaneous" passHref>
-                <div className="has-text-grey px-3">Miscellaneous</div>
+                <div className="has-text-grey px-3">Egyéb</div>
               </Link>
             </li>
             <li>
               <Link href="/Miscellaneous/Lashing" passHref>
-                <div className="has-text-grey px-3">Lashing</div>
+                <div className="has-text-grey px-3">Rakományrögzítők</div>
               </Link>
             </li>
             <li>
               <Link href="/Miscellaneous/Lashing/LashingStraps" passHref>
-                <div className="is-active px-3">LashingStraps</div>
+                <div className="is-active px-3">Racsnishevederek</div>
               </Link>
             </li>
           </ul>

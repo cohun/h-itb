@@ -8,8 +8,10 @@ export async function getStaticProps(context) {
     space: process.env.CONTENTFUL_SPACE_ID,
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
-  const res = await client.getEntries({ content_type: "productTable" });
-  console.log(res.items);
+  const res = await client.getEntries({
+    content_type: "productTable",
+    locale: "hu-HU",
+  });
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
@@ -27,8 +29,8 @@ function HandPalletTrucks({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman Hand Pallet Trucks</title>
-        <meta name="description" content="Gutman Hand Pallet Trucks" />
+        <title>Gutman kézi hidraulikus targonca</title>
+        <meta name="description" content="Gutman kézi hidraulikus targonca" />
       </Head>
 
       <section className="pt-6"></section>
@@ -40,17 +42,17 @@ function HandPalletTrucks({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/MaterialHandling" passHref>
-                <div className="has-text-grey px-3">Material Handling</div>
+                <div className="has-text-grey px-3">Anyagmozgatás</div>
               </Link>
             </li>
             <li>
               <Link href="/MaterialHandling/LiftTrucks" passHref>
-                <div className="has-text-grey px-3">LiftTrucks</div>
+                <div className="has-text-grey px-3">Targoncák</div>
               </Link>
             </li>
             <li>
@@ -58,7 +60,7 @@ function HandPalletTrucks({ type }) {
                 href="/MaterialHandling/LiftTrucks/HandPalletTrucks"
                 passHref
               >
-                <div className="is-active px-3">HandPalletTrucks</div>
+                <div className="is-active px-3">Békák</div>
               </Link>
             </li>
           </ul>

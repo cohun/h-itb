@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const Lashing = () => {
   return (
@@ -46,7 +46,9 @@ const Lashing = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">D.11. Lashing straps</p>
+                      <p className="card-header-title">
+                        D.11. Racsnis hevederek
+                      </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -58,16 +60,18 @@ const Lashing = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Cargo restraint ratchet straps are available in
-                        different sizes , capacities and lengths. Ratchet straps
-                        have a steel ratchet handle with a polyester webbing
-                        sling. Single part ratchet straps have the long webbing
-                        sling fitted permanently to the ratchet. 2 part ratchet
-                        straps have a separate web sling with end fittings. The
-                        web sling can be supplied with different end fittings
-                        dependant on our customer s applications, usually hook
-                        or eye or buckle (many types). We also supply cam buckle
-                        restraint straps, lorry straps, one way straps.
+                        Ezek a rakományrögzítők az MSZ EN 12195-2 jelű szabvány
+                        szerint készülnek. A komplett rakományrögzítő jellemzően
+                        két különálló egységből épül fel: egy rövid ágból (acél
+                        hegyes horog + 0.4 m poliészter heveder + racsni és egy
+                        hosszú ágból (klf. hosszúságú poliészter heveder + acél
+                        hegyes horog). Legelterjetteb mód a leszorításos
+                        rakományrögzítés. Itt a rakomány a lekötő eszköz erejét
+                        kihasználva van a rakfelülethez szorítva, és ezáltal a
+                        súrlódást növeli és az elcsúszást megakadályozza. A
+                        másik módszer a diagonális rögzítés (kifeszítéses
+                        rögzítés). Ez a rögzítési mód legtöbbször a nehezebb
+                        rakományoknál kerül alkalmazásra.
                       </div>
                     </div>
                   </div>
@@ -79,7 +83,9 @@ const Lashing = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">D.12. Lashing chains</p>
+                      <p className="card-header-title">
+                        D.12. Láncos rakományrögzítők
+                      </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -91,17 +97,12 @@ const Lashing = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Load binders are to achieve exactly the same function as
-                        ratchet straps. They are totally made from steel using a
-                        chain sling with grab hook as opposed to a webbing
-                        sling. There are differing styles available, ratchet
-                        load binders and lever action load binders. These are
-                        used in applications where items with shape edge s or
-                        abrasive surfaced need to be restrained; surfaces that
-                        would damage or cut a polyester sling ratchet load
-                        binder and can be supplied in different configurations
-                        with a hook or eye termination or with a permanently
-                        fitted restraint chain fitted.
+                        Ezek a rakományrögzítők az MSZ EN 12195-3 jelű szabvány
+                        szerint készülnek és hasonló funkciót töltenek be mint a
+                        poliészter hevederből készült racsnis rögzuítők
+                        (spaniferek). Többnyire nehéz rakományoknál kerül
+                        alkalmazásra a diagonális rögzítési mód (kifeszítéses
+                        rögzítés) használatával.
                       </div>
                     </div>
                   </div>
@@ -113,7 +114,7 @@ const Lashing = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">D.13. Edge protectors</p>
+                      <p className="card-header-title">D.13. Sarokvédők</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -125,11 +126,12 @@ const Lashing = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Edge or corner protectors (sometimes also called strap
-                        protectors, vee boards, or tie down strap protectors)
-                        are an inexpensive way to protect not only your cargo,
-                        but also protect your straps or chains, and any tarps or
-                        covers that you use in tie down applications.
+                        A rakományrögzítő heveder hasznos kiegészítője a
+                        sarokvédő, mely nem csak a terhet óvja a deformációtól,
+                        hanem a heveder éles sarkokon történő sérülését is
+                        megakadályozza. További előny, hogy használatával a
+                        heveder feszítése a racsnival átellenes oldalon is
+                        teljes mértékben megtörténik.
                       </div>
                     </div>
                   </div>
@@ -142,7 +144,7 @@ const Lashing = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        D.14. Load restraint systems
+                        D.14. Rakományhatárolók
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -155,12 +157,11 @@ const Lashing = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        The number one priority of all transport truck drivers
-                        is safety. The second priority of all transport truck
-                        drivers is getting the cargo to its final destination
-                        undamaged. Knowing this, load restraint systems are a
-                        quick and easy way to secure cargo in the back of a
-                        pickup truck.
+                        Rakományok felborulás elleni védelmében használatos
+                        segédeszközök a rakományhatároló léc (köztesfal
+                        rögzítő), vagy a rakománykitámasztó rúd. Felépítménybe
+                        szerelt oldalfal sínrendszerekhez klf. rakományrögzítő
+                        rudak kerülnek alkalmazásra.
                       </div>
                     </div>
                   </div>
@@ -172,7 +173,7 @@ const Lashing = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">D.15. Anti-slip mats</p>
+                      <p className="card-header-title">D.15. Csúszásgátlók</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -184,11 +185,13 @@ const Lashing = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Anti-slip mats are an indispensable and important way to
-                        secure cargo. They make a valuable contribution to
-                        safety and, due to the increase in the coefficient of
-                        sliding friction to μD 0.6, prevent your goods and cargo
-                        from slipping around dangerously.
+                        Ezek az elmozdulást gátló csúszásgátlók rendkívül
+                        hasznos, de sokszor mellőzött biztonsági elemei a
+                        rakományrögzítésnek. A leszorításos rakományrögzítés
+                        hatékonysága a rakfelület és rakomány közti súrlódás
+                        mértékétől függ. Csúszásgátlóval ez az érték 0.6-ra
+                        növelhető, ami jelentősen csökkentheti a szükséges
+                        leszorító hevederek számát.
                       </div>
                     </div>
                   </div>
@@ -200,9 +203,7 @@ const Lashing = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">
-                        D.16. Disposable lashing
-                      </p>
+                      <p className="card-header-title">D.16. Pántszalagok</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -214,9 +215,9 @@ const Lashing = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Disposable or one way lashing for applications in which
-                        the lashings used are disposed of at the end of the
-                        transport route.
+                        A rakatképzés kitünő ár-érték arányú rögzítőeszköze a
+                        pántszalag. Egyutas használatra lettek tervezve,
+                        életciklusuk a szállítás végpontján ér véget.
                       </div>
                     </div>
                   </div>

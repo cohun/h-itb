@@ -6,8 +6,8 @@ const LiftTrucks = () => {
   return (
     <div>
       <Head>
-        <title>Lifttrucks</title>
-        <meta name="description" content="Gutman liftrtucks" />
+        <title>Hidraulikus targoncák</title>
+        <meta name="description" content="Gutman hidraulikus targoncák" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="pt-6"></section>
@@ -19,17 +19,17 @@ const LiftTrucks = () => {
           <ul>
             <li>
               <Link href="/">
-                <a className="has-text-grey">Home</a>
+                <a className="has-text-grey">Kezdőlap</a>
               </Link>
             </li>
             <li>
               <Link href="/MaterialHandling">
-                <a className="has-text-grey">Material Handling</a>
+                <a className="has-text-grey">Anyagmozgatás</a>
               </Link>
             </li>
             <li>
               <Link href="/MaterialHandling/LiftTrucks">
-                <a className="px-3 is-active">Lifttrucks</a>
+                <a className="px-3 is-active">Targoncák</a>
               </Link>
             </li>
           </ul>
@@ -37,7 +37,7 @@ const LiftTrucks = () => {
       </section>
       <section className="section mb-6">
         <div className="container mb-6">
-          <h3 className="title has-text-centered is-size-3">Lifttrucks</h3>
+          <h3 className="title has-text-centered is-size-3">Targoncák</h3>
           <br />
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
@@ -46,7 +46,7 @@ const LiftTrucks = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        C.11. Hand pallet trucks
+                        C.11. Kézi hidraulikus targoncák
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
@@ -59,13 +59,11 @@ const LiftTrucks = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Hand pallet trucks are a versatile piece of kit and a
-                        must for any warehouse. Agile and easy-to-operate, these
-                        trucks are the perfect choice whenever you need to
-                        transport large volumes of goods or heavy loads quickly
-                        and efficiently over short distances. Narrow aisles,
-                        tight lorry loading areas, and steep ramps pose no
-                        problem for them.
+                        Szállítás, anyagmozgatás, raktározás területén a kézi
+                        hidraulikus targoncák rövidtávú mozgatásoknál
+                        nélkülözhetetlen segédeszközök. Könnyű kezelhetőségük és
+                        szűk helyekre való alkalmasságuk révén széles körben
+                        használhatóak.
                       </div>
                     </div>
                   </div>
@@ -77,7 +75,9 @@ const LiftTrucks = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">C.12. Table lifters</p>
+                      <p className="card-header-title">
+                        C.12. Mobil emelőasztalok
+                      </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -89,11 +89,11 @@ const LiftTrucks = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        The device has a scissor lifting mechanism. This enables
-                        it to lift loads up to different heights without
-                        compromising on maximum load capacity. All Gutman
-                        lifting tables are raised with a foot pedal and can be
-                        proportionally lowered with a hand lever.
+                        A mobil emelőasztal villás emelőszerkezetének
+                        leeresztett állapotában a felhasználás helyszínére
+                        gördíthető, majd a lábpedál működtetésével emeli ill.
+                        kézi leeresztő karral süllyeszti a terhet a kívánt
+                        magasságra.
                       </div>
                     </div>
                   </div>
@@ -105,7 +105,9 @@ const LiftTrucks = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">C.13. Manual Stackers</p>
+                      <p className="card-header-title">
+                        C.13. Magasemelésű targoncák
+                      </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
@@ -117,11 +119,11 @@ const LiftTrucks = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Manual Stacker are equipped with standard formed metal
-                        forks. The Gutman Stacker range enables you to lift and
-                        rack pallets up to a height of 1,6m. The pump comes
-                        standard with proportional lowering and a foot pedal to
-                        speed up the lifting process.
+                        Kézi működtetésű magasemelésű targoncák standard raklap
+                        villával és hidraulikából épülnek fel. A vonórúd le-fel
+                        mozgatásával, vagy lábpedállal lehet a terhet a magasba
+                        emelni, míg a kézi leeresztő karral süllyeszteni. Hátsó
+                        kerekei befékezhetőek.
                       </div>
                     </div>
                   </div>
