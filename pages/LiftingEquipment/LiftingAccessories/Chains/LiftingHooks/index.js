@@ -22,6 +22,7 @@ export async function getStaticProps(context) {
     props: {
       type: resFiltered,
     },
+    revalidate: 60,
   };
 }
 
