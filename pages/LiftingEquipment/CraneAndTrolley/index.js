@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
-import Head from "next/head";
+import Image from 'next/image';
+import Link from 'next/link';
+import Head from 'next/head';
 
 const LiftingEquipment = () => {
   return (
@@ -43,7 +43,7 @@ const LiftingEquipment = () => {
           <br />
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="/LiftingEquipment/CraneAndTrolley">
+              <Link href="/LiftingEquipment/CraneAndTrolley/Overhead">
                 <a>
                   <div className="card">
                     <div className="card-header">
@@ -106,7 +106,7 @@ const LiftingEquipment = () => {
               </Link>
             </div>
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="/LiftingEquipment/CraneAndTrolley">
+              <Link href="/LiftingEquipment/CraneAndTrolley/JibCrane">
                 <a>
                   <div className="card">
                     <div className="card-header">
@@ -136,7 +136,7 @@ const LiftingEquipment = () => {
             </div>
 
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="/LiftingEquipment/CraneAndTrolley">
+              <Link href="/LiftingEquipment/CraneAndTrolley/PortalCrane">
                 <a>
                   <div className="card">
                     <div className="card-header">
