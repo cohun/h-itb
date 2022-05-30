@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const LiftingEquipment = () => {
   return (
@@ -75,7 +75,7 @@ const LiftingEquipment = () => {
               </Link>
             </div>
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="/LiftingEquipment/CraneAndTrolley">
+              <Link href="/LiftingEquipment/CraneAndTrolley/GantryCrane">
                 <a>
                   <div className="card">
                     <div className="card-header">
