@@ -129,7 +129,7 @@ const PoweredLiftingEquipment = () => {
             </div>
 
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
-              <Link href="/LiftingEquipment/PoweredLiftingEquipment/">
+              <Link href="/LiftingEquipment/PoweredLiftingEquipment/AirHoist">
                 <a>
                   <div className="card">
                     <div className="card-header">

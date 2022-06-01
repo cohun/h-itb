@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Table from '../../../../../components/Table';
-import Head from 'next/head';
-import { createClient } from 'contentful';
+import Link from "next/link";
+import Table from "../../../../../components/Table";
+import Head from "next/head";
+import { createClient } from "contentful";
 
 export async function getStaticProps(context) {
   const client = createClient({
@@ -9,13 +9,13 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: 'productTable',
-    locale: 'hu-HU',
+    content_type: "productTable",
+    locale: "hu-HU",
   });
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === 'A.232.'
+    (item) => item.fields.productGroupId === "A.232."
   );
 
   return {
@@ -30,8 +30,8 @@ function TubeVacuum({ type }) {
   return (
     <div>
       <Head>
-        <title>Tube Vacuum</title>
-        <meta name="description" content="Tube Vacuum Lifting Device" />
+        <title>Tömlős vákuum emelő</title>
+        <meta name="description" content="Tömlős vákuum emelő" />
       </Head>
 
       <section className="pt-6"></section>
@@ -43,19 +43,17 @@ function TubeVacuum({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/PoweredLiftingEquipment" passHref>
-                <div className="has-text-grey px-3">
-                  Powered Lifting Equipment
-                </div>
+                <div className="has-text-grey px-3">Emelőberendezések</div>
               </Link>
             </li>
             <li>
@@ -63,7 +61,7 @@ function TubeVacuum({ type }) {
                 href="/LiftingEquipment/PoweredLiftingEquipment/VacuumLifter"
                 passHref
               >
-                <div className="has-text-grey px-3">Vacuum Lifter</div>
+                <div className="has-text-grey px-3">Vákuumos emelők</div>
               </Link>
             </li>
             <li>
@@ -71,7 +69,7 @@ function TubeVacuum({ type }) {
                 href="/LiftingEquipment/PoweredLiftingEquipment/VacuumLifter/TubeVacuum"
                 passHref
               >
-                <div className="is-active px-3">Tube Vacuum Lifter</div>
+                <div className="is-active px-3">Tömlős vákuum emelő</div>
               </Link>
             </li>
           </ul>

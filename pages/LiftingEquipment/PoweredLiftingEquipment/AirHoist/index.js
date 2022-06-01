@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Table from "../../../../../components/Table";
+import Table from "../../../../components/Table";
 import Head from "next/head";
 import { createClient } from "contentful";
 
@@ -15,7 +15,7 @@ export async function getStaticProps(context) {
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === "A.231."
+    (item) => item.fields.productGroupId === "A.24."
   );
 
   return {
@@ -26,12 +26,12 @@ export async function getStaticProps(context) {
   };
 }
 
-function TraversingVacuum({ type }) {
+function AirHoist({ type }) {
   return (
     <div>
       <Head>
-        <title>Vákuum emelő adapter</title>
-        <meta name="description" content="Vákuum emelő adapter" />
+        <title>Pneumatikus emelő</title>
+        <meta name="description" content="Pneumatikus emelő" />
       </Head>
 
       <section className="pt-6"></section>
@@ -58,18 +58,10 @@ function TraversingVacuum({ type }) {
             </li>
             <li>
               <Link
-                href="/LiftingEquipment/PoweredLiftingEquipment/VacuumLifter"
+                href="/LiftingEquipment/PoweredLiftingEquipment/AirHoist"
                 passHref
               >
-                <div className="has-text-grey px-3">Vákuumos emelők</div>
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/LiftingEquipment/PoweredLiftingEquipment/VacuumLifter/TraversingVacuum"
-                passHref
-              >
-                <div className="is-active px-3">Vákuum emelő adapter</div>
+                <div className="has-text-grey px-3">Pneumatikus emelők</div>
               </Link>
             </li>
           </ul>
@@ -81,4 +73,4 @@ function TraversingVacuum({ type }) {
   );
 }
 
-export default TraversingVacuum;
+export default AirHoist;
