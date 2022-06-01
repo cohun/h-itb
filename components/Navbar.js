@@ -262,7 +262,9 @@ const Navbar = () => {
                     }
                   }}
                 >
-                  <Link href="/">Garázsipari emelők</Link>
+                  <Link href="/Miscellaneous/ShopEquipment">
+                    Garázsipari emelők
+                  </Link>
                 </div>
               </div>
               <div className="navbar-item ml-3">
@@ -274,7 +276,9 @@ const Navbar = () => {
                     }
                   }}
                 >
-                  <Link href="/">Leesés elleni védelem</Link>
+                  <Link href="/Miscellaneous/FallProtection">
+                    Leesés elleni védelem
+                  </Link>
                 </div>
               </div>
             </div>
