@@ -153,7 +153,7 @@ const LiftingEquipment = () => {
                 <a>
                   <div className="card">
                     <div className="card-header">
-                      <p className="card-header-title">A.44. Lemezmegfogók</p>
+                      <p className="card-header-title">A.44. Megfogók</p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
