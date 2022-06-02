@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const LiftingEquipment = () => {
   return (
@@ -179,20 +179,12 @@ const LiftingEquipment = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Winches are versatile lifting and pulling appliances,
-                        lending themselves to easy adaptation and are widely
-                        used throughout industry for both permanent and
-                        temporary rigging applications. Although winches may be
-                        used as a means of raising and lowering loads in lifting
-                        operations. They may be ftted or built into structures
-                        to enable loads to be moved from one position to
-                        another. They may also be used to advantage as a safe
-                        method of lifting loads in confned spaces as they can be
-                        arranged to occupy less headroom than other lifting
-                        appliances and the operative may be remote from the
-                        load. They are often used in conjunction with pulley
-                        blocks. Although some types of winch may be used with
-                        fibre ropes,they mainly used with wire ropes.
+                        Csörlők sokoldalúan használható emelő és vonszoló
+                        szerkezetek. Kis helyigényük és a kezelő tehertől való
+                        nagyobb távolsága miatt sokszor biztonságosabban
+                        használható más emelőszerkezeteknél. Gyakran
+                        fordítócsigák közbeiktatásával használják őket.
+                        Többnyire drótkötéllel kerülnek alkalmazásra.
                       </div>
                     </div>
                   </div>
