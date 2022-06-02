@@ -66,23 +66,24 @@ const Miscellaneous = () => {
                   <div className="card">
                     <div className="card-header">
                       <p className="card-header-title">
-                        D.2. Garázsipari emelők
+                        D.2. Kiegészítő felszerelések
                       </p>
                     </div>
                     <div className="card-image has-text-centered pt-6">
                       <Image
                         width={165}
                         height={165}
-                        src="/D.2.-Shop-equipment_T.jpg"
-                        alt="Garázsipari emelők"
+                        src="/D.2.-OtherEquipment.jpg"
+                        alt="Egyéb kiegészítők"
                       />
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Olyan, általában kis műhelyekben (garázs) vagy
-                        karbantartási munkákhoz használatos eszközök, melyek nem
-                        tartoznak a klasszikus emelőszerkezetekhez, de klf.
-                        terhek mozgatására, emelésére valók.
+                        Olyan, általában emelési feladatokhoz tartozó kiegészítő
+                        felszerelések, vagy karbantartási munkákhoz használatos
+                        eszközök, melyek nem tartoznak a klasszikus
+                        emelőszerkezetekhez, de klf. terhek mozgatására,
+                        emelésére valók.
                       </div>
                     </div>
                   </div>

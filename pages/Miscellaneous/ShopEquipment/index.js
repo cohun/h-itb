@@ -30,8 +30,8 @@ function ShopEquipment({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman garázsipai emelők</title>
-        <meta name="description" content="Gutman garázsipai emelők" />
+        <title>Gutman kiegészítő felszerelések</title>
+        <meta name="description" content="Gutman kiegészítő felszerelések" />
       </Head>
 
       <section className="pt-6"></section>
@@ -54,7 +54,7 @@ function ShopEquipment({ type }) {
 
             <li>
               <Link href="/Miscellaneous/ShopEquipment" passHref>
-                <div className="is-active px-3">Garázsipai emelők</div>
+                <div className="is-active px-3">Kiegészítők</div>
               </Link>
             </li>
           </ul>
