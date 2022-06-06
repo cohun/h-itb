@@ -1,8 +1,8 @@
-import Image from "next/image";
-import { useState } from "react";
-import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
-import { INLINES, BLOCKS } from "@contentful/rich-text-types";
-import ReactMarkdown from "react-markdown";
+import Image from 'next/image';
+import { useState } from 'react';
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+import { INLINES, BLOCKS } from '@contentful/rich-text-types';
+import ReactMarkdown from 'react-markdown';
 
 const Table = ({ type }) => {
   const [number, setNumber] = useState(0);
@@ -14,24 +14,45 @@ const Table = ({ type }) => {
   const typeData = type[number].fields.table;
   const image = type[number].fields.productImage
     ? type[number].fields.productImage.fields.file
-    : "";
+    : '';
   const description = type[number].fields.description;
   const tableInfo = type[number].fields.tableInfo;
 
   const renderOption = {
     renderNode: {
       [BLOCKS.EMBEDDED_ASSET]: (node, children) => {
-        return image !== "" ? (
-          <Image
-            src={`https:${node.data.target.fields.file.url}`}
-            height={node.data.target.fields.file.details.image.height}
-            width={node.data.target.fields.file.details.image.width}
-            alt="Some Image"
-            priority={true}
-          />
-        ) : (
-          <span></span>
-        );
+        console.log('image ' + `https:${node.data.target.fields.file.url}`);
+        const web = node.data.target.fields.file.url;
+        const res = web.substr(web.length - 3);
+        console.log(res);
+        if (res === 'pdf') {
+          return (
+            <div>
+              <iframe
+                id="ytplayer"
+                src={`https:${node.data.target.fields.file.url}`}
+                type="text/html"
+                width="100%"
+                height="1050"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture ; fullscreen"
+              ></iframe>
+            </div>
+          );
+          // return `https:${node.data.target.fields.file.url}`;
+        } else {
+          return image !== '' ? (
+            <Image
+              src={`https:${node.data.target.fields.file.url}`}
+              height={node.data.target.fields.file.details.image.height}
+              width={node.data.target.fields.file.details.image.width}
+              alt="Some Image"
+              priority={true}
+            />
+          ) : (
+            <span></span>
+          );
+        }
       },
       [BLOCKS.EMBEDDED_ENTRY]: (node, children) => {
         if (node.data.target.fields.length !== 0) {
@@ -40,14 +61,14 @@ const Table = ({ type }) => {
           const name1 = node.data.target.fields.name;
           const image1 = node.data.target.fields.media
             ? node.data.target.fields.media.fields.file
-            : "";
+            : '';
           const typeData1 = node.data.target.fields.table;
           const tableHead2h = node.data.target.fields.table
             ? Object.keys(typeData1[0])
-            : "";
+            : '';
           const tableHead2 = node.data.target.fields.table
             ? Object.values(typeData1[0])
-            : "";
+            : '';
 
           return (
             <div className="container">
@@ -107,9 +128,9 @@ const Table = ({ type }) => {
                 <span></span>
               )}
 
-              {image1 !== "" ? (
+              {image1 !== '' ? (
                 <Image
-                  src={"https:" + image1.url}
+                  src={'https:' + image1.url}
                   width={image1.details.image.width}
                   height={image1.details.image.height}
                   alt="ETAR"
@@ -125,7 +146,7 @@ const Table = ({ type }) => {
         }
       },
       [INLINES.HYPERLINK]: (node) => {
-        if (node.data.uri.includes("player.vimeo.com/video")) {
+        if (node.data.uri.includes('player.vimeo.com/video')) {
           return (
             <iframe
               id="ytplayer"
@@ -137,7 +158,7 @@ const Table = ({ type }) => {
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture ; fullscreen"
             ></iframe>
           );
-        } else if (node.data.uri.includes("youtube.com/embed")) {
+        } else if (node.data.uri.includes('youtube.com/embed')) {
           return (
             <figure className="image is-16by9">
               <iframe
@@ -196,9 +217,9 @@ const Table = ({ type }) => {
         <div className="tile">
           <div className="container">
             {type.map((i, index) => {
-              let focus = "";
+              let focus = '';
               if (index === number) {
-                focus = "is-focused";
+                focus = 'is-focused';
               }
               return (
                 <button
@@ -264,12 +285,13 @@ const Table = ({ type }) => {
         </tbody>
       </table>
       <section className="section mb-6">
-        {image !== "" ? (
+        {image !== '' ? (
           <Image
-            src={"https:" + image.url}
+            src={'https:' + image.url}
             width={image.details.image.width}
             height={image.details.image.height}
             alt="ETAR"
+            priority={true}
           />
         ) : (
           <span></span>
