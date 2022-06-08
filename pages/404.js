@@ -1,7 +1,13 @@
 function PageNotFound() {
   return (
     <div>
-      <h2>Ez az oldal nem elérhető, menj a kezdőlapra!</h2>
+      <section className="pt-6"></section>
+      <section className="py-6">
+        <div className="notification is-info mx-6 title has-text-centered">
+          <button className="delete"></button>
+          Ez az oldal nem elérhető, menj a <strong>kezdőlapra</strong>!
+        </div>
+      </section>
     </div>
   );
 }
