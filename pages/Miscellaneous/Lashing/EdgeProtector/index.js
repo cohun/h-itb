@@ -9,7 +9,7 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: "productTable",
+    content_type: "productTable", 'fields.productGroupId[all]': 'D.13.',
     locale: "hu-HU",
   });
 
