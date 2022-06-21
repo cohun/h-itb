@@ -88,7 +88,7 @@ const Chains = () => {
                       <Image
                         width={165}
                         height={165}
-                        src="/A.4221.-MasterLinks.jpg"
+                        src="/A.422.-master.jpg"
                         alt="Lifing accessories"
                       />
                     </div>
@@ -114,7 +114,7 @@ const Chains = () => {
                       <Image
                         width={165}
                         height={165}
-                        src="/A.4222.-LiftingHooks.jpg"
+                        src="/A.423.-hook.jpg"
                         alt="Lifing accessories"
                       />
                     </div>

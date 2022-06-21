@@ -1,42 +1,14 @@
-import Link from 'next/link';
-import Table from '../../../../../components/Table';
-import Head from 'next/head';
-import { createClient } from 'contentful';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
-export async function getStaticProps(context) {
-  const client = createClient({
-    space: process.env.CONTENTFUL_SPACE_ID,
-    accessToken: process.env.CONTENTFUL_ACCESS_KEY,
-  });
-  const res = await client.getEntries({
-    content_type: 'productTable', 'fields.productGroupId[all]': 'A.422.',
-    locale: 'hu-HU',
-  });
-
-  // Here A.411. must be changed according to the actual productGroup
-  const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === 'A.422.'
-  );
-
-  return {
-    props: {
-      type: resFiltered,
-    },
-    revalidate: 60,
-  };
-}
-
-function MasterLinks({ type }) {
+const Chains = () => {
   return (
     <div>
       <Head>
-        <title>Gutman gyűjtőkarikák kapcsoló szemek</title>
-        <meta
-          name="description"
-          content="Gutman gyűjtőkarikák kapcsoló szemek"
-        />
+        <title>Gutman Gyűjtőkarikák</title>
+        <meta name="description" content="Gutman gyűjtőkarikák" />
       </Head>
-
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
         <nav
@@ -64,24 +36,84 @@ function MasterLinks({ type }) {
                 <div className="has-text-grey px-3">Láncok</div>
               </Link>
             </li>
-
             <li>
               <Link
-                href="/LiftingEquipment/LiftingAccessories/Chains/MasterLinks"
+                href="/LiftingEquipment/LiftingAccessories/Chains/Masterlinks"
                 passHref
               >
-                <div className="is-active px-3">
-                  Gyűjtőkarikák kapcsoló szemek
-                </div>
+                <div className="is-active px-3">Gyűjtőkarikák</div>
               </Link>
             </li>
           </ul>
         </nav>
       </section>
-
-      <Table type={type} />
+      <section className="section mb-6">
+        <div className="container mb-6">
+          <h3 className="title has-text-centered is-size-3">
+            Gyűjtőkarikák, kapcsolószemek
+          </h3>
+          <br />
+          <div className="columns is-multiline">
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <Link href="/LiftingEquipment/LiftingAccessories/Chains/MasterLinks/G80MasterLinks">
+                <a>
+                  <div className="card">
+                    <div className="card-header">
+                      <p className="card-header-title">
+                        A.4221. G80 Gyűjtőkarikák, összekötők
+                      </p>
+                    </div>
+                    <div className="card-image has-text-centered pt-6">
+                      <Image
+                        width={165}
+                        height={165}
+                        src="/A.4221.-MasterLinks.jpg"
+                        alt="Lifing accessories"
+                      />
+                    </div>
+                    <div className="card-content">
+                      <div className="content">
+                        G80 minőségi osztályú fémelemek, melyek elsősorban ipari
+                        felhasználású függesztékeknél kerülnek felhasználásra.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </Link>
+            </div>
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <Link href="/LiftingEquipment/LiftingAccessories/Chains/MasterLinks/G100MasterLinks">
+                <a>
+                  <div className="card">
+                    <div className="card-header">
+                      <p className="card-header-title">
+                        A.4222. G100 Gyűjtőkarikák, összekötők
+                      </p>
+                    </div>
+                    <div className="card-image has-text-centered pt-6">
+                      <Image
+                        width={165}
+                        height={165}
+                        src="/A.4222.-G100-master.jpg"
+                        alt="Lifing accessories"
+                      />
+                    </div>
+                    <div className="card-content">
+                      <div className="content">
+                        G100 minőségi osztályú fémelemeknek 25%-al nagyobb a
+                        megengedett terhelhetőségük, mint az azonos méretű
+                        G80-as elemeké.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
-}
+};
 
-export default MasterLinks;
+export default Chains;

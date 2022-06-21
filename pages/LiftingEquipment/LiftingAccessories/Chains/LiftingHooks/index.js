@@ -1,39 +1,14 @@
-import Link from 'next/link';
-import Table from '../../../../../components/Table';
-import Head from 'next/head';
-import { createClient } from 'contentful';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
-export async function getStaticProps(context) {
-  const client = createClient({
-    space: process.env.CONTENTFUL_SPACE_ID,
-    accessToken: process.env.CONTENTFUL_ACCESS_KEY,
-  });
-  const res = await client.getEntries({
-    content_type: 'productTable', 'fields.productGroupId[all]': 'A.423.',
-    locale: 'hu-HU',
-  });
-
-  // Here A.411. must be changed according to the actual productGroup
-  const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === 'A.423.'
-  );
-
-  return {
-    props: {
-      type: resFiltered,
-    },
-    revalidate: 60,
-  };
-}
-
-function LiftingHooks({ type }) {
+const LiftingHooks = () => {
   return (
     <div>
       <Head>
         <title>Gutman horgok</title>
         <meta name="description" content="Gutman horgok" />
       </Head>
-
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
         <nav
@@ -61,7 +36,6 @@ function LiftingHooks({ type }) {
                 <div className="has-text-grey px-3">Láncok</div>
               </Link>
             </li>
-
             <li>
               <Link
                 href="/LiftingEquipment/LiftingAccessories/Chains/LiftingHooks"
@@ -73,10 +47,71 @@ function LiftingHooks({ type }) {
           </ul>
         </nav>
       </section>
-
-      <Table type={type} />
+      <section className="section mb-6">
+        <div className="container mb-6">
+          <h3 className="title has-text-centered is-size-3">Horgok</h3>
+          <br />
+          <div className="columns is-multiline">
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <Link href="/LiftingEquipment/LiftingAccessories/Chains/LiftingHooks/G80LiftingHooks">
+                <a>
+                  <div className="card">
+                    <div className="card-header">
+                      <p className="card-header-title">
+                        A.4231. G80 Horgok, egyéb elemek
+                      </p>
+                    </div>
+                    <div className="card-image has-text-centered pt-6">
+                      <Image
+                        width={165}
+                        height={165}
+                        src="/A.4231.-LiftingHooks.jpg"
+                        alt="Lifing accessories"
+                      />
+                    </div>
+                    <div className="card-content">
+                      <div className="content">
+                        G80 minőségi osztályú fémelemek, melyek elsősorban ipari
+                        felhasználású függesztékeknél kerülnek felhasználásra.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </Link>
+            </div>
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <Link href="/LiftingEquipment/LiftingAccessories/Chains/LiftingHooks/G100LiftingHooks">
+                <a>
+                  <div className="card">
+                    <div className="card-header">
+                      <p className="card-header-title">
+                        A.4232. G100 Horgok, egyéb elemek
+                      </p>
+                    </div>
+                    <div className="card-image has-text-centered pt-6">
+                      <Image
+                        width={165}
+                        height={165}
+                        src="/A.4232.-hooks.jpg"
+                        alt="Lifing accessories"
+                      />
+                    </div>
+                    <div className="card-content">
+                      <div className="content">
+                        G100 minőségi osztályú fémelemeknek 25%-al nagyobb a
+                        megengedett terhelhetőségük, mint az azonos méretű
+                        G80-as elemeké.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
-}
+};
 
 export default LiftingHooks;
