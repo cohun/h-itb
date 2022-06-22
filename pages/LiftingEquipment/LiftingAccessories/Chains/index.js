@@ -33,7 +33,7 @@ const Chains = () => {
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories/Chains" passHref>
-                <div className="is-active px-3">Láncok</div>
+                <div className="tag is-info px-3 is-active">Láncok</div>
               </Link>
             </li>
           </ul>

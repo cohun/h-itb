@@ -9,7 +9,8 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: "productTable", 'fields.productGroupId[all]': 'A.24.',
+    content_type: "productTable",
+    "fields.productGroupId[all]": "A.24.",
     locale: "hu-HU",
   });
 
@@ -61,7 +62,9 @@ function AirHoist({ type }) {
                 href="/LiftingEquipment/PoweredLiftingEquipment/AirHoist"
                 passHref
               >
-                <div className="has-text-grey px-3">Pneumatikus emelők</div>
+                <div className="tag is-info px-3 is-active">
+                  Pneumatikus emelők
+                </div>
               </Link>
             </li>
           </ul>

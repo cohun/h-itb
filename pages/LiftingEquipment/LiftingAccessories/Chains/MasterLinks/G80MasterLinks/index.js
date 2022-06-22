@@ -75,7 +75,7 @@ function G80MasterLinks({ type }) {
                 href="/LiftingEquipment/LiftingAccessories/Chains/MasterLinks/G80MasterLinks"
                 passHref
               >
-                <div className="is-active px-3">
+                <div className="tag is-info px-3 is-active">
                   G80 Gyűjtőkarikák kapcsoló szemek
                 </div>
               </Link>

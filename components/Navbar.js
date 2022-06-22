@@ -263,7 +263,7 @@ const Navbar = () => {
                   }}
                 >
                   <Link href="/Miscellaneous/ShopEquipment">
-                    Garázsipari emelők
+                    Kiegészítő felszerelések
                   </Link>
                 </div>
               </div>

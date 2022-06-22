@@ -36,7 +36,7 @@ const TextileSlings = () => {
                 href="/LiftingEquipment/LiftingAccessories/TextileSlings"
                 passHref
               >
-                <div className="is-active px-3">Textil kötelek</div>
+                <div className="tag is-info px-3 is-active">Textil kötelek</div>
               </Link>
             </li>
           </ul>

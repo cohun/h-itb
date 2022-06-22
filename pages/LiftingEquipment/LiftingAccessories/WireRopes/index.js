@@ -36,7 +36,7 @@ const WireRopes = () => {
                 href="/LiftingEquipment/LiftingAccessories/WireRopes"
                 passHref
               >
-                <div className="is-active px-3">Drótkötelek</div>
+                <div className="tag is-info px-3 is-active">Drótkötelek</div>
               </Link>
             </li>
           </ul>

@@ -29,7 +29,7 @@ const LiftingEquipment = () => {
             </li>
             <li>
               <Link href="/LiftingEquipment/CraneAndTrolley">
-                <a className="has-text-grey">Daruk</a>
+                <a className="tag is-info px-3 is-active">Daruk</a>
               </Link>
             </li>
           </ul>

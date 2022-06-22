@@ -29,7 +29,7 @@ const Attachments = () => {
             </li>
             <li>
               <Link href="/MaterialHandling/Attachments">
-                <a className="px-3 is-active">Adapterek</a>
+                <a className="tag is-info px-3 is-active">Adapterek</a>
               </Link>
             </li>
           </ul>

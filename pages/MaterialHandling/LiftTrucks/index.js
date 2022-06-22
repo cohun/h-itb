@@ -29,7 +29,7 @@ const LiftTrucks = () => {
             </li>
             <li>
               <Link href="/MaterialHandling/LiftTrucks">
-                <a className="px-3 is-active">Targoncák</a>
+                <a className="tag is-info px-3 is-active">Targoncák</a>
               </Link>
             </li>
           </ul>

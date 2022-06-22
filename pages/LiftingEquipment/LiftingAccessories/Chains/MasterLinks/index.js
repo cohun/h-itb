@@ -41,7 +41,7 @@ const Chains = () => {
                 href="/LiftingEquipment/LiftingAccessories/Chains/Masterlinks"
                 passHref
               >
-                <div className="is-active px-3">Gyűjtőkarikák</div>
+                <div className="tag is-info px-3 is-active">Gyűjtőkarikák</div>
               </Link>
             </li>
           </ul>

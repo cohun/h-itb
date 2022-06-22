@@ -28,7 +28,7 @@ const LiftingEquipment = () => {
             </li>
             <li>
               <Link href="/LiftingEquipment/ManualLiftingEquipment">
-                <a className="has-text-grey">Emelőszerkezetek</a>
+                <a className="tag is-info px-3 is-active">Emelőszerkezetek</a>
               </Link>
             </li>
           </ul>

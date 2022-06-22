@@ -9,7 +9,8 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: "productTable", 'fields.productGroupId[all]': 'A.231.',
+    content_type: "productTable",
+    "fields.productGroupId[all]": "A.231.",
     locale: "hu-HU",
   });
 
@@ -69,7 +70,9 @@ function TraversingVacuum({ type }) {
                 href="/LiftingEquipment/PoweredLiftingEquipment/VacuumLifter/TraversingVacuum"
                 passHref
               >
-                <div className="is-active px-3">Vákuum emelő adapter</div>
+                <div className="tag is-info px-3 is-active">
+                  Vákuum emelő adapter
+                </div>
               </Link>
             </li>
           </ul>

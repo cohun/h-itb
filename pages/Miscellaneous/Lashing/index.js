@@ -28,7 +28,9 @@ const Lashing = () => {
             </li>
             <li>
               <Link href="/Miscellaneous/Lashing" passHref>
-                <div className="is-active px-3">Rakományrögzítők</div>
+                <div className="tag is-info px-3 is-active">
+                  Rakományrögzítők
+                </div>
               </Link>
             </li>
           </ul>

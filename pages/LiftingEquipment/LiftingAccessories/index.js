@@ -29,7 +29,7 @@ const LiftingEquipment = () => {
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories" passHref>
-                <div className="is-active px-3">Teherfelvevők</div>
+                <div className="tag is-info px-3 is-active">Teherfelvevők</div>
               </Link>
             </li>
           </ul>

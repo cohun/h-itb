@@ -9,7 +9,8 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: "productTable", 'fields.productGroupId[all]': 'D.14.',
+    content_type: "productTable",
+    "fields.productGroupId[all]": "D.14.",
     locale: "hu-HU",
   });
 
@@ -58,7 +59,9 @@ function LoadRestraint({ type }) {
             </li>
             <li>
               <Link href="/Miscellaneous/Lashing/LoadRestraint" passHref>
-                <div className="is-active px-3">Rakományhatároló</div>
+                <div className="tag is-info px-3 is-active">
+                  Rakományhatároló
+                </div>
               </Link>
             </li>
           </ul>

@@ -24,7 +24,9 @@ const OperatorsDuty = () => {
 
             <li>
               <Link href="/OperatorsDuty" passHref>
-                <div className="is-active px-3">Emelőgép szakszolgálat</div>
+                <div className="tag is-info px-3 is-active">
+                  Emelőgép szakszolgálat
+                </div>
               </Link>
             </li>
           </ul>

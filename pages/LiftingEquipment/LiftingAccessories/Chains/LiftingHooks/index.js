@@ -41,7 +41,7 @@ const LiftingHooks = () => {
                 href="/LiftingEquipment/LiftingAccessories/Chains/LiftingHooks"
                 passHref
               >
-                <div className="is-active px-3">Horgok</div>
+                <div className="tag is-info px-3 is-active">Horgok</div>
               </Link>
             </li>
           </ul>

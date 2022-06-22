@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const MaterialHandling = () => {
   return (
@@ -23,7 +23,7 @@ const MaterialHandling = () => {
             </li>
             <li>
               <Link href="/MaterialHandling" passHref>
-                <div className="px-3 is-active">Anyagmozgatás</div>
+                <div className="tag is-info px-3 is-active">Anyagmozgatás</div>
               </Link>
             </li>
           </ul>

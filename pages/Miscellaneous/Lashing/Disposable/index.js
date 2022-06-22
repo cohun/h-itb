@@ -9,7 +9,8 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: "productTable", 'fields.productGroupId[all]': 'D.16.',
+    content_type: "productTable",
+    "fields.productGroupId[all]": "D.16.",
     locale: "hu-HU",
   });
 
@@ -58,7 +59,7 @@ function Disposable({ type }) {
             </li>
             <li>
               <Link href="/Miscellaneous/Lashing/Disposable" passHref>
-                <div className="is-active px-3">Pántszalagok</div>
+                <div className="tag is-info px-3 is-active">Pántszalagok</div>
               </Link>
             </li>
           </ul>

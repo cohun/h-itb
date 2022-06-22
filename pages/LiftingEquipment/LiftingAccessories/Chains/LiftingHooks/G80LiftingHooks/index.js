@@ -75,7 +75,7 @@ function G80LiftingHooks({ type }) {
                 href="/LiftingEquipment/LiftingAccessories/Chains/LiftingHooks/G80LiftingHooks"
                 passHref
               >
-                <div className="is-active px-3">G80 Horgok</div>
+                <div className="tag is-info px-3 is-active">G80 Horgok</div>
               </Link>
             </li>
           </ul>

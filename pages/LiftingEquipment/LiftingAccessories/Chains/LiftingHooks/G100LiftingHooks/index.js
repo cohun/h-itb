@@ -75,7 +75,7 @@ function G100LiftingHooks({ type }) {
                 href="/LiftingEquipment/LiftingAccessories/Chains/LiftingHooks/G100LiftingHooks"
                 passHref
               >
-                <div className="is-active px-3">G100 Horgok</div>
+                <div className="tag is-info px-3 is-active">G100 Horgok</div>
               </Link>
             </li>
           </ul>

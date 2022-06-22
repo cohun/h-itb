@@ -9,7 +9,8 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: "productTable", 'fields.productGroupId[all]': 'D.15.',
+    content_type: "productTable",
+    "fields.productGroupId[all]": "D.15.",
     locale: "hu-HU",
   });
 
@@ -58,7 +59,7 @@ function AntiSlip({ type }) {
             </li>
             <li>
               <Link href="/Miscellaneous/Lashing/AntiSlip" passHref>
-                <div className="is-active px-3">Csúszásgátló</div>
+                <div className="tag is-info px-3 is-active">Csúszásgátló</div>
               </Link>
             </li>
           </ul>

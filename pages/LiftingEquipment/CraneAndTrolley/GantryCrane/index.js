@@ -9,7 +9,8 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: "productTable", 'fields.productGroupId[all]': 'A.12.',
+    content_type: "productTable",
+    "fields.productGroupId[all]": "A.12.",
     locale: "hu-HU",
   });
 
@@ -61,7 +62,7 @@ function GantryCrane({ type }) {
                 href="/LiftingEquipment/CraneAndTrolley/GantryCrane"
                 passHref
               >
-                <div className="is-active px-3">Bakdaru</div>
+                <div className="tag is-info px-3 is-active">Bakdaru</div>
               </Link>
             </li>
           </ul>

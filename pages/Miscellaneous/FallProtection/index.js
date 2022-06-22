@@ -9,7 +9,8 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: "productTable", 'fields.productGroupId[all]': 'D.3.',
+    content_type: "productTable",
+    "fields.productGroupId[all]": "D.3.",
     locale: "hu-HU",
   });
 
@@ -54,7 +55,9 @@ function FallProtection({ type }) {
 
             <li>
               <Link href="/Miscellaneous/FallProtection" passHref>
-                <div className="is-active px-3">Leeséselleni védelem</div>
+                <div className="tag is-info px-3 is-active">
+                  Leeséselleni védelem
+                </div>
               </Link>
             </li>
           </ul>

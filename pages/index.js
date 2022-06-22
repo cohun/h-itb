@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import Disributors from '../components/Distributors';
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import Disributors from "../components/Distributors";
 
 export default function Home() {
   return (
@@ -32,7 +32,7 @@ export default function Home() {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="px-3 is-active">Kezdőlap</div>
+                <div className="tag is-info px-3 is-active">Kezdőlap</div>
               </Link>
             </li>
           </ul>

@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Table from '../../../../components/Table';
-import Head from 'next/head';
-import { createClient } from 'contentful';
+import Link from "next/link";
+import Table from "../../../../components/Table";
+import Head from "next/head";
+import { createClient } from "contentful";
 
 export async function getStaticProps(context) {
   const client = createClient({
@@ -9,13 +9,14 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: 'productTable', 'fields.productGroupId[all]': 'A.21.',
-    locale: 'hu-HU',
+    content_type: "productTable",
+    "fields.productGroupId[all]": "A.21.",
+    locale: "hu-HU",
   });
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === 'A.21.'
+    (item) => item.fields.productGroupId === "A.21."
   );
 
   return {
@@ -61,7 +62,7 @@ function ElectricHoist({ type }) {
                 href="/LiftingEquipment/PoweredLiftingEquipment/ElectricHoist"
                 passHref
               >
-                <div className="has-text-grey px-3">Láncos emelők</div>
+                <div className="tag is-info px-3 is-active">Láncos emelők</div>
               </Link>
             </li>
           </ul>
