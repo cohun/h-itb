@@ -10,13 +10,13 @@ export async function getStaticProps(context) {
   });
   const res = await client.getEntries({
     content_type: "productTable",
-    "fields.productGroupId[all]": "A.423.",
+    "fields.productGroupId[all]": "A.4232.",
     locale: "hu-HU",
   });
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === "A.423."
+    (item) => item.fields.productGroupId === "A.4232."
   );
 
   return {
