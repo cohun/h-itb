@@ -1,40 +1,14 @@
+import Image from "next/image";
 import Link from "next/link";
-import Table from "../../../../components/Table";
 import Head from "next/head";
-import { createClient } from "contentful";
 
-export async function getStaticProps(context) {
-  const client = createClient({
-    space: process.env.CONTENTFUL_SPACE_ID,
-    accessToken: process.env.CONTENTFUL_ACCESS_KEY,
-  });
-  const res = await client.getEntries({
-    content_type: "productTable",
-    "fields.productGroupId[all]": "A.44.",
-    locale: "hu-HU",
-  });
-
-  // Here A.411. must be changed according to the actual productGroup
-  const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === "A.44."
-  );
-
-  return {
-    props: {
-      type: resFiltered,
-    },
-    revalidate: 60,
-  };
-}
-
-function Clamp({ type }) {
+const Clamps = () => {
   return (
     <div>
       <Head>
-        <title>Gutman megfogók</title>
-        <meta name="description" content="Gutman megfogók" />
+        <title>Megfogók</title>
+        <meta name="description" content="Megfogók" />
       </Head>
-
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
         <nav
@@ -58,17 +32,75 @@ function Clamp({ type }) {
               </Link>
             </li>
             <li>
-              <Link href="/LiftingEquipment/LiftingAccessories/Chains" passHref>
+              <Link href="/LiftingEquipment/LiftingAccessories/Clamps" passHref>
                 <div className="tag is-info px-3 is-active">Megfogók</div>
               </Link>
             </li>
           </ul>
         </nav>
       </section>
-
-      <Table type={type} />
+      <section className="section mb-6">
+        <div className="container mb-6">
+          <h3 className="title has-text-centered is-size-3">Megfogók</h3>
+          <br />
+          <div className="columns is-multiline">
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <Link href="/LiftingEquipment/LiftingAccessories/Clamps/GutmanClamps">
+                <a>
+                  <div className="card">
+                    <div className="card-header">
+                      <p className="card-header-title">
+                        A.441. Gutman megfogók
+                      </p>
+                    </div>
+                    <div className="card-image has-text-centered pt-6">
+                      <Image
+                        width={165}
+                        height={165}
+                        src="/Gutman.jpg"
+                        alt="Lifing accessories"
+                      />
+                    </div>
+                    <div className="card-content">
+                      <div className="content">
+                        Gutman megfogók minden standard feladatra kiválóan
+                        alkalmazható tartós megoldások.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </Link>
+            </div>
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <Link href="/LiftingEquipment/LiftingAccessories/Clamps/PewagClamps">
+                <a>
+                  <div className="card">
+                    <div className="card-header">
+                      <p className="card-header-title">A.442. Pewag megfogók</p>
+                    </div>
+                    <div className="card-image has-text-centered pt-6">
+                      <Image
+                        width={165}
+                        height={165}
+                        src="/Pewag.jpg"
+                        alt="Lifing accessories"
+                      />
+                    </div>
+                    <div className="card-content">
+                      <div className="content">
+                        Kimagasló minőség, hosszú élettartam, egyedileg
+                        kifejlesztett megoldások.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
-}
+};
 
-export default Clamp;
+export default Clamps;
