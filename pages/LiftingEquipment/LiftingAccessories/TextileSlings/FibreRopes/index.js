@@ -31,8 +31,8 @@ function FibreRope({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman fibre ropes</title>
-        <meta name="description" content="Gutman fibre ropes" />
+        <title>Gutman sodrott és fonatolt kötelek</title>
+        <meta name="description" content="Gutman sodrott és fonatolt kötelek" />
       </Head>
 
       <section className="pt-6"></section>
@@ -44,17 +44,17 @@ function FibreRope({ type }) {
           <ul>
             <li>
               <Link href="/" passHref>
-                <div className="has-text-grey px-3">Home</div>
+                <div className="has-text-grey px-3">Kezdőlap</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment" passHref>
-                <div className="has-text-grey px-3">Lifting Equipment</div>
+                <div className="has-text-grey px-3">Emelőgépek</div>
               </Link>
             </li>
             <li>
               <Link href="/LiftingEquipment/LiftingAccessories" passHref>
-                <div className="has-text-grey px-3">Lifting Accessories</div>
+                <div className="has-text-grey px-3">Teherfelvevők</div>
               </Link>
             </li>
             <li>
@@ -62,15 +62,17 @@ function FibreRope({ type }) {
                 href="/LiftingEquipment/LiftingAccessories/TextileSlings"
                 passHref
               >
-                <div className="has-text-grey px-3">Textile Slings</div>
+                <div className="has-text-grey px-3">Textil kötelek</div>
               </Link>
             </li>
             <li>
               <Link
-                href="/LiftingEquipment/LiftingAccessories/TextileSlings/RoundSling"
+                href="/LiftingEquipment/LiftingAccessories/TextileSlings/FibreRopes"
                 passHref
               >
-                <div className="tag is-info px-3 is-active">Fibre ropes</div>
+                <div className="tag is-info px-3 is-active">
+                  Sodrott és fonatolt kötelek
+                </div>
               </Link>
             </li>
           </ul>
