@@ -221,7 +221,7 @@ const Disributors = () => {
                           H-ITB belső munkatárs
                         </p>
                         <span className="has-text-info has-text-weight-semibold">
-                          Reinhardt Relinda
+                          Bánkúty András
                         </span>
                         <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1127" passHref>
@@ -230,8 +230,8 @@ const Disributors = () => {
                         </div>
 
                         <div className="notification pt-1 pb-2 px-3">
-                          <Link href="mailto:reinhardt.r@h-itb.hu" passHref>
-                            email: reinhardt.r@h-itb.hu
+                          <Link href="mailto:bankuty.a@h-itb.hu" passHref>
+                            email: bankuty.a@h-itb.hu
                           </Link>
                         </div>
                       </div>
@@ -366,7 +366,7 @@ const Disributors = () => {
                           H-ITB belső munkatárs
                         </p>
                         <span className="has-text-info has-text-weight-semibold">
-                          Reinhardt Relinda
+                          Bánkúty András
                         </span>
                         <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1127" passHref>
@@ -375,8 +375,8 @@ const Disributors = () => {
                         </div>
 
                         <div className="notification pt-1 pb-2 px-3">
-                          <Link href="mailto:reinhardt.r@h-itb.hu" passHref>
-                            email: reinhardt.r@h-itb.hu
+                          <Link href="mailto:bankuty.a@h-itb.hu" passHref>
+                            email: bankuty.a@h-itb.hu
                           </Link>
                         </div>
                       </div>
@@ -438,7 +438,7 @@ const Disributors = () => {
                           H-ITB belső munkatárs
                         </p>
                         <span className="has-text-info has-text-weight-semibold">
-                          Reinhardt Relinda
+                          Bánkúty András
                         </span>
                         <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1127" passHref>
@@ -447,8 +447,8 @@ const Disributors = () => {
                         </div>
 
                         <div className="notification pt-1 pb-2 px-3">
-                          <Link href="mailto:reinhardt.r@h-itb.hu" passHref>
-                            email: reinhardt.r@h-itb.hu
+                          <Link href="mailto:bankuty.a@h-itb.hu" passHref>
+                            email: bankuty.a@h-itb.hu
                           </Link>
                         </div>
                       </div>
@@ -581,7 +581,7 @@ const Disributors = () => {
                           H-ITB belső munkatárs
                         </p>
                         <span className="has-text-info has-text-weight-semibold">
-                          Reinhardt Relinda
+                          Bánkúty András
                         </span>
                         <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1127" passHref>
@@ -590,8 +590,8 @@ const Disributors = () => {
                         </div>
 
                         <div className="notification pt-1 pb-2 px-3">
-                          <Link href="mailto:reinhardt.r@h-itb.hu" passHref>
-                            email: reinhardt.r@h-itb.hu
+                          <Link href="mailto:bankuty.a@h-itb.hu" passHref>
+                            email: bankuty.a@h-itb.hu
                           </Link>
                         </div>
                       </div>
