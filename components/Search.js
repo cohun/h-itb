@@ -1,15 +1,17 @@
-import Image from 'next/image';
-import { useState } from 'react';
-import { useRouter } from 'next/router';
+import Image from "next/image";
+import { useState } from "react";
+import { useRouter } from "next/router";
+import Autosuggest from "react-autosuggest";
 
 const Search = ({ setActive }) => {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
+  const [suggestions, setSuggestions] = useState([]);
 
   const router = useRouter();
 
   const searchItem = (item) => {
     router.push({
-      pathname: '/SearchItems',
+      pathname: "/SearchItems",
       query: { name: item },
     });
   };
@@ -17,30 +19,92 @@ const Search = ({ setActive }) => {
   const handleSearch = (e) => {
     e.preventDefault();
     if (!searchTerm) return;
-    setActive('');
+    setActive("");
     searchItem(searchTerm);
-    setSearchTerm('');
+    setSearchTerm("");
   };
 
   return (
     <form className="field has-addons" onSubmit={handleSearch}>
-      <div className="control has-icons-left">
-        <input
-          className="input is-info is-focused"
+      <div className="control has-icons-right">
+        {/* <input
+          className="input is-primary is-focused"
           type="text"
-          placeholder="Termék keresése"
+          placeholder="Search for Products"
           value={searchTerm}
           required
           onChange={(e) => setSearchTerm(e.target.value)}
-        ></input>
-        <span className="icon is-small is-left">
-          <figure className="image is-24x24">
-            <Image width={24} height={24} src="/search.png" alt="Search" />
+        ></input> */}
+        <div className="dropdown is-info is-focused m-1 pb-1">
+          <Autosuggest
+            inputProps={{
+              placeholder: "Kezdj írni a kereséshez...",
+              autoComplete: "abcd",
+              value: searchTerm,
+              name: "contr",
+              onChange: (_event, { newValue }) => {
+                setSearchTerm(newValue);
+              },
+            }}
+            suggestions={suggestions}
+            onSuggestionsFetchRequested={({ value }) => {
+              if (!value) {
+                setSuggestions([]);
+                return;
+              }
+              const inputValue = value.trim().toLowerCase();
+              const inputLength = inputValue.length;
+              const contr = [
+                "horog",
+                "targonca",
+                "emelőasztal",
+                "asztal",
+                "daru",
+                "körkötél",
+                "drótkötél",
+                "vákuumos emelő",
+                "elektromos emelő",
+                "láncos emelő",
+                "karos emelő",
+                "poliészter",
+                "lánc",
+                "lemezmegfogó",
+                "mágnes",
+                "rakományrögzítő",
+                "racsni",
+              ];
+
+              const shortList =
+                inputLength === 0
+                  ? []
+                  : contr.filter(
+                      (ca) =>
+                        ca.toLowerCase().slice(0, inputLength) === inputValue
+                    );
+              setSuggestions(shortList);
+            }}
+            onSuggestionsClearRequested={() => {
+              setSuggestions([]);
+            }}
+            getSuggestionValue={(suggestion) => suggestion}
+            renderSuggestion={(suggestion) => (
+              <div className="tag is-info is-normal">{suggestion}</div>
+            )}
+          />
+        </div>
+
+        <span className="icon is-small is-right pb-2 pl-2">
+          <figure className="image is-12x12">
+            <Image width={12} height={12} src="/search.png" alt="Search" />
           </figure>
         </span>
       </div>
       <div className="control">
-        <button className="button is-info" type="submit" onClick={handleSearch}>
+        <button
+          className="tag is-info is-medium is-responsive px-4"
+          type="submit"
+          onClick={handleSearch}
+        >
           Keresés
         </button>
       </div>
