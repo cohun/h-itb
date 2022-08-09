@@ -96,6 +96,31 @@ const Clamps = () => {
                 </a>
               </Link>
             </div>
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <Link href="/LiftingEquipment/LiftingAccessories/Clamps/DrumClamps">
+                <a>
+                  <div className="card">
+                    <div className="card-header">
+                      <p className="card-header-title">A.443. Hordófogók</p>
+                    </div>
+                    <div className="card-image has-text-centered pt-6">
+                      <Image
+                        width={165}
+                        height={165}
+                        src="/A.443.drum.jpg"
+                        alt="Lifing accessories"
+                      />
+                    </div>
+                    <div className="card-content">
+                      <div className="content">
+                        Pewag hordófogók vizszintes vagy függőleges helyzetű fém
+                        hordók emeléséhez.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
