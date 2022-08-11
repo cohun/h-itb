@@ -1,40 +1,14 @@
+import Image from "next/image";
 import Link from "next/link";
-import Table from "../../../../components/Table";
 import Head from "next/head";
-import { createClient } from "contentful";
 
-export async function getStaticProps(context) {
-  const client = createClient({
-    space: process.env.CONTENTFUL_SPACE_ID,
-    accessToken: process.env.CONTENTFUL_ACCESS_KEY,
-  });
-  const res = await client.getEntries({
-    content_type: "productTable",
-    "fields.productGroupId[all]": "A.47.",
-    locale: "hu-HU",
-  });
-
-  // Here A.411. must be changed according to the actual productGroup
-  const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === "A.47."
-  );
-
-  return {
-    props: {
-      type: resFiltered,
-    },
-    revalidate: 60,
-  };
-}
-
-function LiftingEye({ type }) {
+const LiftingEyes = () => {
   return (
     <div>
       <Head>
-        <title>Gutman Szemescsavar</title>
-        <meta name="description" content="Gutman szemescsavar" />
+        <title>Emelőszem, sekli</title>
+        <meta name="description" content="Emelőszem, sekli" />
       </Head>
-
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
         <nav
@@ -62,16 +36,116 @@ function LiftingEye({ type }) {
                 href="/LiftingEquipment/LiftingAccessories/LiftingEyes"
                 passHref
               >
-                <div className="tag is-info px-3 is-active">Emelőszemek</div>
+                <div className="tag is-info px-3 is-active">
+                  Emelőszemek, Seklik
+                </div>
               </Link>
             </li>
           </ul>
         </nav>
       </section>
-
-      <Table type={type} />
+      <section className="section mb-6">
+        <div className="container mb-6">
+          <h3 className="title has-text-centered is-size-3">
+            Emelőszemek, Seklik
+          </h3>
+          <br />
+          <div className="columns is-multiline">
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <Link href="/LiftingEquipment/LiftingAccessories/LiftingEyes/StandardLiftingEyes">
+                <a>
+                  <div className="card">
+                    <div className="card-header">
+                      <p className="card-header-title">
+                        A.471. Standard emelőszemek
+                      </p>
+                    </div>
+                    <div className="card-image has-text-centered pt-6">
+                      <Image
+                        width={165}
+                        height={165}
+                        src="/Standard_lifting_eyes.jpg"
+                        alt="Lifing accessories"
+                      />
+                    </div>
+                    <div className="card-content">
+                      <div className="content">
+                        Standard emelőszemek biztosítják a kapcsolatot az
+                        emelendő teher és a klf. függesztékek között.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </Link>
+            </div>
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <Link href="/LiftingEquipment/LiftingAccessories/LiftingEyes/PewagLiftingEyes">
+                <a>
+                  <div className="card">
+                    <div className="card-header">
+                      <p className="card-header-title">
+                        A.472. Pewag emelőszemek
+                      </p>
+                    </div>
+                    <div className="card-image has-text-centered pt-6">
+                      <Image
+                        width={165}
+                        height={165}
+                        src="/Pewag_lifting_eyes.jpg"
+                        alt="Lifing accessories"
+                      />
+                    </div>
+                    <div className="card-content">
+                      <div className="content">
+                        Kimagasló minőség, felhasználóbarát kialakítás, hosszú
+                        élettartam jellemzi a Pewag csavarozható, vagy
+                        hegeszthető emelőszemeit.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </Link>
+            </div>
+            <div className="column is-12-mobile is-6-tablet is-3-widescreen">
+              <Link href="/LiftingEquipment/LiftingAccessories/LiftingEyes/Shackles">
+                <a>
+                  <div className="card">
+                    <div className="card-header">
+                      <p className="card-header-title">A.473. seklik</p>
+                    </div>
+                    <div className="card-image has-text-centered pt-6">
+                      <Image
+                        width={165}
+                        height={165}
+                        src="/Shackles.jpg"
+                        alt="Lifing accessories"
+                      />
+                    </div>
+                    <div className="card-content">
+                      <div className="content">
+                        Általános emelési célokra használható, minősített,
+                        nagyszilárdságú sekli olyan alkatrész (teherfelvevő
+                        eszköz), mely nem az emelőgép része, hanem a gép és a
+                        teher közé vagy a terhen helyezik el a teher
+                        csatlakoztatása céljából. Alapvető kialakítási
+                        követelményeit és használati szabályait az EN 13889
+                        szabvány határozza. Mint teherfelvevő eszköz ezen seklik
+                        biztonsági követelményeit és megfelelőségének
+                        tanúsítását a 16/2008. (VIII.30.) NFGM rendelet írja
+                        elő: tehát kötelezően: CE jelzéssel kell ellátni EK
+                        megfelelőségi nyilatkozat alapján szabad használatba
+                        venni.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
-}
+};
 
-export default LiftingEye;
+export default LiftingEyes;
