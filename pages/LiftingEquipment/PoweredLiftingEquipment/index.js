@@ -54,7 +54,7 @@ const PoweredLiftingEquipment = () => {
                       <Image
                         width={165}
                         height={165}
-                        src="/A.21.-Electric-hoists_T.jpg"
+                        src="/A.21.ElectricHoists.jpg"
                         alt="láncos emelő"
                       />
                     </div>
