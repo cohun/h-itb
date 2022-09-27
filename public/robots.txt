@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.h-itb.hu
+
+# Sitemaps
+Sitemap: https://www.h-itb.hu/sitemap.xml
