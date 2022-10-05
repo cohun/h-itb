@@ -66,6 +66,7 @@ const Search = ({ setActive }) => {
                 "daru komponensek",
                 "daru",
                 "darumérleg",
+                "drótkötél",
                 "elektromos emelő",
                 "emelési pont",
                 "emelő heveder",
