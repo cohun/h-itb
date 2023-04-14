@@ -31,7 +31,7 @@ function WebbingSling({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman heveder</title>
+        <title>Poliészter heveder</title>
         <meta name="description" content="Gutman poliészter heveder" />
       </Head>
 

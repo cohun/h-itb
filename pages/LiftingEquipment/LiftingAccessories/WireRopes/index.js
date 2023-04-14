@@ -6,7 +6,7 @@ const WireRopes = () => {
   return (
     <div>
       <Head>
-        <title>Gutman drótkötél</title>
+        <title>Sodronykötél, drótkötél</title>
         <meta name="description" content="Gutman sodronykötél függeszték" />
       </Head>
       <section className="pt-6"></section>

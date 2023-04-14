@@ -6,7 +6,7 @@ const LiftingEquipment = () => {
   return (
     <div>
       <Head>
-        <title>Gutman teherfelvevő eszközök</title>
+        <title>Teherfelvevő eszközök</title>
         <meta name="description" content="Gutman teherfelvevő eszközök" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

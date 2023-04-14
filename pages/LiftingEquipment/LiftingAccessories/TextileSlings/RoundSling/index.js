@@ -31,7 +31,7 @@ function RoundSling({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman körkötél</title>
+        <title>Poliészter körkötél</title>
         <meta name="description" content="Gutman poliészter körkötél" />
       </Head>
 

@@ -45,7 +45,7 @@ const TextileSlings = () => {
       <section className="section mb-6">
         <div className="container mb-6">
           <h3 className="title has-text-centered is-size-3">
-            Textil kötelek, hevederek
+            Poliészter kötelek, hevederek
           </h3>
           <br />
           <div className="columns is-multiline">
