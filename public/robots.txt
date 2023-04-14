@@ -7,3 +7,4 @@ Host: https://www.h-itb.hu
 
 # Sitemaps
 Sitemap: https://www.h-itb.hu/sitemap.xml
+Sitemap: https://www.h-itb.hu/sitemap-0.xml
