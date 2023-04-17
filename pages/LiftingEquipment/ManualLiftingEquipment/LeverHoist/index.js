@@ -31,8 +31,13 @@ function LeverHoist({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman karos láncos emelő</title>
+        <title>Karos láncos emelő</title>
         <meta name="description" content="Karos láncos emelő" />
+        <meta
+          name="keywords"
+          content="karosemelő, láncosemelő, karos feszítő, bányaemelő"
+          lang="hu"
+        />
       </Head>
 
       <section className="pt-6"></section>

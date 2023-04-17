@@ -8,6 +8,11 @@ const WireRopes = () => {
       <Head>
         <title>Sodronykötél, drótkötél</title>
         <meta name="description" content="Gutman sodronykötél függeszték" />
+        <meta
+          name="keywords"
+          content="sodronykötél, drótkötél, függeszték, alácsapókötél, emelőkötél, teher"
+          lang="hu"
+        />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">

@@ -31,8 +31,13 @@ function HandPalletTrucks({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman kézi hidraulikus targonca</title>
+        <title>Kézi hidraulikus targonca</title>
         <meta name="description" content="Gutman kézi hidraulikus targonca" />
+        <meta
+          name="keywords"
+          content="raklapemelő, béka, kézi targonca, kézi hidraulikus targonca"
+          lang="hu"
+        />
       </Head>
 
       <section className="pt-6"></section>

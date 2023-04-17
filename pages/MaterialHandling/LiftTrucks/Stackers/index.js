@@ -33,6 +33,11 @@ function Stackers({ type }) {
       <Head>
         <title>Gutman magasemelésű targonca</title>
         <meta name="description" content="Gutman magasemelésű targonca" />
+        <meta
+          name="keywords"
+          content="ollós emelő, magasemelésű targonca, emelőkocsi, raklapemelő"
+          lang="hu"
+        />
       </Head>
 
       <section className="pt-6"></section>

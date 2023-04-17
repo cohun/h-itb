@@ -33,6 +33,11 @@ function ElectricChainHoist({ type }) {
       <Head>
         <title>Elektromos láncos emelő</title>
         <meta name="description" content="Elektromos láncos emelő" />
+        <meta
+          name="keywords"
+          content="elektromos láncosemelő, Kettenzug, elektromos teheremelő"
+          lang="hu"
+        />
       </Head>
 
       <section className="pt-6"></section>

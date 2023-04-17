@@ -31,8 +31,13 @@ function PullingHoist({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman kötélvonszoló</title>
+        <title>Kötélvonszoló</title>
         <meta name="description" content="kötélvonszoló" />
+        <meta
+          name="keywords"
+          content="kötélvonszoló, vonszoló, köteles vonszoló, tehervonszoló"
+          lang="hu"
+        />
       </Head>
 
       <section className="pt-6"></section>
