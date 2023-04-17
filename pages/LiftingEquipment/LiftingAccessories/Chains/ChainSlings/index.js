@@ -31,8 +31,13 @@ function ChainSling({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman lánc függeszték</title>
+        <title>Lánc függeszték</title>
         <meta name="description" content="Gutman lánc függeszték" />
+        <meta
+          name="keywords"
+          content="lánc függeszték, emelőlánc, alácsapó lánc, teherfelvevő lánc"
+          lang="hu"
+        />
       </Head>
 
       <section className="pt-6"></section>
