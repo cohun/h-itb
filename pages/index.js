@@ -12,8 +12,13 @@ export default function Home() {
         <meta
           name="description"
           content="H-ITB emeléstechnikai termékek forgalmazásával foglalkozik. Emelőgépek, daruk, emelőberendezések
-          emelőszerkezetek és klf. teherfelvevő eszközök szerepelnek kínálatunkban. Emelőgépek időszakos vizsgálatát az 
+          emelőszerkezetek és klf. teherfelvevő eszközök szerepelnek kínálatunkban. Emelőgépek, teherfelvevő eszközök időszakos vizsgálatát az 
           ETAR rendszerben végezzük. Az anyagmozgatás és a rakományrögzítés területén is aktívak vagyunk."
+          lang="hu"
+        />
+        <meta
+          name="keywords"
+          content="emelőeszköz, teherfelvevő, emelőkötél, emelőgép, emeléstechnika, időszakos vizsgálat, emelőberendezés, emelőszerkezet, anyagmozgatás, emelő, emel"
           lang="hu"
         />
         <link
