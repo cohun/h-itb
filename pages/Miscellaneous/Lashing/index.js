@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
-import Head from "next/head";
+import Image from 'next/image';
+import Link from 'next/link';
+import Head from 'next/head';
 
 const Lashing = () => {
   return (
@@ -15,7 +15,7 @@ const Lashing = () => {
           className="breadcrumb is-right has-arrow-separator"
           aria-label="breadcrumbs"
         >
-          <ul>
+          <ul className="mx-5">
             <li>
               <Link href="/" passHref>
                 <div className="has-text-grey px-3">Kezdőlap</div>

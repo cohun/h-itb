@@ -1,7 +1,7 @@
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import Disributors from "../components/Distributors";
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import Disributors from '../components/Distributors';
 
 export default function Home() {
   return (
@@ -29,7 +29,7 @@ export default function Home() {
           className="breadcrumb is-right has-arrow-separator"
           aria-label="breadcrumbs"
         >
-          <ul>
+          <ul className="mx-4">
             <li>
               <Link href="/" passHref>
                 <div className="tag is-info px-3 is-active">Kezdőlap</div>
