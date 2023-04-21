@@ -31,8 +31,13 @@ function SteelWireRopes({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman sodronykötél</title>
+        <title>Darukötél, sodronykötél, drótkötél</title>
         <meta name="description" content="Gutman drótkötél" />
+        <meta
+          name="keywords"
+          content="sodronykötél, drótkötél, darukötél"
+          lang="hu"
+        />
       </Head>
 
       <section className="pt-6"></section>

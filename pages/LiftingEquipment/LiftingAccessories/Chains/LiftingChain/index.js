@@ -31,8 +31,9 @@ function LiftingChains({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman emelőlánc</title>
+        <title>Emelőlánc</title>
         <meta name="description" content="Gutman emelőlánc" />
+        <meta name="keywords" content="emelőlánc, teherlánc" lang="hu" />
       </Head>
 
       <section className="pt-6"></section>

@@ -31,8 +31,13 @@ function ChainHoist({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman kézi láncos emelő</title>
+        <title>Kézi láncos emelő</title>
         <meta name="description" content="kézi láncos emelő" />
+        <meta
+          name="keywords"
+          content="láncosemelő, futómacska, gerendafogó, Flaschenzug, chain hoist, teheremelő"
+          lang="hu"
+        />
       </Head>
 
       <section className="pt-6"></section>

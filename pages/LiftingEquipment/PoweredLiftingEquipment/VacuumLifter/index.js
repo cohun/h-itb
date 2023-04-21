@@ -6,8 +6,13 @@ const VacuumLifter = () => {
   return (
     <div>
       <Head>
-        <title>Gutman vakuumos emelők</title>
+        <title>Vákuumos emelők</title>
         <meta name="description" content="Gutman vakuumos emelők" />
+        <meta
+          name="keywords"
+          content="vákuum emelő, vákumos emelő, vákumos teheremelő"
+          lang="hu"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="pt-6"></section>
