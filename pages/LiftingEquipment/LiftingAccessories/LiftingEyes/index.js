@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const LiftingEyes = () => {
   return (
@@ -8,6 +8,11 @@ const LiftingEyes = () => {
       <Head>
         <title>Emelőszem, sekli</title>
         <meta name="description" content="Emelőszem, sekli" />
+        <meta
+          name="keywords"
+          content="gyűrűscsavar, szemescsavar, emelőszem, sekli, félszem, menetes forgószem"
+          lang="hu"
+        />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
@@ -70,8 +75,26 @@ const LiftingEyes = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Standard emelőszemek biztosítják a kapcsolatot az
-                        emelendő teher és a klf. függesztékek között.
+                        <p>
+                          Emelőszemek, gyűrűscsavarok hosszú hagyománnyal
+                          rendelkeznek nagy terhek tartós és megbízható
+                          rögzítésénél. Standard emelőszemek biztosítják a
+                          kapcsolatot az emelendő teher és a klf. függesztékek
+                          között.
+                        </p>
+                        <p className="has-text-weight-semibold">
+                          Szemescsavar/anya:
+                        </p>
+                        <p>
+                          • teljes mértékig be kell a menetbe tekerni és mivel a
+                          csavar síkjától eltérő terhelés nem megengedett, ezért
+                          több ágú függesztékkel való emeléshez nem használható!
+                        </p>
+                        <p className="has-text-weight-semibold">
+                          Menetes forgószem:
+                        </p>
+                        • Használhatóak többágú függesztékkel és oldalirányú
+                        emeléshez is.
                       </div>
                     </div>
                   </div>
