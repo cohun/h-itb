@@ -1,13 +1,18 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const LiftingHooks = () => {
   return (
     <div>
       <Head>
-        <title>Gutman horgok</title>
+        <title>Emelő horgok</title>
         <meta name="description" content="Gutman horgok" />
+        <meta
+          name="keywords"
+          content="horog, emelőhorog, teherhorog, kampó, függeszték, fémelem"
+          lang="hu"
+        />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
