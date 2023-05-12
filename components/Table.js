@@ -33,6 +33,7 @@ const Table = ({ type }) => {
                 width="100%"
                 height="1050"
                 frameBorder="0"
+                embedded="true"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture ; fullscreen"
               ></iframe>
             </div>
