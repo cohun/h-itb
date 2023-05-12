@@ -28,7 +28,7 @@ const Table = ({ type }) => {
             <div>
               <iframe
                 id="ytplayer"
-                src={`https:${node.data.target.fields.file.url}`}
+                src={`${node.data.target.fields.file.url}`}
                 type="text/html"
                 width="100%"
                 height="1050"
