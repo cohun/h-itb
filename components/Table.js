@@ -34,6 +34,7 @@ const Table = ({ type }) => {
                 height="1050"
                 frameBorder="0"
                 embedded="true"
+                scrolling="yes"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture ; fullscreen"
               ></iframe>
             </div>
