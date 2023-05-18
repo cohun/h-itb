@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const OperatorsDuty = () => {
   return (
@@ -79,9 +79,16 @@ const OperatorsDuty = () => {
               </Link>
             </div>
             <div className="column is-12-mobile is-6-tablet is-6-widescreen">
-              <div className="card-image has-text-centered pt-6">
-                <div className="pt-6"></div>
+              <div className="card-image has-text-centered">
                 <Image width={1201} height={600} src="/image.jpg" alt="ETAR" />
+                <div className="">
+                  <Image
+                    width={1200}
+                    height={950}
+                    src="/inspection_D.jpg"
+                    alt="ETARD"
+                  />
+                </div>
               </div>
             </div>
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
