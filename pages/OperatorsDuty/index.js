@@ -81,14 +81,13 @@ const OperatorsDuty = () => {
             <div className="column is-12-mobile is-6-tablet is-6-widescreen">
               <div className="card-image has-text-centered">
                 <Image width={1201} height={600} src="/image.jpg" alt="ETAR" />
-                <div className="">
-                  <Image
-                    width={1200}
-                    height={950}
-                    src="/inspection_D.jpg"
-                    alt="ETARD"
-                  />
-                </div>
+
+                <Image
+                  width={1200}
+                  height={1000}
+                  src="/Inspection_D.jpg"
+                  alt="ETARD"
+                />
               </div>
             </div>
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
