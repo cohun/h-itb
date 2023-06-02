@@ -8,6 +8,11 @@ const OperatorsDuty = () => {
       <Head>
         <title>Emelőgép vizsgálat</title>
         <meta name="description" content="Emelőgép vizsgálat" />
+        <meta
+          name="keywords"
+          content="időszakos felülvizsgálat, időszakos vizsgálat, szerkezeti vizsgálat, fővizsgálat"
+          lang="hu"
+        />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
@@ -37,7 +42,73 @@ const OperatorsDuty = () => {
           <h3 className="title has-text-centered is-size-3">
             Emelőgép szakszolgálat
           </h3>
-          <br />
+
+          <section className="section">
+            <div className="container">
+              <div className="columns">
+                <div className="column">
+                  <div className="content">
+                    a 7/1999. (VIII. 4.) GM rendelet, az{" "}
+                    <strong>Emelőgép Biztonsági Szabályzat</strong>, részletesen
+                    szabályozza az emeléstechnikai eszközök tulajdonosának,
+                    üzemeltetőjének feladatait és a használat módjait. Fentiek
+                    szerint az emelőgép üzemeltetője köteles:
+                    <ol type="1">
+                      <li>az emelőgép, üzembehelyezéséről,</li>
+                      <li>a teherfüggesztő eszközök használatba vételéről,</li>
+                      <li>rendeltetésszerű használatáról,</li>
+                      <li>biztonságos állapotának megőrzéséről,</li>
+                      <li>az időszakos vizsgálatról és</li>
+                      <li>
+                        a karbantartás szakszerű és rendszeres elvégzéséről
+                      </li>
+                      gondoskodni.
+                    </ol>
+                    <p>Milyen vizsgálatokat különböztetünk meg?</p>
+                    <ul>
+                      <li>
+                        Üzembe helyezést megelőző munkavédelmi szempontú
+                        előzetes felülvizsgálat.
+                      </li>
+                      <li>Szerkezeti vizsgálat.</li>
+                      <li>Fővizsgálat.</li>
+                      <li>Időszakos biztonsági felülvizsgálat.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="column">
+                  <div className="content">
+                    <p>
+                      Emeléstechnikai eszközöket az alábbiak szerint
+                      csoportosítjuk:
+                      <ul>
+                        <li>Emelőgép</li>- az a szakaszos üzemű gépi vagy kézi
+                        (emberi erő) meghajtású szerkezet vagy berendezés, ami
+                        közvetlenül vagy segédeszközzel terhet emelni vagy
+                        süllyeszteni képes, azt a kiindulási helyzetéből az
+                        érkezési helyére továbbítja.
+                      </ul>
+                      <ul>
+                        <li>Teherfelvevő eszköz</li>- olyan alkatrész vagy
+                        részegység, amely nem a gép része, hanem a gép és a
+                        teher közé vagy a terhen helyezik el a teher
+                        csatlakoztatása céljából
+                      </ul>
+                      <ul>
+                        <li>Különálló emelő tartozék</li>- olyan szerkezeti
+                        elemek, amelyek a teherfelvevő eszköz rögzítését
+                        szolgálják, pl. horog, bilincs, gyűrű, csavar
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <h5 className="title has-text-centered is-size-5">
+            Fenti feladatok elvégzésében nyújtunk segítséget az ETAR
+            rendszerrel.
+          </h5>
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
               <Link href="/OperatorsDuty">
@@ -136,49 +207,6 @@ const OperatorsDuty = () => {
               <button className="delete" aria-label="delete"></button>
             </div>
             <div className="message-body">
-              Az <strong>Emelőgép Biztonsági Szabályzat</strong>, mely a
-              Munkavédelmi Törvény szélesebbkörű értelmezését adja, meghatározza
-              az üzemeltetés módját. <br />
-              Fentiek szerint az emelőgép üzemeltetője köteles:
-              <br />
-              <br />
-              <div className="columns is-mobile is-centered">
-                <div className="column is-10">
-                  <div className="list">
-                    <ul>
-                      <div className="list-item">
-                        <li>- az emelőgép üzembehelyezéséről</li>
-                      </div>
-
-                      <div className="list-item">
-                        <li>
-                          - a teherfüggesztő eszközök használatba vételéről
-                        </li>
-                      </div>
-
-                      <div className="list-item">
-                        <li>- rendeltetésszerű használatáról</li>
-                      </div>
-
-                      <div className="list-item">
-                        <li>- időszakos vizsgálatáról</li>
-                      </div>
-
-                      <div className="list-item">
-                        <li>- biztonságos állapotának megörzéséről</li>
-                      </div>
-
-                      <div className="list-item">
-                        <li>
-                          - a karbantartás szakszerű és rendszeres elvégzéséről
-                        </li>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              gondoskodni. <br />
-              <br />
               További információért kérjük látogasson el a következő
               weboldalakra! <br /> <br />
               <article className="panel is-link">
