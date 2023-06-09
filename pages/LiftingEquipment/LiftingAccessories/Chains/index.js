@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const Chains = () => {
   return (
@@ -8,6 +8,11 @@ const Chains = () => {
       <Head>
         <title>Gutman Láncok</title>
         <meta name="description" content="Gutman láncok" />
+        <meta
+          name="keywords"
+          content="lánc függeszték, emelőlánc, alácsapó lánc, teherfelvevő lánc, nagyszilárdságú lánc, 10-es anyagminőség, 8-as anyagminőség, láncszerelvények"
+          lang="hu"
+        />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
@@ -44,6 +49,17 @@ const Chains = () => {
           <h3 className="title has-text-centered is-size-3">
             Láncok és tartozékok
           </h3>
+          <p>
+            A nagyszilárdságú láncok (G 80 minőség: töresi feszültségi értéke
+            800 N/mm2, mig a G 100 minőség törési feszültségi értéke 1000
+            N/mm2.) A preciz metalurgiai és hőkezelési technológiának
+            köszönhetően magas mechanikai/fizikai tulajdonságokkal rendelkezik,
+            mely kiváló kopásállóságot biztosít és alacsony hőmérsékleten is
+            (-40°C-ig) megörzi a teljes terhelhetőségét. További jellemzője a
+            hosszú élettartam és minimum 20%-os szakadási nyúlás. Kompatibilis,
+            komplex szerelvényprogrammal egyedi láncfüggesztékek állíthatóak
+            össze, a felhasználói igények szerint.
+          </p>
           <br />
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">

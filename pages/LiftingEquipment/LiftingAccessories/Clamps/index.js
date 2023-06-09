@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const Clamps = () => {
   return (
@@ -8,6 +8,11 @@ const Clamps = () => {
       <Head>
         <title>Megfogók</title>
         <meta name="description" content="Megfogók" />
+        <meta
+          name="keywords"
+          content="lemezmegfogó, lemezcsipesz, lemezemelő, lemezemelő csipesz, lemezemelő eszköz, lemez forgatás, teher"
+          lang="hu"
+        />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">

@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const WireRopes = () => {
   return (
@@ -10,7 +10,7 @@ const WireRopes = () => {
         <meta name="description" content="Gutman sodronykötél függeszték" />
         <meta
           name="keywords"
-          content="sodronykötél, drótkötél, függeszték, alácsapókötél, emelőkötél, teher"
+          content="sodronykötél, drótkötél, acélsodrony, függeszték, alácsapókötél, emelőkötél, kötél"
           lang="hu"
         />
       </Head>
@@ -52,6 +52,15 @@ const WireRopes = () => {
           <h3 className="title has-text-centered is-size-3">
             Acél sodronykötelek, függesztékek
           </h3>
+          <p>
+            A közepkorban már sokoldalúan használt kenderkötel mellet, a
+            gyártási technologia fejlődésével az acélsodrony kötelek
+            (drótkötelek) előnyös tulajdonságai következtében széleskörben
+            használatosak különféle emelőgépekben. Ezenkívül a nagyszilárdságú
+            lánc- és textilfüggesztékek mellett továbbra is használatosak az
+            acélsodronykötélből, hagyományos kézi fülecseléssel (fuxolassal),
+            illetve kötelvégpréseléssel készített függesztékek.
+          </p>
           <br />
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">

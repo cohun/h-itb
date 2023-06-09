@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const TextileSlings = () => {
   return (
@@ -8,6 +8,11 @@ const TextileSlings = () => {
       <Head>
         <title>Gutman textil kötelek</title>
         <meta name="description" content="Gutman textil kötelek" />
+        <meta
+          name="keywords"
+          content="poliészter, selyemkötél, műanyagkötél, textilkötél, emelőkötél, teheremelő kötél, emelőheveder, poliészter kötél"
+          lang="hu"
+        />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
@@ -47,6 +52,14 @@ const TextileSlings = () => {
           <h3 className="title has-text-centered is-size-3">
             Poliészter kötelek, hevederek
           </h3>
+          <p>
+            A GUTMAN márkanév alatt forgalmazott textil kötelek nagyszilárdságú
+            és kiválló ellenállósági tulajdonságokkal rendelkező poliészter
+            (PES) alapanyagok felhasználásával készülnek. Poliészter körkötelek,
+            emelőhevederek, füles hevederek, valamint kompatibilis, fém
+            szerelvényprogrammal egyedi függesztékek gyártását vállaljuk, a
+            felhasználói igények szerint.
+          </p>
           <br />
           <div className="columns is-multiline">
             <div className="column is-12-mobile is-6-tablet is-3-widescreen">
