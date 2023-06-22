@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Table from '../../../../components/Table';
-import Head from 'next/head';
-import { createClient } from 'contentful';
+import Link from "next/link";
+import Table from "../../../../components/Table";
+import Head from "next/head";
+import { createClient } from "contentful";
 
 export async function getStaticProps(context) {
   const client = createClient({
@@ -9,14 +9,14 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: 'productTable',
-    'fields.productGroupId[all]': 'D.12.',
-    locale: 'hu-HU',
+    content_type: "productTable",
+    "fields.productGroupId[all]": "D.12.",
+    locale: "hu-HU",
   });
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === 'D.12.'
+    (item) => item.fields.productGroupId === "D.12."
   );
 
   return {
@@ -33,6 +33,11 @@ function LashingChains({ type }) {
       <Head>
         <title>Gutman láncos feszítő</title>
         <meta name="description" content="Gutman láncos feszítő" />
+        <meta
+          name="keywords"
+          content="láncos rakományrögzítő, rakomány rögzítés, nehéz rakományok kikötése"
+          lang="hu"
+        />
       </Head>
 
       <section className="pt-6"></section>

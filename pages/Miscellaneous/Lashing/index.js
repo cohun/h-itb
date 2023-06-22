@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const Lashing = () => {
   return (
@@ -8,6 +8,11 @@ const Lashing = () => {
       <Head>
         <title>Gutman rakományrögzítő</title>
         <meta name="description" content="Gutman rakományrögzítő" />
+        <meta
+          name="keywords"
+          content="poliészter rakományrögzítő, rakomány rögzítés, rakományok leszorítása"
+          lang="hu"
+        />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
