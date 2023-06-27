@@ -10,7 +10,7 @@ const OperatorsDuty = () => {
         <meta name="description" content="Emelőgép vizsgálat" />
         <meta
           name="keywords"
-          content="időszakos felülvizsgálat, időszakos vizsgálat, szerkezeti vizsgálat, fővizsgálat"
+          content="felülvizsgálat, időszakos felülvizsgálat, időszakos vizsgálat, szerkezeti vizsgálat, fővizsgálat, függeszték vizsgálat, emelőeszköz vizsgálat"
           lang="hu"
         />
       </Head>
@@ -42,7 +42,9 @@ const OperatorsDuty = () => {
           <h3 className="title has-text-centered is-size-3">
             Emelőgép szakszolgálat
           </h3>
-
+          <p className="is-flex is-justify-content-center is-italic">
+            Függesztékek és emelőeszközök időszakos felülvizsgálata
+          </p>
           <section className="section">
             <div className="container">
               <div className="columns">
@@ -207,8 +209,8 @@ const OperatorsDuty = () => {
               <button className="delete" aria-label="delete"></button>
             </div>
             <div className="message-body">
-              További információért kérjük látogasson el a következő
-              weboldalakra! <br /> <br />
+              Kérje ajánlatunkat, illetve további műszaki információért
+              látogasson el a következő weboldalakra! <br /> <br />
               <article className="panel is-link">
                 <Link href="https://emelogepvizsgalat.hu">
                   <a className="panel-block is-active">
