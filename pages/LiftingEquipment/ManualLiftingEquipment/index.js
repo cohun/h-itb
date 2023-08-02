@@ -1,13 +1,17 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const LiftingEquipment = () => {
   return (
     <div>
       <Head>
         <title>Gutman emelőszerkezetek</title>
-        <meta name="description" content="Gutman emelőszerkezetek" />
+        <meta
+          name="description"
+          content="Gutman emelőszerkezetek olyan kézi erővel működtetett emelőgépek, melyek nagy mértékben megkönnyítik a 
+        munkát, ha klf. terhek térbeli mozgatására van szükség"
+        />
       </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">

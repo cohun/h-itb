@@ -32,7 +32,11 @@ function Jack({ type }) {
     <div>
       <Head>
         <title>Gutman fogasléces emelő</title>
-        <meta name="description" content="fogasléces emelő" />
+        <meta
+          name="description"
+          content="A fogasléces emelő (sokszor emelő hévér vagy emelő hébér néven ismert) 
+        javítási és támasztási feladatokra az egyik legjobban alkalmazható eszköz."
+        />
         <meta name="keywords" content="fogasléces emelő, emelőbak" lang="hu" />
       </Head>
 

@@ -7,7 +7,12 @@ const LiftingEyes = () => {
     <div>
       <Head>
         <title>Emelőszem, sekli</title>
-        <meta name="description" content="Emelőszem, sekli" />
+        <meta
+          name="description"
+          content="Emelőszem, sekli olyan alkatrész (teherfelvevő eszköz), mely nem az emelőgép része, 
+        hanem a gép és a teher közé vagy a terhen helyezik el a teher csatlakoztatása céljából"
+          lang="hu"
+        />
         <meta
           name="keywords"
           content="gyűrűscsavar, szemescsavar, emelőszem, sekli, félszem, menetes forgószem"

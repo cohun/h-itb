@@ -7,7 +7,12 @@ const Clamps = () => {
     <div>
       <Head>
         <title>Megfogók</title>
-        <meta name="description" content="Megfogók" />
+        <meta
+          name="description"
+          content="Lemezmegfogók acél lemeztáblák, idomacélok megfogására, emelésére, 
+        bizonyos esetekben billentésére és szállítására használhatók. Két fő típusuk a vizszintes, ill. függöleges 
+        helyzetű lemezek kezelését teszi lehetővé."
+        />
         <meta
           name="keywords"
           content="lemezmegfogó, lemezcsipesz, lemezemelő, lemezemelő csipesz, lemezemelő eszköz, lemez forgatás, teher"
