@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Table from '../../../../components/Table';
-import Head from 'next/head';
-import { createClient } from 'contentful';
+import Link from "next/link";
+import Table from "../../../../components/Table";
+import Head from "next/head";
+import { createClient } from "contentful";
 
 export async function getStaticProps(context) {
   const client = createClient({
@@ -9,14 +9,14 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: 'productTable',
-    'fields.productGroupId[all]': 'D.16.',
-    locale: 'hu-HU',
+    content_type: "productTable",
+    "fields.productGroupId[all]": "D.16.",
+    locale: "hu-HU",
   });
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === 'D.16.'
+    (item) => item.fields.productGroupId === "D.16."
   );
 
   return {
@@ -32,7 +32,16 @@ function Disposable({ type }) {
     <div>
       <Head>
         <title>Pántszalagok</title>
-        <meta name="description" content="Pántszalagok" />
+        <meta
+          name="description"
+          content="Csomagolási egységek rögzítésére kiemelt minőségű pántszalagok és a hozzávaló kiegészítők
+         képezik termékpalettánkat."
+        />
+        <meta
+          name="keywords"
+          content="pántszalag, pántoló szalag, kötöző szalag, rakományrögzítés,"
+          lang="hu"
+        />
       </Head>
 
       <section className="pt-6"></section>

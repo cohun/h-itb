@@ -32,10 +32,13 @@ function LoadRestraint({ type }) {
     <div>
       <Head>
         <title>Gutman rakományhatároló</title>
-        <meta name="description" content="Gutman rakományhatároló" />
+        <meta
+          name="description"
+          content="Spaniferek, gurtnik, élvédők, rögzítő fülek, teherhatároló rudak, végzárók és rakományrögzítési megoldások"
+        />
         <meta
           name="keywords"
-          content="rakományrögzítés, rakományhatároló"
+          content="teherhatároló rúd, rakományrögzítő rúd, rakományrögzítő végzáró, végzáró rúd, rakományrögzítés, rakományhatároló"
           lang="hu"
         />
       </Head>
