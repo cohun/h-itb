@@ -32,10 +32,13 @@ function AntiSlip({ type }) {
     <div>
       <Head>
         <title>Csúszásgátló</title>
-        <meta name="description" content="Csúszásgátló" />
+        <meta
+          name="description"
+          content="Csúszásgátló gumitekercs raklap alá. Raklapos rakományt szállító kamionok és tehergépjárművek nélkülözhetetlen kelléke."
+        />
         <meta
           name="keywords"
-          content="rakományrögzítő, teher csúszásgátló"
+          content="rakományrögzítő, csúszásgátló, csúszásgátló szőnyeg, csúszásgátló lap"
           lang="hu"
         />
       </Head>

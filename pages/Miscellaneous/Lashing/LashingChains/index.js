@@ -32,10 +32,15 @@ function LashingChains({ type }) {
     <div>
       <Head>
         <title>Gutman láncos feszítő</title>
-        <meta name="description" content="Gutman láncos feszítő" />
+        <meta
+          name="description"
+          content="A láncos rakományrögzítő ideális megoldás amikor nehéz rakományokat úgy szeretnénk rögzíteni a szállító jármű platóján, 
+        hogy a lehetséges elmozdulási irányok ellenében kikötjük a terhet."
+          lang="hu"
+        />
         <meta
           name="keywords"
-          content="láncos rakományrögzítő, rakomány rögzítés, nehéz rakományok kikötése"
+          content="láncos rakományrögzítő, rakományrögzítés, nehéz rakományok kikötése"
           lang="hu"
         />
       </Head>

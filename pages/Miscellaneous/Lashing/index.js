@@ -7,10 +7,14 @@ const Lashing = () => {
     <div>
       <Head>
         <title>Gutman rakományrögzítő</title>
-        <meta name="description" content="Gutman rakományrögzítő" />
+        <meta
+          name="description"
+          content="A rakományrögzítés valamennyi eszközét kínáljuk, saját gyártóműhelyünkben akár egyedi igények szerinti kialakításban."
+          lang="hu"
+        />
         <meta
           name="keywords"
-          content="poliészter rakományrögzítő, rakomány rögzítés, rakományok leszorítása"
+          content="spanifer, poliészter rakományrögzítő, rakomány rögzítés, rakományok leszorítása"
           lang="hu"
         />
       </Head>
@@ -67,18 +71,13 @@ const Lashing = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Ezek a rakományrögzítők az MSZ EN 12195-2 jelű szabvány
-                        szerint készülnek. A komplett rakományrögzítő jellemzően
-                        két különálló egységből épül fel: egy rövid ágból (acél
-                        hegyes horog + 0.4 m poliészter heveder + racsni és egy
-                        hosszú ágból (klf. hosszúságú poliészter heveder + acél
-                        hegyes horog). Legelterjetteb mód a leszorításos
-                        rakományrögzítés. Itt a rakomány a lekötő eszköz erejét
+                        A rakományrögzítők az MSZ EN 12195-2 jelű szabvány
+                        szerint készülnek. A leszorításos rakományrögzítés
+                        esetén a rakomány a lekötő eszköz feszítőerejét
                         kihasználva van a rakfelülethez szorítva, és ezáltal a
                         súrlódást növeli és az elcsúszást megakadályozza. A
                         másik módszer a diagonális rögzítés (kifeszítéses
-                        rögzítés). Ez a rögzítési mód legtöbbször a nehezebb
-                        rakományoknál kerül alkalmazásra.
+                        rögzítés).
                       </div>
                     </div>
                   </div>
@@ -104,9 +103,9 @@ const Lashing = () => {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        Ezek a rakományrögzítők az MSZ EN 12195-3 jelű szabvány
-                        szerint készülnek és hasonló funkciót töltenek be mint a
-                        poliészter hevederből készült racsnis rögzuítők
+                        A láncos rakományrögzítők az MSZ EN 12195-3 jelű
+                        szabvány szerint készülnek és hasonló funkciót töltenek
+                        be mint a poliészter hevederből készült racsnis rögzítők
                         (spaniferek). Többnyire nehéz rakományoknál kerül
                         alkalmazásra a diagonális rögzítési mód (kifeszítéses
                         rögzítés) használatával.

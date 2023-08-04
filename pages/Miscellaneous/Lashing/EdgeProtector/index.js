@@ -32,7 +32,12 @@ function EdgeProtector({ type }) {
     <div>
       <Head>
         <title>Gutman rakományrögzítő sarokvédő</title>
-        <meta name="description" content="Gutman rakományrögzítő sarokvédő" />
+        <meta
+          name="description"
+          content="A rakományrögzítő sarokvédő vagy élvédő nem csak a hevedert, vagy a rakományt védi a mechanikai sérülésektől, 
+        hanem segítségével a racsni által előidézett feszítőerő a heveder teljes hosszában tud érvényesülni."
+          lang="hu"
+        />
         <meta
           name="keywords"
           content="rakományrögzítő, sarokvédő, élvédő"
