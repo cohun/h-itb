@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Table from '../../../../../components/Table';
-import Head from 'next/head';
-import { createClient } from 'contentful';
+import Link from "next/link";
+import Table from "../../../../../components/Table";
+import Head from "next/head";
+import { createClient } from "contentful";
 
 export async function getStaticProps(context) {
   const client = createClient({
@@ -9,14 +9,14 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: 'productTable',
-    'fields.productGroupId[all]': 'A.473.',
-    locale: 'hu-HU',
+    content_type: "productTable",
+    "fields.productGroupId[all]": "A.473.",
+    locale: "hu-HU",
   });
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === 'A.473.'
+    (item) => item.fields.productGroupId === "A.473."
   );
 
   return {
@@ -32,7 +32,16 @@ function Shackle({ type }) {
     <div>
       <Head>
         <title>sekli</title>
-        <meta name="description" content="sekli" />
+        <meta
+          name="keywords"
+          content="sekli, félszem, acélkengyel, patkó, omega"
+          lang="hu"
+        />
+        <meta
+          name="description"
+          content="A seklik oldható kötést biztosítanak emeléstechnikai, tartószerkezeti és egyes vontatási célokra."
+          lang="hu"
+        />
       </Head>
 
       <section className="pt-6"></section>
