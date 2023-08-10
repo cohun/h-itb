@@ -31,11 +31,15 @@ function WireRopeSling({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman drótkötél függeszték</title>
-        <meta name="description" content="Gutman drótkötél függeszték" />
+        <title>Acél sodronykötél függesztékek</title>
+        <meta
+          name="description"
+          content="Drótkötelek füles alácsapó, vagy többágú horgos kivitelben"
+          lang="hu"
+        />
         <meta
           name="keywords"
-          content="sodronykötél, drótkötél, függeszték, alácsapókötél, emelőkötél"
+          content="függeszték, alácsapókötél, sodronykötél, drótkötél, emelőkötél"
           lang="hu"
         />
       </Head>

@@ -7,7 +7,11 @@ const WireRopes = () => {
     <div>
       <Head>
         <title>Sodronykötél, drótkötél</title>
-        <meta name="description" content="Gutman sodronykötél függeszték" />
+        <meta
+          name="description"
+          content="A drótkötelek fő alkalmazási területei:emelőgépekhez (daru) futó kötél, állókötél illetve acélsodrony függesztékek."
+          lang="hu"
+        />
         <meta
           name="keywords"
           content="sodronykötél, drótkötél, acélsodrony, függeszték, alácsapókötél, emelőkötél, kötél"
@@ -53,13 +57,15 @@ const WireRopes = () => {
             Acél sodronykötelek, függesztékek
           </h3>
           <p>
-            A közepkorban már sokoldalúan használt kenderkötel mellet, a
-            gyártási technologia fejlődésével az acélsodrony kötelek
-            (drótkötelek) előnyös tulajdonságai következtében széleskörben
-            használatosak különféle emelőgépekben. Ezenkívül a nagyszilárdságú
-            lánc- és textilfüggesztékek mellett továbbra is használatosak az
-            acélsodronykötélből, hagyományos kézi fülecseléssel (fuxolassal),
-            illetve kötelvégpréseléssel készített függesztékek.
+            A drótkötél előnyös tulajdonságai következtében széleskörben kerül
+            alkalmazásra különféle emelőgépekben (daru) mint futó kötél, vagy
+            állókötél.
+          </p>
+          <p>
+            Ezenkívül az acélsodronykötélből, hagyományos kézi fülecseléssel
+            (fuxolassal), illetve kötelvégpréseléssel készített függesztékek, a
+            nagyszilárdságú lánc- és textilfüggesztékek mellett továbbra is
+            használatosak.
           </p>
           <br />
           <div className="columns is-multiline">
@@ -87,7 +93,9 @@ const WireRopes = () => {
                         préseléssel vagy fonással. A teher alakjához való
                         illeszkedése, illetve dörzsölőhatás elleni állóképessége
                         révén tartós, ugyanakkor költséghatékony megoldást kínál
-                        minden emeléshez.
+                        minden emeléshez. Jellemzően szerelvény nélküli füles
+                        alácsapó, vagy szerelvényezett egy-, többágú horgos
+                        függesztékek készülnek.
                       </div>
                     </div>
                   </div>
@@ -116,13 +124,11 @@ const WireRopes = () => {
                         Az acélsodronykötél pászmái különböző acélminőségű és
                         szilárdságú fémhuzalok összesodrásával készül. A
                         sodronykötél több pászma - kenderkötélből vagy fémből
-                        készült - mag köré való fonásával jön létre. A magot és
-                        a pászmát is kenik. A különféle kombinációk lehetővé
-                        teszik, hogy minden alkalmazáshoz a szilárdság, a
-                        kopásállóság, a törésállóság, a hajlítási fáradtság és a
-                        korrózióállóság alapján a megfelelő kötél kerüljön
-                        alkalmazásra. Fő alkalmazási területek: futó kötél, álló
-                        kötél, függesztékek.
+                        készült - mag köré való fonásával jön létre. A különféle
+                        kombinációk lehetővé teszik, hogy minden alkalmazáshoz a
+                        szilárdság, a kopásállóság, a törésállóság, a hajlítási
+                        fáradtság és a korrózióállóság alapján a megfelelő kötél
+                        kerüljön alkalmazásra.
                       </div>
                     </div>
                   </div>
