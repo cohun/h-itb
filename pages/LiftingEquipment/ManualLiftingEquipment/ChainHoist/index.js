@@ -36,10 +36,11 @@ function ChainHoist({ type }) {
           name="description"
           content="A kézi láncos emelő egy hordozható emelőeszköz, mely egyszerűen egy kézi lánc segítségével működtethető. 
         Ott használható előnyösen, ahol terhek emelésére van szükség és energiacsatlakozásra nincs lehetőség."
+          lang="hu"
         />
         <meta
           name="keywords"
-          content="láncosemelő, futómacska, gerendafogó, Flaschenzug, chain hoist, teheremelő"
+          content="láncosemelő, láncos emelő, futómacska, gerendafogó, Flaschenzug, chain hoist, teheremelő"
           lang="hu"
         />
       </Head>

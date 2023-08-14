@@ -36,10 +36,11 @@ function LeverHoist({ type }) {
           name="description"
           content="Karos láncos emelők széles körben használatosak emelési, vagy vonszolási feladatokra. Terhek rövidtávú 
           mozgatására a legkülönfélébb kezelői pozicióból kiválóan alkalmas."
+          lang="hu"
         />
         <meta
           name="keywords"
-          content="karosemelő, láncosemelő, karos feszítő, bányaemelő"
+          content="karos emelő, láncos emelő, karos feszítő, bányaemelő, láncos feszítő"
           lang="hu"
         />
       </Head>
