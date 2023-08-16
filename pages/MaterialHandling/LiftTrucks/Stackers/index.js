@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Table from '../../../../components/Table';
-import Head from 'next/head';
-import { createClient } from 'contentful';
+import Link from "next/link";
+import Table from "../../../../components/Table";
+import Head from "next/head";
+import { createClient } from "contentful";
 
 export async function getStaticProps(context) {
   const client = createClient({
@@ -9,14 +9,14 @@ export async function getStaticProps(context) {
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
   const res = await client.getEntries({
-    content_type: 'productTable',
-    'fields.productGroupId[all]': 'C.13.',
-    locale: 'hu-HU',
+    content_type: "productTable",
+    "fields.productGroupId[all]": "C.13.",
+    locale: "hu-HU",
   });
 
   // Here A.411. must be changed according to the actual productGroup
   const resFiltered = res.items.filter(
-    (item) => item.fields.productGroupId === 'C.13.'
+    (item) => item.fields.productGroupId === "C.13."
   );
 
   return {
@@ -31,11 +31,14 @@ function Stackers({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman magasemelésű targonca</title>
-        <meta name="description" content="Gutman magasemelésű targonca" />
+        <title>Magasemelésű villás raklapemelők</title>
+        <meta
+          name="description"
+          content="Kézi működtetésű magasemelésű targoncák standard raklapok mozgatásához"
+        />
         <meta
           name="keywords"
-          content="ollós emelő, magasemelésű targonca, emelőkocsi, raklapemelő"
+          content="magasemelésű raklapemelő, raklapmozgató, ollós emelő, magasemelésű targonca, emelőkocsi, raklapemelő"
           lang="hu"
         />
       </Head>
