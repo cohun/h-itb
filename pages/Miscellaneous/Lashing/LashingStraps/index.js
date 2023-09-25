@@ -31,8 +31,14 @@ function LashingStraps({ type }) {
   return (
     <div>
       <Head>
-        <title>Gutman rakományrögzítő</title>
-        <meta name="description" content="Gutman rakományrögzítő" />
+        <title>poliészter rakományrögzítő</title>
+        <meta name="description" content="Poliészter rakományrögzítők nagy választékban, saját műhelyünkben gyártva." lang="hu"
+        />
+        <meta
+          name="keywords"
+          content="spanifer, rakományrögzítő, rakrög"
+          lang="hu"
+        />
       </Head>
 
       <section className="pt-6"></section>

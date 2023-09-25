@@ -4,6 +4,13 @@ import Link from 'next/link';
 const Miscellaneous = () => {
   return (
     <div>
+      <Head>
+        <title>Gutman egyéb termékek</title>
+        <meta
+          name="description"
+          content="Gutman rakományrögzítők, kiegészítő felszerelések, leesés elleni védelem eszközei."
+        />
+      </Head>
       <section className="pt-6"></section>
       <section className="pt-4 pb-0">
         <nav
