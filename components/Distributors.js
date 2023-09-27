@@ -581,17 +581,17 @@ const Disributors = () => {
                           H-ITB belső munkatárs
                         </p>
                         <span className="has-text-info has-text-weight-semibold">
-                          Mendrea Valentina
+                          Kiss Brigitta
                         </span>
                         <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1127" passHref>
-                            Tel: +36 30 742 1127
+                            Tel: +36 30 742 1139
                           </Link>
                         </div>
 
                         <div className="notification pt-1 pb-2 px-3">
                           <Link href="mailto:mendrea.v@h-itb.hu" passHref>
-                            email: mendrea.v@h-itb.hu
+                            email: kiss.b@h-itb.hu
                           </Link>
                         </div>
                       </div>
