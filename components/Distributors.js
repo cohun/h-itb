@@ -221,7 +221,7 @@ const Disributors = () => {
                           H-ITB belső munkatárs
                         </p>
                         <span className="has-text-info has-text-weight-semibold">
-                          Mendrea Valentina
+                          Szabó Papp Szilvia
                         </span>
                         <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1127" passHref>
@@ -230,8 +230,8 @@ const Disributors = () => {
                         </div>
 
                         <div className="notification pt-1 pb-2 px-3">
-                          <Link href="mailto:mendrea.v@h-itb.hu" passHref>
-                            email: mendrea.v@h-itb.hu
+                          <Link href="mailto:szabopapp.sz@h-itb.hu" passHref>
+                            email: szabopapp.sz@h-itb.hu
                           </Link>
                         </div>
                       </div>
@@ -366,7 +366,7 @@ const Disributors = () => {
                           H-ITB belső munkatárs
                         </p>
                         <span className="has-text-info has-text-weight-semibold">
-                          Mendrea Valentina
+                        Szabó Papp Szilvia
                         </span>
                         <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1127" passHref>
@@ -375,8 +375,8 @@ const Disributors = () => {
                         </div>
 
                         <div className="notification pt-1 pb-2 px-3">
-                          <Link href="mailto:mendrea.v@h-itb.hu" passHref>
-                            email: mendrea.v@h-itb.hu
+                          <Link href="szabopapp.sz@h-itb.hu" passHref>
+                            email: szabopapp.sz@h-itb.hu
                           </Link>
                         </div>
                       </div>
@@ -438,7 +438,7 @@ const Disributors = () => {
                           H-ITB belső munkatárs
                         </p>
                         <span className="has-text-info has-text-weight-semibold">
-                          Mendrea Valentina
+                        Szabó Papp Szilvia
                         </span>
                         <div className="notification pt-2 pb-0 px-3 mb-0">
                           <Link href="tel:+36 30 742 1127" passHref>
@@ -447,8 +447,8 @@ const Disributors = () => {
                         </div>
 
                         <div className="notification pt-1 pb-2 px-3">
-                          <Link href="mailto:mendrea.v@h-itb.hu" passHref>
-                            email: mendrea.v@h-itb.hu
+                          <Link href="mailto:szabopapp.sz@h-itb.hu" passHref>
+                            email: szabopapp.sz@h-itb.hu
                           </Link>
                         </div>
                       </div>
