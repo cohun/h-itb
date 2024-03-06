@@ -59,7 +59,7 @@ const JobPosting = () => {
               </p>
               <div className="notification pt-1 pb-2 px-3 has-text-centered">
                 <Link href="mailto:horvath.i@h-itb.hu" passHref>
-                  horvath.a@h-itb.hu
+                  orban.g@h-itb.hu
                 </Link>
               </div>
             </div>
