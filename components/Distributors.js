@@ -206,7 +206,7 @@ const Disributors = () => {
                       </span>
                       <div className="notification pt-2 pb-0 px-3 mb-0">
                         <Link href="tel:+36 30 742 1133" passHref>
-                          Tel: +36 30 742 1133
+                          Tel: +36 30 742 1127
                         </Link>
                       </div>
 
