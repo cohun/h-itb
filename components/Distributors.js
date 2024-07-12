@@ -606,7 +606,7 @@ const Disributors = () => {
                 <div className="card-header">
                   <div className="card-header-title is-flex-direction-row">
                     <p className="mr-6 ml-4 is-justify-content-flex-center is-flex-wrap-nowrap">
-                      Szomolya Roland
+                      Nem elérhető
                     </p>
 
                     <Image
@@ -633,18 +633,14 @@ const Disributors = () => {
                         Északkelet-Magyarország
                       </p>
                       <span className="has-text-info has-text-weight-semibold">
-                        Szomolya Roland
+                        
                       </span>
                       <div className="notification pt-2 pb-0 px-3 mb-0">
-                        <Link href="tel:+36 70 866 5092" passHref>
-                          Tel: +36 70 866 5092
-                        </Link>
+                       
                       </div>
 
                       <div className="notification pt-1 pb-2 px-3">
-                        <Link href="mailto:szomolya.r@h-itb.hu" passHref>
-                          email: szomolya.r@h-itb.hu
-                        </Link>
+                        
                       </div>
 
                       <div className="mt-2">
