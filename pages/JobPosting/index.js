@@ -58,8 +58,8 @@ const JobPosting = () => {
                 Szakmai fényképes önéletrajzokat az alábbi email címre várjuk:
               </p>
               <div className="notification pt-1 pb-2 px-3 has-text-centered">
-                <Link href="mailto:horvath.i@h-itb.hu" passHref>
-                  orban.g@h-itb.hu
+                <Link href="mailto:horvath.a@h-itb.hu" passHref>
+                  horvath.a@h-itb.hu
                 </Link>
               </div>
             </div>
