@@ -52,9 +52,9 @@ const Navbar = () => {
             </div>
           </Link>
 
-          {<div className="navbar-item has-text-danger">
+          {/* {<div className="navbar-item has-text-danger">
             <Link href="/JobPosting">Álláshirdetés</Link>
-          </div>}
+          </div>} */}
           <div className="navbar-item"></div>
           <div className="navbar-item"></div>
         </div>
