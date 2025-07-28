@@ -76,7 +76,7 @@ const Disributors = () => {
                           H-ITB belső munkatárs
                         </p>
                         <span className="has-text-info has-text-weight-semibold">
-                          Ihász Viktória
+                          Varga Tamás
                         </span>
 
                         <div className="notification pt-2 pb-0 px-3 mb-0">
@@ -87,7 +87,7 @@ const Disributors = () => {
 
                         <div className="notification pt-1 pb-2 px-3">
                           <Link href="mailto:ihasz.v@h-itb.hu" passHref>
-                            email: ihasz.v@h-itb.hu
+                            email: varga.t@h-itb.hu
                           </Link>
                         </div>
                       </div>
